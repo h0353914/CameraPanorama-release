@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Πλοήγηση στην αρχική σελίδα</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Πλοήγηση προς τα επάνω</string>
+    <string name="abc_action_menu_overflow_description">Περισσότερες επιλογές</string>
+    <string name="abc_action_mode_done">Τέλος</string>
+    <string name="abc_activity_chooser_view_see_all">Προβολή όλων</string>
+    <string name="abc_activitychooserview_choose_application">Επιλέξτε κάποια εφαρμογή</string>
+    <string name="abc_capital_off">ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+    <string name="abc_capital_on">ΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+    <string name="abc_search_hint">Αναζήτηση…</string>
+    <string name="abc_searchview_description_clear">Διαγραφή ερωτήματος</string>
+    <string name="abc_searchview_description_query">Ερώτημα αναζήτησης</string>
+    <string name="abc_searchview_description_search">Αναζήτηση</string>
+    <string name="abc_searchview_description_submit">Υποβολή ερωτήματος</string>
+    <string name="abc_searchview_description_voice">Φωνητική αναζήτηση</string>
+    <string name="abc_shareactionprovider_share_with">Κοινή χρήση με</string>
+    <string name="abc_shareactionprovider_share_with_application">Κοινή χρήση με %s</string>
+    <string name="abc_toolbar_collapse_description">Σύμπτυξη</string>
+    <string name="cam_strings_application_name_panorama_txt">Πανοραμική λήψη</string>
+    <string name="cam_strings_description_panorama_txt">Λήψη πανοραμικής φωτογραφίας με σάρωση της συσκευής</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Πίσω</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Για να αποθηκεύσετε τοποθεσίες, πρέπει να ενεργοποιήσετε το GPS ή/και τα ασύρματα δίκτυα. Να ενεργοποιηθούν τώρα;</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Αποθήκευση τοποθεσίας</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Ήχος</string>
+    <string name="cam_strings_panorama_cancel_txt">Άκυρο</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">Τοποθετήθηκε κάρτα SD. Να αλλάξει ο προεπιλεγμένος αποθηκευτικός χώρος δεδομένων σε κάρτα SD;</string>
+    <string name="cam_strings_panorama_change_txt">Αλλαγή</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Σημείωση</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Λάθος κατεύθυνση</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Να μην εμφανιστεί ξανά</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Η κάμερα μπορεί να χρησιμοποιείται από άλλη εφαρμογή. Κλείστε την άλλη εφαρμογή και προσπαθήστε ξανά.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Άγνωστο σφάλμα.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Η θερμοκρασία της συσκευής αυξάνεται. Αν συνεχίσει να αυξάνεται, η εφαρμογή θα κλείσει αυτόματα.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Η κάμερα θα τερματίσει τώρα προσωρινά τη λειτουργία της για να κρυώσει.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Εγγραφή σε εξέλιξη σε άλλη εφαρμογή. Αδυναμία εγγραφής.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Μνήμη πλήρης. Διαγράψτε αρχεία από την κάρτα SD.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Η μνήμη είναι πλήρης. Διαγράψτε κάποια αρχεία ή αλλάξτε τον προεπιλεγμένο αποθηκευτικό χώρο δεδομένων.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Η μνήμη δεν είναι διαθέσιμη</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Σφάλμα μνήμης</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">Η κάρτα SD δεν είναι διαθέσιμη</string>
+    <string name="cam_strings_panorama_error_title_txt">Σφάλμα</string>
+    <string name="cam_strings_panorama_geotagging_txt">Αποθήκευση τοποθεσίας</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Μετακινήστε αργά τη συσκευή όπως δείχνουν τα βέλη</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Μετακινήστε τη συσκευή πιο αργά</string>
+    <string name="cam_strings_panorama_no_txt">Όχι</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Να επιτρέπεται στην εφαρμογή να ελέγχει το σύστημα για σταθερή λήψη, ανάλογα με τη θερμοκρασία στη συσκευή.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">ελέγχει το σύστημα</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Αποθήκευση τοποθεσίας;</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Προσθέστε ετικέτες στις φωτογραφίες και τα βίντεο με τις τοποθεσίες στις οποίες λήφθηκαν. Μπορείτε να αλλάξετε αυτή τη ρύθμιση αργότερα από το στοιχείο \"Αποθήκευση τοποθεσίας\" στις Ρυθμίσεις κάμερας.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">ΠΛΗΡ. ΕΦΑΡΜΟΓ.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">Η εφαρμογή %1$s απαιτεί τις ακόλουθες άδειες</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">Άδεια της εφαρμογής %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Η εφαρμογή απαιτεί τις ακόλουθες άδειες για την εκτέλεση αυτής της ενέργειας.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Για να εκχωρήσετε άδειες, μεταβείτε στη διαδρομή Πληροφορίες εφαρμογής > Άδειες.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Η συνέχεια δεν ήταν δυνατή</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Για λήψη φωτογραφιών και βίντεο</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Για ανάκτηση τοποθεσίας</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Για αποθήκευση φωτογραφιών και βίντεο</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Εσωτ. χώρος αποθήκ.</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">Κάρτα SD</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Χώρος αποθήκευσης δεδομ.</string>
+    <string name="cam_strings_panorama_save_destination_txt">Aποθήκ. χώρος δεδομ.</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Η οθόνη είναι καρφιτσωμένη</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Αποθηκεύτηκε στην εσωτερική μνήμη</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">ΜΕΤΑΒΑΣΗ</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Για να επιτρέπεται στην κάμερα να χρησιμοποιεί μια κάρτα SD, μεταβείτε στην επόμενη οθόνη και εκχωρήστε άδειες.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Ανιχνεύτηκε μια νέα κάρτα SD που απαιτεί άδειες.
+
+Για να χρησιμοποιήσετε την κάρτα SD ως μνήμη δεδομένων, επιλέξτε την κάρτα SD ή τον κατάλογο DCIM στην επόμενη οθόνη."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"Δεν επιλέχτηκε η κάρτα SD ή ο κατάλογος DCIM. Η κάρτα SD δεν μπορεί να χρησιμοποιηθεί.
+
+Για να εκχωρήσετε άδειες, ξεκινήστε αλλάζοντας την τοποθεσία αποθήκευσης στην κάρτα SD ή επιλέξτε τον κατάλληλο κατάλογο στην επόμενη οθόνη."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Εντοπίστηκε νέα κάρτα SD, η οποία απαιτεί άδειες.
+Συνεπώς, θα χρησιμοποιείται η εσωτερική μνήμη ως προεπιλεγμένη μνήμη δεδομένων.
+
+Για να χρησιμοποιείτε την κάρτα SD ως μνήμη δεδομένων, μεταβείτε στις ρυθμίσεις κάμερας και αλλάξτε την επιλογή μνήμης στην κάρτα SD."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Δεν είναι δυνατή η αποθήκευση</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Άδειες χρήσης λογισμικού</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Η χρήση της κάμερας απαγορεύεται για λόγους ασφάλειας</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Κλείστρο</string>
+    <string name="cam_strings_panorama_volumekey_txt">Χρήση πλ. έντασης ως</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Ένταση</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Ζουμ</string>
+    <string name="cam_strings_panorama_yes_txt">Ναι</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Το ζουμ δεν είναι διαθέσιμο αυτή τη στιγμή</string>
+    <string name="search_menu_title">Αναζήτηση</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

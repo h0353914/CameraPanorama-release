@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Siirry etusivulle</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Siirry ylös</string>
+    <string name="abc_action_menu_overflow_description">Lisää</string>
+    <string name="abc_action_mode_done">Valmis</string>
+    <string name="abc_activity_chooser_view_see_all">Näytä kaikki</string>
+    <string name="abc_activitychooserview_choose_application">Valitse sovellus</string>
+    <string name="abc_capital_off">POIS KÄYTÖSTÄ</string>
+    <string name="abc_capital_on">KÄYTÖSSÄ</string>
+    <string name="abc_search_hint">Haku…</string>
+    <string name="abc_searchview_description_clear">Tyhjennä kysely</string>
+    <string name="abc_searchview_description_query">Hakulauseke</string>
+    <string name="abc_searchview_description_search">Haku</string>
+    <string name="abc_searchview_description_submit">Lähetä kysely</string>
+    <string name="abc_searchview_description_voice">Puhehaku</string>
+    <string name="abc_shareactionprovider_share_with">Jakaminen:</string>
+    <string name="abc_shareactionprovider_share_with_application">Jakaminen: %s</string>
+    <string name="abc_toolbar_collapse_description">Kutista</string>
+    <string name="cam_strings_application_name_panorama_txt">Panoraama</string>
+    <string name="cam_strings_description_panorama_txt">Ota panoraamakuva pyyhkäisemällä laitteen näyttöä</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Takaisin</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Jos haluat tallentaa sijainteja, sinun täytyy ottaa GPS ja/tai langattomat verkot käyttöön. Otetaanko käyttöön nyt?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Tallenna sijainti</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Ääni</string>
+    <string name="cam_strings_panorama_cancel_txt">Peruuta</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD-kortti on asetettu laitteeseen. Vaihdetaanko tietojen oletustallennussijainniksi SD-kortti?</string>
+    <string name="cam_strings_panorama_change_txt">Vaihda</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Huomautus</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Väärä suunta</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Älä näytä uudelleen</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Toinen sovellus saattaa käyttää kameraa. Sulje toinen sovellus ja yritä uudelleen.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Tuntematon virhe.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Laitteen lämpötila nousee. Jos se jatkaa nousemistaan, sovellus suljetaan automaattisesti.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Kamera sammutetaan tilapäisesti, jotta se voi jäähtyä.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Tallennus käynnissä toisessa sovelluksessa. Ei voitu tallentaa.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Muisti täynnä. Poista joitakin tiedostoja SD-kortilta.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Muisti on täynnä. Poista joitakin tiedostoja muistista tai vaihda tietojen oletustallennussijaintia.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Muisti ei ole käytettävissä</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Muistivirhe</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD-kortti ei ole käytettävissä</string>
+    <string name="cam_strings_panorama_error_title_txt">Virhe</string>
+    <string name="cam_strings_panorama_geotagging_txt">Tallenna sijainti</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Liikuta laitetta hitaasti nuolten osoittamaan suuntaan</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Liikuta laitetta hitaammin</string>
+    <string name="cam_strings_panorama_no_txt">Ei</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Anna sovellukselle oikeus hallita järjestelmää vakauden takaamiseksi laitteen lämpötilasta riippuen.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">hallitse järjestelmää</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Tallennetaanko sijainti?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Merkitse kuviin ja videoihin niiden kuvauspaikka. Voit muokata tätä kamera-asetusten Tallenna sijainti -asetuksella.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">SOVELLUSTIEDOT</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s edellyttää seuraavia oikeuksia</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s – oikeus</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Sovellus edellyttää seuraavia oikeuksia toiminnon suorittamiseksi.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Jos haluat myöntää oikeudet, valitse Sovelluksen tiedot > Käyttöoikeudet.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Jatkaminen ei onnistu</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Kuvien ja videoiden kuvaaminen</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Sijainnin tarkistaminen</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Kuvien ja videoiden tallentaminen</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Sisäinen muisti</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD-kortti</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Tietojen tallennus</string>
+    <string name="cam_strings_panorama_save_destination_txt">Tietojen säilytys</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Näyttö on kiinnitetty</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Tallennettu sisäiseen muistiin</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">SIIRRÄ</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Jos haluat antaa kameralle oikeuden käyttää SD-korttia, siirry seuraavaan näyttöön ja anna oikeudet.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Havaittiin uusi SD-kortti, joka edellyttää oikeuksia.
+
+Jos haluat tallentaa SD-kortille, valitse SD-kortti tai DCIM-hakemisto seuraavassa näytössä."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD-korttia tai DCIM-hakemistoa ei valittu. SD-korttia ei voi käyttää.
+
+Jos haluat antaa oikeudet, aloita vaihtamalla tallennussijainniksi SD-kortti tai valitsemalla oikea hakemisto seuraavassa näytössä."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Löytyi uusi SD-kortti, joka edellyttää oikeuksia.
+Tästä syystä oletustallennussijaintina käytetään sisäistä tallennustilaa.
+
+Jos haluat tallentaa tiedot SD-kortille, vaihda tallennussijainniksi SD-kortti kamera-asetuksissa."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Tallennus ei onnistunut</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Ohjelmistokäyttöoikeudet</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Kameran käyttöä on rajoitettu suojaussyistä</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Suljin</string>
+    <string name="cam_strings_panorama_volumekey_txt">Äänenvoim.näpp. käyttö:</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Äänenvoimakkuus</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Zoomaus</string>
+    <string name="cam_strings_panorama_yes_txt">Kyllä</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Ei voi zoomata tässä tilassa</string>
+    <string name="search_menu_title">Haku</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Fara heim</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Fara upp</string>
+    <string name="abc_action_menu_overflow_description">Fleiri valkostir</string>
+    <string name="abc_action_mode_done">Lokið</string>
+    <string name="abc_activity_chooser_view_see_all">Sjá allt</string>
+    <string name="abc_activitychooserview_choose_application">Veldu forrit</string>
+    <string name="abc_capital_off">SLÖKKT</string>
+    <string name="abc_capital_on">KVEIKT</string>
+    <string name="abc_search_hint">Leita…</string>
+    <string name="abc_searchview_description_clear">Hreinsa fyrirspurn</string>
+    <string name="abc_searchview_description_query">Leitarfyrirspurn</string>
+    <string name="abc_searchview_description_search">Leita</string>
+    <string name="abc_searchview_description_submit">Senda fyrirspurn</string>
+    <string name="abc_searchview_description_voice">Raddleit</string>
+    <string name="abc_shareactionprovider_share_with">Deila með</string>
+    <string name="abc_shareactionprovider_share_with_application">Deila með %s</string>
+    <string name="abc_toolbar_collapse_description">Minnka</string>
+    <string name="cam_strings_application_name_panorama_txt">Víðmynd</string>
+    <string name="cam_strings_description_panorama_txt">Taktu víðmynd með því að hreyfa tækið til hliðar</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Til baka</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Til að vista staðsetningar þarf að kveikja á GPS og/eða þráðlausu neti. Kveikja núna?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Vista staðsetningu</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Hljóð</string>
+    <string name="cam_strings_panorama_cancel_txt">Hætta við</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD kort tengt. Breyta sjálfgefinni gagnageymslu í SD-kort ?</string>
+    <string name="cam_strings_panorama_change_txt">Breyta</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Ath.</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Röng stefna.</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Ekki sýna aftur</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Annað forrit er e.t.v. að nota myndavélina. Lokaðu hinu forritinu og reyndu aftur.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Óþekkt villa.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Hitastig tækisins er að hækka. Ef það heldur áfram að hækka lokast forritið sjálfkrafa.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Slökkt verður á myndavélinni tímabundið til að kæla hana.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Tekið upp í öðru forriti. Ekki var hægt að taka upp.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Minnið er fullt. Eyddu skrám af SD-kortinu.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Minnið er fullt. Eyddu skrám úr minninu eða breyttu sjálfgefinni gagnageymslu.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Minni ekki tiltækt</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Minnisvilla</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD-kort ekki tiltækt</string>
+    <string name="cam_strings_panorama_error_title_txt">Villa</string>
+    <string name="cam_strings_panorama_geotagging_txt">Vista staðsetningu</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Færðu tækið hægt í áttina sem örvarnar sýna</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Færðu þetta tæki hægar</string>
+    <string name="cam_strings_panorama_no_txt">Nei</string>
+    <string name="cam_strings_panorama_ok_txt">Í lagi</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Leyfðu forritinu að stjórna kerfinu til að ná stöðugum tökum sem er háð hitastiginu í tækinu.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">stjórnaðu kerfinu</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Vista staðsetningu?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Merktu myndir og myndskeið með staðnum þar sem þær eru teknar. Þú getur breytt þessari stillingu síðar í Vista staðsetningu í myndavélarstillingunum.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">FORRITSUPPLÝS.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s krefst eftirfarandi heimilda(r)</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s heimild</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Forritið krefst eftirfarandi heimilda(r) til að framkvæma þessa aðgerð.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Til að veita heimildir ferðu í Forritsupplýsingar > Heimildir.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Gat ekki haldið áfram</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Til að taka myndir og myndskeið</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Til að sækja staðsetningu</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Til að vista myndir og myndskeið</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Innri gagnageymsla</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD-kort</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Gagnageymsla</string>
+    <string name="cam_strings_panorama_save_destination_txt">Gagnageymsla</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Skjárinn er festur</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Vistað í innri geymslu</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">FÆRA</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Til að leyfa myndavélinni að nota SD-kortið þarftu að fara í næstu skjámynd og veita leyfi.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Nýtt SD-kort sem þarfnast samþykkis hefur greinst.
+
+Til að nota SD-kortið sem gagnageymslu þarftu að velja SD-kortið eða DCIM-skrána á næsta skjá."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD-kortið eða DCIM-skráin voru ekki valin.Ekki er hægt að nota SD-kortið.
+
+Til að veita samþykki skaltu byrja með því að breyta vistunarstaðnum í SD-kortið eða velja viðeigandi skrá á æsta skjá."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Nýtt SD-kort sem þarfnast heimildar fannst.
+Þess vegna þarf að nota innværa geymslu sem sjálfgefna gagnageymslu í staðinn.
+
+Til að nota SD-kortið sem gagnageymslu þarftu að fara í myndavélarstillingar og breyta valkostinum um geymslu í SD-kort."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Mistókst að vista</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Hugbúnaðarleyfi</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Notkun á myndavél ekki leyfð af öryggisástæðum</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Lokari</string>
+    <string name="cam_strings_panorama_volumekey_txt">Nota hljóðst. sem</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Hljóðstyrkur</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Aðdráttur</string>
+    <string name="cam_strings_panorama_yes_txt">Já</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Aðdráttur er ekki í boði sem stendur</string>
+    <string name="search_menu_title">Leita</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">转到主屏幕</string>
+    <string name="abc_action_bar_home_description_format">%1$s：%2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s - %2$s：%3$s</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享方式</string>
+    <string name="abc_shareactionprovider_share_with_application">通过%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="cam_strings_application_name_panorama_txt">全景</string>
+    <string name="cam_strings_description_panorama_txt">通过移动设备扫掠场景拍摄全景照片</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">返回</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">要保存位置，必须启用GPS和/或无线网络。立即启用？</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">保存位置</string>
+    <string name="cam_strings_panorama_camera_sound_txt">声音</string>
+    <string name="cam_strings_panorama_cancel_txt">取消</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">已插入SD卡。是否将默认数据存储更改为SD卡？</string>
+    <string name="cam_strings_panorama_change_txt">更改</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">注意</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">错误的方向</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">不再显示</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">其他应用程序可能正在使用摄像头。请关闭其他应用程序，然后重试。</string>
+    <string name="cam_strings_panorama_error_fatal_txt">未知错误。</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">设备温度正在升高。如果温度持续升高，应用将自动关闭。</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">相机将临时关闭以便冷却。</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">其他应用程序正在录制。无法录制。</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">内存已满。请从SD卡中删除一些文件。</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">内存已满。请删除内存中的一些文件或更改默认数据存储。</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">记忆卡不可用</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">记忆卡错误</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD卡不可用</string>
+    <string name="cam_strings_panorama_error_title_txt">错误</string>
+    <string name="cam_strings_panorama_geotagging_txt">保存位置</string>
+    <string name="cam_strings_panorama_guide_direction_txt">将设备朝箭头方向缓慢地移动</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">更缓慢地移动此设备</string>
+    <string name="cam_strings_panorama_no_txt">否</string>
+    <string name="cam_strings_panorama_ok_txt">确定</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">允许应用程序控制系统进行稳定捕获，具体取决于设备中的温度。</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">控制系统</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">保存位置？</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">为照片和视频标记所拍摄的位置。您可以稍后从“相机设定”中的“保存位置”更改此设定。</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">应用程序信息</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s需要以下权限</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s权限</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">应用程序需要以下权限才能执行此操作。</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">要授予权限，请转到“应用程序信息”>“权限”。</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">无法继续</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">拍摄照片和视频</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">检索位置</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">保存照片和视频</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">内部存储设备</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD卡</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">数据存储</string>
+    <string name="cam_strings_panorama_save_destination_txt">数据存储</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">屏幕已固定</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">已保存到内部存储设备</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">移动</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">要允许相机使用SD卡，请移至下一个屏幕并授予权限。</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"已检测到需要许可的新SD卡。
+
+要将SD卡用作数据存储，请在下一个屏幕上选择SD卡或DCIM目录。"</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"未选择SD卡或DCIM目录。 SD卡无法使用。
+
+要授予权限，请先将保存位置更改为SD卡，或在下一个屏幕上选择相应的目录。"</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"检测到了需要权限的新SD卡。
+因此，内部设备存储将用作默认数据存储设备。
+
+若要将SD卡用作数据存储设备，请转到相机设定并将存储选项更改为SD卡。"</string>
+    <string name="cam_strings_panorama_store_fail_txt">无法保存</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">软件许可证</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">出于安全原因，已限制使用照相机</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">快门</string>
+    <string name="cam_strings_panorama_volumekey_txt">将音量键用作</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">音量</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">缩放</string>
+    <string name="cam_strings_panorama_yes_txt">是</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">当前无法进行缩放</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

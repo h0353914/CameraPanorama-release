@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Orientohu për në shtëpi</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Ngjitu lart</string>
+    <string name="abc_action_menu_overflow_description">Opsione të tjera</string>
+    <string name="abc_action_mode_done">U krye!</string>
+    <string name="abc_activity_chooser_view_see_all">Shikoji të gjitha</string>
+    <string name="abc_activitychooserview_choose_application">Zgjidh një aplikacion</string>
+    <string name="abc_capital_off">JOAKTIV</string>
+    <string name="abc_capital_on">AKTIV</string>
+    <string name="abc_search_hint">Kërko...</string>
+    <string name="abc_searchview_description_clear">Pastro pyetjen</string>
+    <string name="abc_searchview_description_query">Kërko pyetjen</string>
+    <string name="abc_searchview_description_search">Kërko</string>
+    <string name="abc_searchview_description_submit">Dërgo pyetjen</string>
+    <string name="abc_searchview_description_voice">Kërkim me zë</string>
+    <string name="abc_shareactionprovider_share_with">Shpërnda publikisht me</string>
+    <string name="abc_shareactionprovider_share_with_application">Shpërnda publikisht me %s</string>
+    <string name="abc_toolbar_collapse_description">Shpalos</string>
+    <string name="cam_strings_application_name_panorama_txt">Panoramat</string>
+    <string name="cam_strings_description_panorama_txt">Nxirrni një fotografi panoramike duke e rrëshqitur pajisjen tuaj</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Prapa</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Për të ruajtur vendndodhjet, duhet të aktivizoni GPS-në dhe/ose rrjetet pa tel. Aktivizojini tani?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Ruani vendndodhjen</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Tingulli</string>
+    <string name="cam_strings_panorama_cancel_txt">Anulo</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">Karta SD u fut. Ndryshoni hapësirën ruajtëse të paracaktuar të të dhënave te karta SD?</string>
+    <string name="cam_strings_panorama_change_txt">Ndrysho</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Shënim</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Drejtimi i gabuar</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Mos e afisho përsëri</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Kamera mund të jetë në përdorim nga një aplikacion tjetër. Mbyllni aplikacionin tjetër dhe provoni përsëri.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Gabim i panjohur.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Temperatura e pajisjes po rritet. Nëse vazhdon të rritet, aplikacioni do të mbyllet automatikisht.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Tani kamera do të çaktivizohet përkohësisht që të ftohet.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">"Regjistrimi duke u kryer në një aplikacion tjetër. S'mund të regjistrohej."</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Kujtesa plot. Fshini disa skedarë nga karta SD.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Kujtesa plot. Fshini disa skedarë nga kujtesa ose ndryshoni hapësirën ruajtëse të paracaktuar.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Kujtesa e padisponueshme</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Gabim i kujtesës</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">Karta SD e padisponueshme</string>
+    <string name="cam_strings_panorama_error_title_txt">Gabim</string>
+    <string name="cam_strings_panorama_geotagging_txt">Ruani vendndodhjen</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Lëvizeni pajisjen ngadalë në drejtimin e shigjetave</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Lëvizeni pajisjen më ngadalë</string>
+    <string name="cam_strings_panorama_no_txt">Jo</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Lejoni që aplikacioni të kontrollojë sistemin për një regjistrim të qëndrueshëm, në varësi të temperaturës në pajisje.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">kontrollon sistemin</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Ruani vendndodhjen?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Etiketoni fotografitë dhe videot tuaja me vendndodhjen ku janë bërë. Mund ta ndryshoni këtë cilësim më vonë nga Ruani vendndodhjen te cilësimet e Kamerës.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">INFO. E APLIKAC.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s kërkon lejen(t) e mëposhtme</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">Leja për %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Aplikacioni kërkon lejen(t) e mëposhtme për të kryer këtë veprim.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Për të dhënë lejet, shkoni tek Informacionet e aplikacionit > Lejet.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Nuk mund të vazhdojë</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Për të nxjerrë fotografi dhe video</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Për të përnxjerrë vendndodhjen</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Për të ruajtur fotografitë dhe videot</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Hap. ruaj. e brendshme</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">Karta SD</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Arkivi i të dhënave</string>
+    <string name="cam_strings_panorama_save_destination_txt">Hap. ruaj. e të dhënave</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Ekrani është i vendosur</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">U ruajt në hapësirën ruajtëse të brendshme</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">LËVIZNI</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Për të lejuar që kamera të përdorë një kartë SD, kaloni tek ekrani tjetër dhe jepni lejet.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Është zbuluar një kartë e re SD që kërkon leje.
+
+Për ta përdorur kartën SD si hapësirë ruajtëse për të dhënat, përzgjidhni kartën SD ose direktorinë DCIM në ekranin tjetër."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"Karta SD ose direktoria DCIM nuk janë përzgjedhur. Karta SD nuk mund të përdoret.
+
+Për të dhënë lejet, filloni duke ndryshuar vendndodhjen e ruajtjes në kartën SD ose përzgjidhni direktorinë e duhur në ekranin tjetër."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Është gjetur një kartë e re SD që kërkon leje.
+Për këtë arsye do të përdoret hapësira ruajtëse e brendshme e pajisjes si hapësirë ruajtëse e paracaktuar për të dhënat.
+
+Për të përdorur kartën SD si hapësirë ruajtëse për të dhënat, shkoni te cilësimet e kamerës dhe ndryshoni opsionin e hapësirës ruajtëse te karta SD."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Nuk mundi të ruhet</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Licencat e softuerit</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Përdorimi i kamerës është kufizuar për arsye sigurie</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Obturator</string>
+    <string name="cam_strings_panorama_volumekey_txt">Përdor tastin e volumit si</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Volum</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Zoom</string>
+    <string name="cam_strings_panorama_yes_txt">Po</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Zoom-i i padisponueshëm aktualisht</string>
+    <string name="search_menu_title">Kërko</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

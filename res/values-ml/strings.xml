@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">ഹോമിലേക്ക് നാവിഗേറ്റുചെയ്യുക</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">മുകളിലേക്ക് നാവിഗേറ്റുചെയ്യുക</string>
+    <string name="abc_action_menu_overflow_description">കൂടുതൽ‍ ഓപ്‌ഷനുകള്‍</string>
+    <string name="abc_action_mode_done">പൂർത്തിയാക്കി</string>
+    <string name="abc_activity_chooser_view_see_all">എല്ലാം കാണുക</string>
+    <string name="abc_activitychooserview_choose_application">ഒരു അപ്ലിക്കേഷൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="abc_capital_off">ഓഫ്</string>
+    <string name="abc_capital_on">ഓൺ</string>
+    <string name="abc_search_hint">തിരയുക…</string>
+    <string name="abc_searchview_description_clear">അന്വേഷണം മായ്‌ക്കുക</string>
+    <string name="abc_searchview_description_query">തിരയൽ അന്വേഷണം</string>
+    <string name="abc_searchview_description_search">തിരയൽ</string>
+    <string name="abc_searchview_description_submit">അന്വേഷണം സമർപ്പിക്കുക</string>
+    <string name="abc_searchview_description_voice">ശബ്ദതിരയൽ</string>
+    <string name="abc_shareactionprovider_share_with">ഇവരുമായി പങ്കിടുക</string>
+    <string name="abc_shareactionprovider_share_with_application">%s എന്നതുമായി പങ്കിടുക</string>
+    <string name="abc_toolbar_collapse_description">ചുരുക്കുക</string>
+    <string name="cam_strings_application_name_panorama_txt">പനോരമ</string>
+    <string name="cam_strings_description_panorama_txt">ഉപകരണം സ്വീപ്പുചെയ്ത് ഒരു വിശാലദൃശ്യത്തിന്റെ ഫോട്ടോയെടു.</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">പിന്നിലേക്ക്</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">സ്ഥാനങ്ങൾ സംരക്ഷിക്കാൻ, നിങ്ങൾ GPS കൂടാതെ/അല്ലെങ്കിൽ വയർലസ് നെറ്റ്‌വർക്കുകൾ പ്രവർത്തനക്ഷമമാക്കണം. ഇപ്പോൾ പ്രവർത്തനക്ഷമമാക്കണോ?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">സ്ഥാനം സംരക്ഷിക്കുക</string>
+    <string name="cam_strings_panorama_camera_sound_txt">ശബ്‌ദം</string>
+    <string name="cam_strings_panorama_cancel_txt">റദ്ദാക്കുക</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD കാർഡ് ചേർത്തു. ഡിഫോള്‍ട്ട് ഡാറ്റ സംഭരണം SD കാർഡിലേക്ക് മാറ്റണോ?</string>
+    <string name="cam_strings_panorama_change_txt">മാറ്റുക</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">കുറിപ്പ്</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">ദിശ തെറ്റാണ്</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">വീണ്ടും കാണിക്കരുത്</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">ക്യാമറ മറ്റൊരു ആപ്ലിക്കേഷൻ ഉപയോഗിക്കുന്നുണ്ടാകാം. ആപ്ലിക്കേഷൻ അടച്ചശേഷം വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">അജ്ഞാത പിഴവ്.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">ഉപകരണത്തിന്റെ ചൂട് വർദ്ധിക്കുന്നു. വർദ്ധിക്കുന്നത് തുടർന്നാൽ ആപ് സ്വപ്രേരിതമായി അവസാനിപ്പിക്കപ്പെടും.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">ക്യാമറ തണുക്കുന്നതിനു വേണ്ടി ഇപ്പോള് താല്‍കാലികമായി ടേണ്‍ ഓഫ് ചെയ്യും.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">മറ്റൊരു ആപിൽ റെക്കോർഡിംഗ് പുരോഗതിയിലാണ്. റെക്കോർഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">മെമ്മറി നിറഞ്ഞു. SD കാര്‍ഡില്‍ നിന്ന് കുറച്ച് ഫയലുകള്‍ ഇല്ലാതാക്കൂ.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">മെമ്മറി നിറഞ്ഞു. മെമ്മറിയില്‍ നിന്ന് കുറച്ച് ഫയലുകള്‍ ഇല്ലാതാക്കുകയോ അല്ലെങ്കില്‍ ഡിഫോള്‍ട്ട് ഡാറ്റ സംഭരണം മാറ്റുകയോ ചെയ്യുക.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">മെമ്മറി ലഭ്യമല്ല</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">മെമ്മറി പിഴവ്</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD കാര്‍ഡ് ലഭ്യമല്ല</string>
+    <string name="cam_strings_panorama_error_title_txt">പിഴവ്</string>
+    <string name="cam_strings_panorama_geotagging_txt">സ്ഥാനം സംരക്ഷിക്കുക</string>
+    <string name="cam_strings_panorama_guide_direction_txt">അമ്പടയാളങ്ങളുടെ ദിശയിൽ ഉപകരണം പതുക്കെ നീക്കുക</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">ഈ ഉപകരണം വളരെ പതുക്കെ നീക്കുക</string>
+    <string name="cam_strings_panorama_no_txt">ഇല്ല</string>
+    <string name="cam_strings_panorama_ok_txt">ശരി</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">ഉപകരണത്തിലെ ഊഷ്‌മാവിനെ ആശ്രയിച്ച് സുസ്ഥിര ക്യാപ്‌ചറിംഗിനായി സിസ്റ്റം നിയന്ത്രിക്കാൻ ആപ്പിനെ അനുവദിക്കുക.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">സിസ്റ്റം നിയന്ത്രിക്കുക</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">സ്ഥാനം സംരക്ഷിക്കണോ?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">"നിങ്ങളുടെ ഫോട്ടോകളും വീഡിയോകളും എടുത്ത സ്ഥാനങ്ങൾ ഉപയോഗിച്ച് അവ ടാഗുചെയ്യുക. നിങ്ങൾക്ക് ഈ ക്രമീകരണം, ക്യാമറ ക്രമീകരണത്തിലെ 'സ്ഥാനം സംരക്ഷിക്കുക' എന്നതിൽ പിന്നീട് മാറ്റാനാകും."</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">ആപ്പ് വിവരം</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s എന്നതിന് ഈ അനുമതി(കൾ) ആവശ്യമാണ്</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s അനുമതി</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">ഈ പ്രവർത്തനം നടത്താൻ, ആപ്പിന് ഈ അനുമതി(കൾ) ആവശ്യമാണ്.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">അനുമതികൾ നൽകാൻ, ആപ്‌ വിവരം > അനുമതികൾ എന്നതിലേക്ക് പോകുക.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">തുടരാനായില്ല</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">ഫോട്ടോകളും വീഡിയോകളും എടുക്കാൻ</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">സ്ഥാനം വീണ്ടെടുക്കാൻ</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">ഫോട്ടോകളും വീഡിയോകളും സംരക്ഷിക്കാൻ</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">ആന്തരിക സംഭരണം</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD കാര്‍ഡ്</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">ഡാറ്റ സംഭരണം</string>
+    <string name="cam_strings_panorama_save_destination_txt">ഡാറ്റ സംഭരണം</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">സ്ക്രീൻ പിൻ ചെയ്തിരിക്കുന്നു</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">ആന്തരിക സംഭരണത്തിലേക്ക് സേവ് ചെയ്തു</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">നീങ്ങുക</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">SD കാർഡ് ഉപയോഗിക്കാൻ ക്യാമറയെ അനുവദിക്കുന്നതിന്, അടുത്ത സ്‌ക്രീനിലേക്ക് നീങ്ങി അനുമതികൾ നൽകുക.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"അനുമതികൾ ആവശ്യമായ ഒരു SD കാർഡ് കണ്ടെത്തി.
+
+SD കാർഡ് ഡാറ്റാ സംഭരണമായി ഉപയോഗിക്കാൻ, അടുത്ത സ്‌ക്രീനിൽ SD കാർഡോ DCIM ഡയറക്‌ടറിയോ തിരഞ്ഞെടുക്കുക."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD കാർഡോ DCIM ഡയറക്‌ടറിയോ തിരഞ്ഞെടുത്തിട്ടില്ല. SD കാർഡ് ഉപയോഗിക്കാനാകില്ല.
+
+അനുമതികൾ നൽകാൻ, സേവ് ചെയ്യുന്ന സ്ഥാനം SD കാർഡിലേക്ക് മാറ്റുന്നതിലൂടെയോ അടുത്ത സ്‌ക്രീനിൽ ഉചിതമായ ഡയറക്‌ടറി തിരഞ്ഞെടുക്കുന്നതിലൂടെയോ ആരംഭിക്കുക."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"അനുമതികൾ ആവശ്യമായ പുതിയ SD കാർഡ് കണ്ടെത്തി.
+ആയതിനാൽ, ഡിഫോൾട്ട് ഡാറ്റാ സംഭരണമായി ആന്തരിക ഉപകരണ സംഭരണം ഉപയോഗിക്കുന്നതാണ്.
+
+ഡാറ്റാ സംഭരണമായി SD കാർഡ് ഉപയോഗിക്കാൻ, ക്യാമറ ക്രമീകരണത്തിലേക്ക് പോയി സംഭരണ ഐച്ഛികം SD കാർഡിലേക്ക് മാറ്റുക."</string>
+    <string name="cam_strings_panorama_store_fail_txt">സേവ് ചെയ്യാന്‍ കഴിഞ്ഞില്ല</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">സോഫ്‌റ്റ്‌വെയർ ലൈസ.</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">സുരക്ഷാ കാരണങ്ങളാല്‍ ക്യാമറാ ഉപയോഗം നിയന്ത്രിച്ചിരിക്കുന്നു</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">ഷട്ടർ</string>
+    <string name="cam_strings_panorama_volumekey_txt">വോളിയം കീ ഉപയോഗിക്കൂ</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">വോളിയം</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">സൂം</string>
+    <string name="cam_strings_panorama_yes_txt">ഉവ്വ്</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">സൂമിന്‍ നിലവിൽ ലഭ്യമല്ല</string>
+    <string name="search_menu_title">തിരയുക</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

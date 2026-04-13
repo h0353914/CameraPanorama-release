@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">นำทางขึ้น</string>
+    <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
+    <string name="abc_action_mode_done">เสร็จสิ้น</string>
+    <string name="abc_activity_chooser_view_see_all">ดูทั้งหมด</string>
+    <string name="abc_activitychooserview_choose_application">เลือกแอป</string>
+    <string name="abc_capital_off">ปิด</string>
+    <string name="abc_capital_on">เปิด</string>
+    <string name="abc_search_hint">ค้นหา…</string>
+    <string name="abc_searchview_description_clear">ล้างข้อความค้นหา</string>
+    <string name="abc_searchview_description_query">ข้อความค้นหา</string>
+    <string name="abc_searchview_description_search">ค้นหา</string>
+    <string name="abc_searchview_description_submit">ส่งข้อความค้นหา</string>
+    <string name="abc_searchview_description_voice">ค้นหาด้วยเสียง</string>
+    <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
+    <string name="abc_shareactionprovider_share_with_application">แชร์กับ %s</string>
+    <string name="abc_toolbar_collapse_description">ยุบ</string>
+    <string name="cam_strings_application_name_panorama_txt">พาโนรามา</string>
+    <string name="cam_strings_description_panorama_txt">ถ่ายภาพพาโนรามาโดยเลื่อนอุปกรณ์</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">กลับ</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">คุณต้องเปิด GPS และ/หรือเครือข่ายไร้สายเพื่อบันทึกตำแหน่งที่ตั้ง เปิดเลยไหม</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">บันทึกตำแหน่งที่ตั้ง</string>
+    <string name="cam_strings_panorama_camera_sound_txt">เสียง</string>
+    <string name="cam_strings_panorama_cancel_txt">ยกเลิก</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">ใส่การ์ด SD แล้ว เปลี่ยนที่เก็บข้อมูลเริ่มต้นเป็นการ์ด SD ไหม</string>
+    <string name="cam_strings_panorama_change_txt">เปลี่ยน</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">หมายเหตุ</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">เส้นทางผิด</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">ไม่ต้องแสดงอีก</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">แอปพลิเคชันอื่นอาจใช้กล้องอยู่ โปรดปิดแอปพลิเคชันนั้นและลองใหม่</string>
+    <string name="cam_strings_panorama_error_fatal_txt">ข้อผิดพลาดที่ไม่รู้จัก</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">อุณหภูมิเครื่องกำลังสูงขึ้น หากยังคงสูงขึ้นอย่างต่อเนื่อง แอปจะปิดลงโดยอัตโนมัติ</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">ขณะนี้กล้องจะปิดการทำงานชั่วคราว เพื่อปรับอุณหภูมิให้เย็นลง</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">กำลังบันทึกในแอปอื่น ไม่สามารถบันทึกได้</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">"หน่วยความจำเต็ม ลบบางไฟล์
+ออกจากการ์ด SD"</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">หน่วยความจำเต็ม ให้ลบบางไฟล์ออกจากหน่วยความจำหรือเปลี่ยนที่เก็บข้อมูลเริ่มต้น</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">หน่วยความจำไม่พร้อมใช้งาน</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">หน่วยความจำผิดพลาด</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">ไม่มีการ์ด SD</string>
+    <string name="cam_strings_panorama_error_title_txt">เกิดข้อผิดพลาด</string>
+    <string name="cam_strings_panorama_geotagging_txt">บันทึกตำแหน่งที่ตั้ง</string>
+    <string name="cam_strings_panorama_guide_direction_txt">เลื่อนอุปกรณ์ช้าๆ ตามแนวลูกศร</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">เลื่อนอุปกรณ์ให้ช้าลงอีก</string>
+    <string name="cam_strings_panorama_no_txt">ไม่</string>
+    <string name="cam_strings_panorama_ok_txt">ตกลง</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">อนุญาตให้แอปควบคุมระบบเพื่อการถ่ายภาพไม่สั่นไหว โดยขึ้นอยู่กับอุณหภูมิของเครื่อง</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">ควบคุมระบบ</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">บันทึกตำแหน่งที่ตั้งไหม</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">แท็กตำแหน่งที่ตั้งในภาพถ่ายและวิดีโอตามสถานที่ถ่าย คุณสามารถเปลี่ยนการตั้งค่านี้ได้ในภายหลังจากบันทึกสถานที่ตั้งในการตั้งค่ากล้อง</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">ข้อมูลแอป</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s กำหนดให้ต้องมีการอนุญาตต่อไปนี้</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">การอนุญาต %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">แอปต้องได้รับการอนุญาตต่อไปนี้เพื่อดำเนินการนี้</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">ให้อนุญาตโดยไปที่ ข้อมูลแอปพลิเคชัน > การอนุญาต</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">ทำต่อไม่ได้</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">เพื่อถ่ายภาพและวิดีโอ</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">เพื่อเรียกใช้ตำแหน่งที่ตั้ง</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">เพื่อบันทึกภาพถ่ายและวิดีโอ</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">ที่เก็บข้อมูลภายใน</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">การ์ด SD</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">ที่เก็บข้อมูล</string>
+    <string name="cam_strings_panorama_save_destination_txt">ที่เก็บข้อมูล</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">หน้าจอถูกปักหมุด</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">บันทึกลงในที่เก็บข้อมูลภายในแล้ว</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">ไปต่อ</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">ไปที่หน้าจอถัดไปและให้อนุญาตเพื่ออนุญาตกล้องให้ใช้การ์ด SD</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"ตรวจพบการ์ด SD ใหม่ที่จำเป็นต้องขออนุญาต
+
+หากต้องการใช้การ์ด SD เป็นที่เก็บข้อมูล โปรดเลือกการ์ด SD หรือไดเรกทอรี DCIM ในหน้าจอถัดไป"</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"ไม่ได้เลือกการ์ด SD หรือไดเรกทอรี DCIM ไว้ จึงใช้การ์ด SD ไม่ได้
+
+หากจะอนุญาต ให้เริ่มจากเปลี่ยนตำแหน่งที่ตั้งที่จะบันทึกเป็นการ์ด SD หรือเลือกไดเรกทอรีที่เหมาะสมในหน้าจอถัดไป"</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"พบการ์ด SD ใหม่ที่ต้องการขออนุญาต
+ดังนั้น ที่เก็บข้อมูลภายในของอุปกรณ์จึงใช้เป็นที่เก็บข้อมูลค่าเริ่มต้นแทน
+
+หากต้องการใช้การ์ด SD เป็นที่จัดเก็บข้อมูล โปรดไปที่การตั้งค่ากล้องและเปลี่ยนตัวเลือกที่เก็บข้อมูลเป็นการ์ด SD"</string>
+    <string name="cam_strings_panorama_store_fail_txt">ไม่สามารถบันทึกได้</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">สิทธิ์การใช้งานซอฟต์แวร์</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">การใช้กล้องถูกจำกัดด้วยเหตุผลด้านความปลอดภัย</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">ชัตเตอร์</string>
+    <string name="cam_strings_panorama_volumekey_txt">ใช้ปุ่มระดับเสียงเป็น</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">ระดับเสียง</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">ย่อ/ขยาย</string>
+    <string name="cam_strings_panorama_yes_txt">ใช่</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">ไม่สามารถซูมได้ในขณะนี้</string>
+    <string name="search_menu_title">ค้นหา</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

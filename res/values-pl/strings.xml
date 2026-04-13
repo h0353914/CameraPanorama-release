@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Przejdź do strony głównej</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Przejdź wyżej</string>
+    <string name="abc_action_menu_overflow_description">Więcej opcji</string>
+    <string name="abc_action_mode_done">Gotowe</string>
+    <string name="abc_activity_chooser_view_see_all">Zobacz wszystkie</string>
+    <string name="abc_activitychooserview_choose_application">Wybierz aplikację</string>
+    <string name="abc_capital_off">WYŁ.</string>
+    <string name="abc_capital_on">WŁ.</string>
+    <string name="abc_search_hint">Szukaj…</string>
+    <string name="abc_searchview_description_clear">Wyczyść zapytanie</string>
+    <string name="abc_searchview_description_query">Wyszukiwane hasło</string>
+    <string name="abc_searchview_description_search">Szukaj</string>
+    <string name="abc_searchview_description_submit">Wyślij zapytanie</string>
+    <string name="abc_searchview_description_voice">Wyszukiwanie głosowe</string>
+    <string name="abc_shareactionprovider_share_with">Udostępnij dla</string>
+    <string name="abc_shareactionprovider_share_with_application">Udostępnij dla %s</string>
+    <string name="abc_toolbar_collapse_description">Zwiń</string>
+    <string name="cam_strings_application_name_panorama_txt">Panoramiczne</string>
+    <string name="cam_strings_description_panorama_txt">Rób zdjęcia panoramicznie, przesuwając urządzenie</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Wstecz</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Aby zapisywać lokalizacje, włącz GPS lub łączność z sieciami bezprzewodowymi. Włączyć teraz?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Zapisz lokalizację</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Dźwięk</string>
+    <string name="cam_strings_panorama_cancel_txt">Anuluj</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">Włożono kartę SD. Zmienić domyślną lokalizację magazynu danych na kartę SD?</string>
+    <string name="cam_strings_panorama_change_txt">Zmień</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Uwaga</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Nieprawidłowy kierunek</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Nie pokazuj ponownie</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Aparat może być używany przez inną aplikację. Zamknij tę drugą aplikację i spróbuj ponownie.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Nieznany błąd.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Temperatura urządzenia wzrasta. Jeżeli będzie rosnąć nadal, aplikacja zostanie zamknięta automatycznie.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Aparat zostanie teraz tymczasowo wyłączony, aby urządzenie mogło ostygnąć.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Trwa nagrywanie w innej aplikacji. Nie można nagrać.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Pamięć pełna. Usuń część plików z karty SD.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Pamięć pełna. Usuń część plików z pamięci lub zmień domyślny magazyn danych.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Pamięć niedostępna</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Błąd pamięci</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">Karta SD niedostępna</string>
+    <string name="cam_strings_panorama_error_title_txt">Błąd</string>
+    <string name="cam_strings_panorama_geotagging_txt">Zapisz lokalizację</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Przesuwaj powoli urządzenie zgodnie ze strzałkami</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Przesuwaj urządzenie wolniej</string>
+    <string name="cam_strings_panorama_no_txt">Nie</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Zezwól aplikacji na sterowanie systemem w celu stabilnego robienia zdjęć w zależności od temperatury urządzenia.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">sterowanie systemem</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Zapisać lokalizację?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Oznaczaj zdjęcia i wideo, dodając miejsce ich zrobienia. Możesz zmienić to ustawienie później, wybierając opcję Zapisz lokalizację w ustawieniach Aparatu.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">O APLIKACJI</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">Aplikacja %1$s wymaga następujących uprawnień</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s — uprawnienie</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Ta aplikacja wymaga następujących uprawnień w celu wykonania tego działania.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Aby przyznać uprawnienia, wybierz pozycje Informacje o aplikacji > Uprawnienia.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Nie można kontynuować</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">W celu robienia zdjęć i nagrywania wideo</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">W celu pobierania informacji o lokalizacji</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">W celu zapisywania zdjęć i wideo</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Pamięć wewnętrzna</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">Karta SD</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Magazyn danych</string>
+    <string name="cam_strings_panorama_save_destination_txt">Magazyn danych</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Ekran jest przypięty</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Zapisano w pamięci wewnętrznej</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">PRZEJDŹ</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Aby umożliwić aparatowi korzystanie z karty SD, przejdź do następnego ekranu i przyznaj uprawnienia.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Wykryto nową kartę SD wymagającą uprawnień.
+
+Aby użyć karty SD jako pamięci masowej na dane, wybierz kartę SD lub katalog DCIM na następnym ekranie."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"Nie wybrano karty SD lub katalogu DCIM. Nie można użyć tej karty SD.
+
+Aby przyznać uprawnienia, zacznij od zmiany lokalizacji zapisu na kartę SD lub wybierz odpowiedni katalog na następnym ekranie."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Wykryto nową kartę SD, która wymaga uprawnień.
+Pamięć wewnętrzna urządzenia będzie w związku z tym używana jako domyślna pamięć na dane.
+
+Aby używać karty SD jako pamięci na dane, przejdź do ustawień aparatu i zmień opcję pamięci masowej na kartę SD."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Nie można było zapisać</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Licencje na oprogramowanie</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Używanie kamery zostało ograniczone ze względów bezpieczeństwa.</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Migawka</string>
+    <string name="cam_strings_panorama_volumekey_txt">Zastosowanie kl. głośności</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Głośność</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Zoom</string>
+    <string name="cam_strings_panorama_yes_txt">Tak</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Zoom obecnie niedostępny</string>
+    <string name="search_menu_title">Szukaj</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

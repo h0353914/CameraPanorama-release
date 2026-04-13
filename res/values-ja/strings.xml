@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">ホームへ移動</string>
+    <string name="abc_action_bar_home_description_format">%1$s、%2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s、%2$s、%3$s</string>
+    <string name="abc_action_bar_up_description">上へ移動</string>
+    <string name="abc_action_menu_overflow_description">その他のオプション</string>
+    <string name="abc_action_mode_done">完了</string>
+    <string name="abc_activity_chooser_view_see_all">すべて表示</string>
+    <string name="abc_activitychooserview_choose_application">アプリの選択</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">検索…</string>
+    <string name="abc_searchview_description_clear">検索キーワードを削除</string>
+    <string name="abc_searchview_description_query">検索キーワード</string>
+    <string name="abc_searchview_description_search">検索</string>
+    <string name="abc_searchview_description_submit">検索キーワードを送信</string>
+    <string name="abc_searchview_description_voice">音声検索</string>
+    <string name="abc_shareactionprovider_share_with">共有</string>
+    <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
+    <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="cam_strings_application_name_panorama_txt">パノラマ</string>
+    <string name="cam_strings_description_panorama_txt">機器を動かしてパノラマ写真を撮影できます</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">戻る</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">位置情報を保存するには、GPSまたはワイヤレスネットワークを有効にする必要があります。今すぐ有効にしますか?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">位置情報を保存</string>
+    <string name="cam_strings_panorama_camera_sound_txt">カメラ操作音</string>
+    <string name="cam_strings_panorama_cancel_txt">キャンセル</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SDカードが挿入されました。標準の保存先をSDカードに変更しますか?</string>
+    <string name="cam_strings_panorama_change_txt">変更</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">お知らせ</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">撮影方向が違います</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">次回から表示しない</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">他のアプリケーションがカメラ機能を使用している可能性があります。そのアプリを終了してから、やり直してください。</string>
+    <string name="cam_strings_panorama_error_fatal_txt">不明なエラーです</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">本体の温度が上昇しています。温度が上昇し続けるとカメラは自動で終了します。</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">本体の温度が上昇したため、カメラを終了しています。録画した動画は保存されます。温度が下がりましたら、再起動してください。</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">別のアプリで録画中のため、録画できませんでした。</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">メモリーがいっぱいです。SDカードからファイルを削除してください。</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">メモリーがいっぱいです。メモリーからファイルを削除するか、標準の保存先を変更してください。</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">メモリーが利用できません</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">メモリーエラー</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SDカードが利用できません</string>
+    <string name="cam_strings_panorama_error_title_txt">エラー</string>
+    <string name="cam_strings_panorama_geotagging_txt">位置情報を保存</string>
+    <string name="cam_strings_panorama_guide_direction_txt">機器を一方向にゆっくり動かしてください</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">もう少しゆっくり動かしてください</string>
+    <string name="cam_strings_panorama_no_txt">いいえ</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">安定した撮影を行うために、機器の温度に応じてシステムを制御することをアプリに許可します。</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">システムの制御</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">撮影場所を記録しますか?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">写真やビデオに撮影場所の位置情報を付けることができます。この設定は後から、カメラ設定の[位置情報を保存]で変更できます。</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">アプリ情報</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$sは次の権限が必要です</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$sの権限</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">アプリがこの操作を実行するには、次の権限の許可が必要です。</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">権限を許可するには、[アプリ情報]>[許可]に移動してください。</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">実行できませんでした</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">写真および動画を撮影するため</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">位置情報を取得するため</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">写真および動画を保存するため</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">内部ストレージ</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SDカード</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">保存先</string>
+    <string name="cam_strings_panorama_save_destination_txt">保存先</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">画面がピン留めされています</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">内部ストレージに保存されました</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">移動する</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">アプリがSDカードを使用するためには、移動先の画面でSDカードへのアクセスを許可してください</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"新しいSDカードが認識されたため、アクセス許可が必要です。
+
+移動先の画面でSDカード、もしくはDCIMディレクトリを選択してアクセスを許可してください。"</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SDカードもしくはDCIMディレクトリが選択されなかったため、SDカードを使用できません。
+
+再度保存先をSDカードに変更するところから始めるか、移動先の画面で適切なディレクトリを選択してアクセスを許可してください。"</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"アクセスの許可が必要な新しいSDカードが検出されました。
+そのため、内部機器ストレージが標準の保存先として使用されます。
+
+保存先としてSDカードを使用するには、カメラ設定に移動し、保存先オプションをSDカードに変更してください。"</string>
+    <string name="cam_strings_panorama_store_fail_txt">保存できませんでした</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">ソフトウェアライセンス</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">セキュリティ上の理由から、カメラの使用が制限されています</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">シャッター</string>
+    <string name="cam_strings_panorama_volumekey_txt">音量キー設定</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">音量</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">ズーム</string>
+    <string name="cam_strings_panorama_yes_txt">はい</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">ズームは現在利用できません</string>
+    <string name="search_menu_title">検索</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

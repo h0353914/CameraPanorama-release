@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigeerimine avaekraanile</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigeerimine üles</string>
+    <string name="abc_action_menu_overflow_description">Rohkem valikuid</string>
+    <string name="abc_action_mode_done">Valmis</string>
+    <string name="abc_activity_chooser_view_see_all">Kuva kõik</string>
+    <string name="abc_activitychooserview_choose_application">Valige rakendus</string>
+    <string name="abc_capital_off">VÄLJAS</string>
+    <string name="abc_capital_on">SEES</string>
+    <string name="abc_search_hint">Otsige …</string>
+    <string name="abc_searchview_description_clear">Päringu tühistamine</string>
+    <string name="abc_searchview_description_query">Otsingupäring</string>
+    <string name="abc_searchview_description_search">Otsing</string>
+    <string name="abc_searchview_description_submit">Päringu esitamine</string>
+    <string name="abc_searchview_description_voice">Häälotsing</string>
+    <string name="abc_shareactionprovider_share_with">Jagamine:</string>
+    <string name="abc_shareactionprovider_share_with_application">Jagamine kasutajaga %s</string>
+    <string name="abc_toolbar_collapse_description">Ahendamine</string>
+    <string name="cam_strings_application_name_panorama_txt">Panoraamfotod</string>
+    <string name="cam_strings_description_panorama_txt">Saate seadmel sõrmega tõmmates panoraamfotosid teha</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Tagasi</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Asukohtade salvestamiseks saate lubada GPS-i ja/või raadiovõrgu. Kas lubada kohe?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Salvesta asukoht</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Heli</string>
+    <string name="cam_strings_panorama_cancel_txt">Tühista</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD-kaart on sisestatud. Kas muuta vaikeandmemäluks SD-kaart?</string>
+    <string name="cam_strings_panorama_change_txt">Muuda</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Märkus</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Vale suund</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Ära enam kuva</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Mõni teine rakendus võib kaamerat kasutada. Sulgege teine rakendus ja proovige uuesti.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Tundmatu tõrge</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Seadme temperatuur tõuseb. Kui tõus jätkub, sulgub rakendus automaatselt.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Kaamera lülitub jahtumiseks ajutiselt välja.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Teises rakenduses toimub salvestamine. Salvestamine ei õnnestunud.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Mälu on täis. Kustutage SD-kaardilt mõni fail.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Mälu on täis. Kustutage mälust mõni fail või muutke vaikeandmemälu.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Mälu pole saadaval</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Mälutõrge</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD-kaart pole saadaval</string>
+    <string name="cam_strings_panorama_error_title_txt">Tõrge</string>
+    <string name="cam_strings_panorama_geotagging_txt">Salvesta asukoht</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Liigutage seadet aeglaselt noolte suunas</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Liigutage seadet aeglasemalt</string>
+    <string name="cam_strings_panorama_no_txt">Ei</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Stabiilsema jäädvustamise jaoks lubage rakendusel süsteemi juhtida seadme temperatuurist olenevalt.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">juhtida süsteemi</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Kas salvestada asukoht?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Sildistage fotod ja videod asukohtadega, kus need on tehtud. Seda seadet saate hiljem muuta kaamera seadetes valikuga Salvesta asukoht.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">RAKEND. TEAVE</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s vajab järgmisi lubasid</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">Rakenduse %1$s luba</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Rakendus vajab toimingu sooritamiseks järgmisi lubasid.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Lubade andmiseks valige Rakenduse teave > Load.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Ei saanud jätkata</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Fotode ja videote tegemine</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Asukohateabe toomine</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Fotode ja videote salvestamine</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Sisemälu</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD-kaart</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Andmemälu</string>
+    <string name="cam_strings_panorama_save_destination_txt">Andmemälu</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Ekraan on kinnitatud</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Salvestatud sisemällu</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">EDASI</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Selleks, et lubada kaameral SD-kaarti kasutada, liikuge järgmisele ekraanile ja andke luba.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Tuvastati uus SD-kaart, mis vajab lubasid.
+
+SD-kaardi andmemäluna kasutamiseks valige järgmisel kuval SD-kaart või DCIM-kaust."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD-kaarti või DCIM-kausta ei valitud. SD-kaarti ei saa kasutada.
+
+Lubade andmiseks määrake esmalt salvestuskohaks SD-kaart või valige sobiv kaust järgmisel kuval."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Leiti uus SD-kaart, mille jaoks on vaja luba.
+Seetõttu kasutatakse vaikimisi andmesalvestina sisemist salvestit.
+
+Kui kasutate andmesalvestina SD-kaarti, siis määrake see kaamera seadete all mälusalvestiks."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Ei saanud salvestada</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Tarkvaralitsentsid</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Kaamera kasutamine on turbekaalutlustel piiratud</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">pildistamiseks</string>
+    <string name="cam_strings_panorama_volumekey_txt">Kasuta heli- tugevusklahvi</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">helitugevuse reguleerimiseks</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">suumimiseks</string>
+    <string name="cam_strings_panorama_yes_txt">Jah</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Selles režiimis ei saa suumida</string>
+    <string name="search_menu_title">Otsing</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

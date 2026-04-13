@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/setting_dialog_width">
+        <LinearLayout android:orientation="horizontal" android:id="@id/setting_dialog_license_landscape" android:layout_width="@dimen/setting_dialog_item_height" android:layout_height="fill_parent">
+            <com.sonyericsson.android.camera3d.VerticalTextView android:gravity="right|center" android:layout_gravity="top" android:layout_width="0.0dip" android:layout_height="@dimen/setting_dialog_text_width" android:layout_marginLeft="@dimen/setting_dialog_text_vertical_margin" android:layout_marginTop="@dimen/setting_dialog_text_left_margin" android:layout_marginRight="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_sw_licence_title_txt" android:layout_weight="1.0" style="@style/ListItemStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/setting_dialog_save_destination_landscape" android:layout_width="@dimen/setting_dialog_item_height_with_separator" android:layout_height="fill_parent">
+            <ImageView android:layout_width="@dimen/setting_dialog_separator_height" android:layout_height="fill_parent" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/setting_dialog_item_height" android:layout_height="fill_parent">
+                <com.sonyericsson.android.camera3d.VerticalTextView android:gravity="right|center" android:id="@id/setting_dialog_save_destination_summary_landscape" android:layout_width="0.0dip" android:layout_height="@dimen/setting_dialog_text_width" android:layout_marginLeft="@dimen/setting_dialog_text_vertical_margin" android:layout_marginTop="@dimen/setting_dialog_text_left_margin" android:layout_marginRight="@dimen/setting_dialog_text_vertical_margin" android:layout_weight="1.0" style="@style/ListSubItemStyle" />
+                <com.sonyericsson.android.camera3d.VerticalTextView android:gravity="right|center" android:layout_gravity="top" android:layout_width="0.0dip" android:layout_height="@dimen/setting_dialog_text_width" android:layout_marginLeft="@dimen/setting_dialog_text_vertical_margin" android:layout_marginTop="@dimen/setting_dialog_text_left_margin" android:layout_marginRight="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_save_destination_txt" android:layout_weight="1.0" style="@style/ListItemStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/setting_dialog_camera_sound_landscape" android:layout_width="@dimen/setting_dialog_item_height_with_separator" android:layout_height="fill_parent">
+            <ImageView android:layout_width="@dimen/setting_dialog_separator_height" android:layout_height="fill_parent" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+            <FrameLayout android:layout_width="@dimen/setting_dialog_item_height" android:layout_height="fill_parent">
+                <com.sonyericsson.android.camera3d.VerticalTextView android:gravity="right|center" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_text_width" android:layout_marginLeft="@dimen/setting_dialog_text_vertical_margin" android:layout_marginTop="@dimen/setting_dialog_text_left_margin" android:layout_marginRight="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_camera_sound_txt" style="@style/ListItemStyle" />
+                <FrameLayout android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_dialog_text_right_margin_landscape" android:rotation="90.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/setting_switch_bg_camera_sound_landscape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_setting_switch_off_bg_icn" />
+                    <ImageView android:layout_gravity="start|center" android:id="@id/setting_switch_icon_camera_sound_landscape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_setting_switch_off_icn" />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/setting_dialog_use_volume_key_landscape" android:layout_width="@dimen/setting_dialog_item_height_with_separator" android:layout_height="fill_parent">
+            <ImageView android:layout_width="@dimen/setting_dialog_separator_height" android:layout_height="fill_parent" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/setting_dialog_item_height" android:layout_height="fill_parent">
+                <com.sonyericsson.android.camera3d.VerticalTextView android:gravity="right|center" android:id="@id/setting_dialog_use_volume_key_summary_landscape" android:layout_width="0.0dip" android:layout_height="@dimen/setting_dialog_text_width" android:layout_marginLeft="@dimen/setting_dialog_text_vertical_margin" android:layout_marginTop="@dimen/setting_dialog_text_left_margin" android:layout_marginRight="@dimen/setting_dialog_text_vertical_margin" android:layout_weight="1.0" style="@style/ListSubItemStyle" />
+                <com.sonyericsson.android.camera3d.VerticalTextView android:gravity="right|center" android:layout_gravity="top" android:layout_width="0.0dip" android:layout_height="@dimen/setting_dialog_text_width" android:layout_marginLeft="@dimen/setting_dialog_text_vertical_margin" android:layout_marginTop="@dimen/setting_dialog_text_left_margin" android:layout_marginRight="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_volumekey_txt" android:layout_weight="1.0" style="@style/ListItemStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/setting_dialog_save_location_landscape" android:layout_width="@dimen/setting_dialog_item_height_with_separator" android:layout_height="fill_parent">
+            <ImageView android:layout_width="@dimen/setting_dialog_separator_height" android:layout_height="fill_parent" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+            <FrameLayout android:layout_width="@dimen/setting_dialog_item_height" android:layout_height="fill_parent">
+                <com.sonyericsson.android.camera3d.VerticalTextView android:gravity="right|center" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_text_width" android:layout_marginLeft="@dimen/setting_dialog_text_vertical_margin" android:layout_marginTop="@dimen/setting_dialog_text_left_margin" android:layout_marginRight="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_geotagging_txt" style="@style/ListItemStyle" />
+                <FrameLayout android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_dialog_text_right_margin_landscape" android:rotation="90.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/setting_switch_bg_save_location_landscape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_setting_switch_off_bg_icn" />
+                    <ImageView android:layout_gravity="start|center" android:id="@id/setting_switch_icon_save_location_landscape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_setting_switch_off_icn" />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/setting_dialog_app_title_landscape" android:layout_width="@dimen/setting_dialog_app_title_height_with_separator" android:layout_height="fill_parent">
+            <ImageView android:layout_width="@dimen/setting_dialog_separator_height" android:layout_height="fill_parent" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+            <FrameLayout android:layout_width="@dimen/setting_dialog_app_title_height" android:layout_height="fill_parent">
+                <com.sonyericsson.android.camera3d.VerticalTextView android:gravity="right|center" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_text_width" android:layout_marginLeft="@dimen/setting_dialog_text_vertical_margin" android:layout_marginTop="@dimen/setting_dialog_text_left_margin" android:layout_marginRight="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_application_name_panorama_txt" style="@style/SettingTileStyle" /> tools:ignore="RtlHardcoded"/> </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>

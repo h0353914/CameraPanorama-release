@@ -1,0 +1,19 @@
+version: 2.12.1
+apkFileName: CameraPanorama-release.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 28
+  targetSdkVersion: 28
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 4595718
+  versionName: 2.3.1.B.0.6
+doNotCompress:
+- arsc
+- dex
+- m4a
+- png
+- so

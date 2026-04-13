@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">मुख्यपृष्ठ पर नेविगेट करें</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">ऊपर नेविगेट करें</string>
+    <string name="abc_action_menu_overflow_description">अधिक विकल्प</string>
+    <string name="abc_action_mode_done">पूर्ण</string>
+    <string name="abc_activity_chooser_view_see_all">सभी देखें</string>
+    <string name="abc_activitychooserview_choose_application">कोई एप्‍लिकेशन चुनें</string>
+    <string name="abc_capital_off">बंद</string>
+    <string name="abc_capital_on">चालू</string>
+    <string name="abc_search_hint">खोजा जा रहा है…</string>
+    <string name="abc_searchview_description_clear">क्‍वेरी साफ़ करें</string>
+    <string name="abc_searchview_description_query">खोज क्वेरी</string>
+    <string name="abc_searchview_description_search">खोजें</string>
+    <string name="abc_searchview_description_submit">क्वेरी सबमिट करें</string>
+    <string name="abc_searchview_description_voice">ध्वनि खोज</string>
+    <string name="abc_shareactionprovider_share_with">इसके द्वारा साझा करें</string>
+    <string name="abc_shareactionprovider_share_with_application">%s के साथ साझा करें</string>
+    <string name="abc_toolbar_collapse_description">संक्षिप्त करें</string>
+    <string name="cam_strings_application_name_panorama_txt">पैनोरामा</string>
+    <string name="cam_strings_description_panorama_txt">अपने डिवाइस को स्वीप करके पैनोरामा फोटो लें</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">वापस जाएं</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">स्थान सहेजने के लिए, आपको GPS और/या वायरलेस नेटवर्क सक्षम करना होगा। अभी सक्षम करें?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">स्थान सहेजें</string>
+    <string name="cam_strings_panorama_camera_sound_txt">साउंड</string>
+    <string name="cam_strings_panorama_cancel_txt">रद्द करें</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD कार्ड डाला गया। डिफॉल्ट डेटा संग्रह को SD कार्ड में बदलें?</string>
+    <string name="cam_strings_panorama_change_txt">परिवर्तन</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">नोट</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">गलत दिशा</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">दोबारा न दिखाएँ</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">कैमरा का उपयोग किसी और एप्लीकेशन के उपयोग में हो सकता है। कृपया अन्य एप्लीकेशन बंद करें और पुनः प्रयास करें।</string>
+    <string name="cam_strings_panorama_error_fatal_txt">अज्ञात त्रुटि</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">डिवाइस का तापमान बढ़ रहा है। यदि बढ़ना जारी रहता है, तो अनुप्रयोग स्वचालित रूप से बंद हो जाएगा।</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">ठंडा होने के लिए कैमरा अब अस्थायी रूप से बंद होगा.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">अन्य अनुप्रयोग में रिकॉर्डिंग प्रगति में है। रिकॉर्ड नहीं कर सका।</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">मेमोरी भर गई है. SD कार्ड से कुछ फ़ाइल हटाएँ.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">मेमोरी भर गई है। मेमोरी से कुछ फ़ाइलें हटाएँ या डिफॉल्ट डेटा संग्रह बदलें।</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">मेमोरी अनुपलब्ध</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">मेमोरी त्रुटि</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD कार्ड अनुपलब्ध</string>
+    <string name="cam_strings_panorama_error_title_txt">त्रुटि</string>
+    <string name="cam_strings_panorama_geotagging_txt">स्थान सहेजें</string>
+    <string name="cam_strings_panorama_guide_direction_txt">डिवाइस को तीरों की दिशा में धीरे-धीरे ले जाएं</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">इस डिवाइस को अधिक धीरे-धीरे ले जाएं</string>
+    <string name="cam_strings_panorama_no_txt">नहीं</string>
+    <string name="cam_strings_panorama_ok_txt">ठीक</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">डिवाइस में तापमान पर आधारित अनुप्रयोग को स्थायी कैप्चरिंग के लिए सिस्टम को नियंत्रित करने में ऐप को अनुमति दें.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">सिस्टम नियंत्रित करें</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">स्थान सहेजें?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">आपने जिस स्थान पर फ़ोटो लिया है उस स्थान को फ़ोटो और वीडियो के साथ टैग करें। आप बाद में कैमरा सेटिंग में स्थान सहेजें में जाकर यह सेटिंग बदल सकते हैं।</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">अनुप्रयोग सूचना</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s को निम्न अनुमति(यों) की आवश्यकता है</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s अनुमति</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">ऐप को यह कार्रवाई करने के लिए निम्न अनुमति(यों) की आवश्यकता है।</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">अनुमतियां देने के लिए एप्‍लिकेशन जानकारी > अनुमतियां पर जाएँ</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">जारी नहीं किया जा सका</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">फोटो और वीडियो लेने के लिए</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">स्थान पुनः प्राप्त करने के लिए</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">फोटो और वीडियो रक्षित करने के लिए</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">आं‍तरिक संग्रहण</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD कार्ड</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">डेटा संग्रहण</string>
+    <string name="cam_strings_panorama_save_destination_txt">डेटा संग्रह</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">स्क्रीन पिन की गई है</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">फ़ोन मेमोरी में रक्षित</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">ले जाएं</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">कैमरे को SD कार्ड का उपयोग करने की अनुमति देने के लिए, अगली स्क्रीन पर जाएँ और अनुमतियाँ दें।</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"अनुमतियों के लिए SD कार्ड की पहचान हुई।
+
+SD कार्ड को डेटा संग्रहण के रूप में उपयोग करने के लिए, कृपया अगली स्क्रीन पर SD कार्ड या DCIM निर्देशिका का चयन करें।"</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD कार्ड या DCIM निर्देशिका का चयन नहीं किया गया था। SD कार्ड का उपयोग नहीं किया जा सकता।
+
+अनुमतियां देने के लिए, सहेजने के स्थान को SD कार्ड में बदलकर शुरू करें या अगली स्क्रीन पर उपयुक्त निर्देशिका का चयन करें।"</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"नया SD कार्ड मिला जिसके लिए अनुमतियों की आवश्यकता है।
+इसलिए, फ़ोन मेमोरी को डिफ़ॉल्ट डेटा संग्रहण के रूप में उपयोग किया जाएगा।
+
+यदि आप डेटा संग्रहण के रूप में SD कार्ड का उपयोग करते हैं तो कृपया कैमरा सेटिंग में डेटा संग्रहण को SD कार्ड में बदलें।"</string>
+    <string name="cam_strings_panorama_store_fail_txt">रक्षित नहीं कर सका</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">सॉफ़्टवेयर लाइसेंस</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">सुरक्षा कारणों से कैमरा का उपयोग प्रतिबंधित</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">शटर</string>
+    <string name="cam_strings_panorama_volumekey_txt">वॉल्यूम कुंजी का उपयोग ऐसे करें</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">वॉल्यूम</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">ज़ूम</string>
+    <string name="cam_strings_panorama_yes_txt">हाँ</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">वर्तमान में ज़ूम उपलब्द नहीं है</string>
+    <string name="search_menu_title">खोज</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

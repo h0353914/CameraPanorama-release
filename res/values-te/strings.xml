@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">హోమ్‌కు నావిగేట్ చేయండి</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">పైకి నావిగేట్ చేయండి</string>
+    <string name="abc_action_menu_overflow_description">మరిన్ని ఎంపికలు</string>
+    <string name="abc_action_mode_done">పూర్తయింది</string>
+    <string name="abc_activity_chooser_view_see_all">అన్నీ చూడండి</string>
+    <string name="abc_activitychooserview_choose_application">అనువర్తనాన్ని ఎంచుకోండి</string>
+    <string name="abc_capital_off">ఆఫ్ చేయి</string>
+    <string name="abc_capital_on">ఆన్ చేయి</string>
+    <string name="abc_search_hint">శోధించు...</string>
+    <string name="abc_searchview_description_clear">ప్రశ్నను క్లియర్ చేయి</string>
+    <string name="abc_searchview_description_query">ప్రశ్న శోధించండి</string>
+    <string name="abc_searchview_description_search">శోధించు</string>
+    <string name="abc_searchview_description_submit">ప్రశ్నని సమర్పించు</string>
+    <string name="abc_searchview_description_voice">వాయిస్ శోధన</string>
+    <string name="abc_shareactionprovider_share_with">వీరితో భాగస్వామ్యం చేయి</string>
+    <string name="abc_shareactionprovider_share_with_application">%sతో భాగస్వామ్యం చేయి</string>
+    <string name="abc_toolbar_collapse_description">కుదించండి</string>
+    <string name="cam_strings_application_name_panorama_txt">పనోరమ</string>
+    <string name="cam_strings_description_panorama_txt">మీ పరికరాన్ని తుడిచి పనోరమ ఫోటోను తీయండి</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">వెనుకకు</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">స్థానాలను సేవ్ చేయడానికి, మీరు GPS మరియు/లేదా వైర్‌లెస్ నెట్‌వర్క్‌లను ఎనేబుల్ చేయాలి. ఇప్పుడే ఎనేబుల్ చేయాలా?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">స్థానాన్ని సేవ్ చేయి</string>
+    <string name="cam_strings_panorama_camera_sound_txt">ధ్వని</string>
+    <string name="cam_strings_panorama_cancel_txt">రద్దు చేయి</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD కార్డ్ చొప్పించబడింది. డీఫాల్ట్ డేటా నిల్వను SD కార్డుకు మార్చాలా?</string>
+    <string name="cam_strings_panorama_change_txt">మార్చు</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">గమనిక</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">తప్పు దిశ</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">మళ్లీ చూపవద్దు</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">కెమెరాను మరొక అప్లికేషన్ ఉపయోగిస్తూ ఉండవచ్చు. దయచేసి ఇతర అప్లికేషన్‌ను మూసివేసి, మళ్లీ ప్రయత్నించండి.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">తెలియని దోషం.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">పరికర ఉష్ణోగ్రత పెరుగుతుంది. ఇది ఇలానే పెరిగితే, యాప్ స్వయంచాలకంగా మూసివేయబడుతుంది.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">కెమెరా చల్లబడటానికి ఇప్పుడు తాత్కాలికంగా ఆపివేయబడుతుంది.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">మరొక అప్లికేషన్‌లో రికార్డ్ చేయడం ప్రోగ్రెస్‌లో ఉంది. రికార్డ్ చేయడం సాధ్యం కాదు.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">మెమరీ నిండింది. SD కార్డ్ నుండి కొన్ని ఫైళ్లను తొలగించండి.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">మెమరీ నిండింది. మెమరీ నుండి కొన్ని ఫైళ్లను తొలగించండి లేదా డీఫాల్ట్ డేటా నిల్వను మార్చండి.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">మెమరీ అందుబాటులో లేదు</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">మెమరీ దోషం</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD కార్డ్ అందుబాటులో లేదు</string>
+    <string name="cam_strings_panorama_error_title_txt">దోషం</string>
+    <string name="cam_strings_panorama_geotagging_txt">స్థానాన్ని సేవ్ చేయి</string>
+    <string name="cam_strings_panorama_guide_direction_txt">పరికరాన్ని నెమ్మదిగా స్క్రీన్‌పై చూపిన బాణాల దిశలో కదిలించండి</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">ఈ పరికరాన్ని మరింత నెమ్మదిగా తరలించండి</string>
+    <string name="cam_strings_panorama_no_txt">వద్దు</string>
+    <string name="cam_strings_panorama_ok_txt">సరే</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">పరికర ఉష్ణోగ్రతపై ఆధారపడి, స్థిర క్యాప్చరింగ్ కోసం సిస్టమ్ నియంత్రణకు అప్లికేషన్ అనుమతిస్తుంది.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">సిస్టమ్‌ను నియంత్రించండి</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">స్థానాన్ని సేవ్ చేయాలా?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">అవి తీసుకోబడిన స్థానాలతో మీ ఫోటోలు మరియు వీడియోలు ట్యాగ్ చేయండి. కెమెరా సెట్టింగ్‌లలో సేవ్ స్థానం నుండి మీరు ఈ సెట్టింగ్‌ను మార్చవచ్చు.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">యాప్ సమాచారం</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s కింది అనుమతి(తులు) అవసరం</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s అనుమతి</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">ఈ చర్యను అమలు చేయడానికి అప్లికేషన్‌కు కింది అనుమతి(తులు) అవసరం.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">అనుమతులను మంజూరు చేయడానికి, అప్లికేషన్ సమాచారం > అనుమతులు కు వెళ్ళండి.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">కొనసాగించలేరు</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">ఫోటోలు మరియు వీడియోలను తీయడానికి</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">స్థానాన్ని తిరిగి పొందడానికి</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">ఫోటోలు మరియు వీడియోలను సేవ్ చేయడానికి</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">అంతర్గత నిల్వ</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD కార్డ్</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">డేటా నిల్వ</string>
+    <string name="cam_strings_panorama_save_destination_txt">డేటా నిల్వ</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">స్క్రీన్ పిన్ చేయబడింది</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">అంతర్గత నిల్వకు సేవ్ చేయబడింది</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">తరలించు</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">కెమెరా SD కార్డ్‌‌ను ఉపయోగించడం అనుమతించడానికి, తదుపరి స్క్రీన్‌కు తరలించండి మరియు అనుమతులను మంజూరు చేయండి.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"కొత్త SD కార్డ్‌కు అవసరమైన అనుమతులు గుర్తించబడ్డాయి.
+
+SD కార్డ్‌ను డేటా నిల్వ వలె ఉపయోగించడానికి, దయచేసి తదుపరి స్క్రీన్‌లో SD కార్డ్ లేదా DCIM డైరెక్టరీని ఎంచుకోండి."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD కార్డ్ లేదా DCIM డైరెక్టరీ ఎంచుకోలేదు. SD కార్డ్‌ను ఉపయోగించడం సాధ్యం కాదు.
+
+అనుమతులను మంజూరు చేయడానికి, సేవ్ స్థానాన్ని SD కార్డ్‌కు మార్చి ప్రారంభించండి లేదా తదుపరి స్క్రీన్‌లో సరైన డైరెక్టరీని ఎంచుకోండి."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"అనుమతులు అవసరమైన కొత్త SD కార్డ్ కనుగొనబడింది.
+అందువల్ల, అంతర్గత నిల్వ బదులుగా డీఫాల్ట్ డేటా నిల్వగా ఉపయోగించబడుతుంది.
+
+SD కార్డ్‌ను డేటా నిల్వగా ఉపయోగించేందుకు, దయచేసి కెమెరా సెట్టింగ్‌లలో నిల్వ ఎంపికను SD కార్డ్‌కు మార్చండి."</string>
+    <string name="cam_strings_panorama_store_fail_txt">సేవ్ చేయలేరు</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">సాఫ్ట్‌వేర్ లైసెన్స్‌లు</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">భద్రతా కారణాల కోసం కెమెరాను ఉపయోగించడం పరిమితం చేయబడింది</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">షటర్</string>
+    <string name="cam_strings_panorama_volumekey_txt">వాల్యూమ్ కీని ఇలా ఉపయోగిం.</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">వాల్యూమ్</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">జూమ్</string>
+    <string name="cam_strings_panorama_yes_txt">అవును</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">ప్రస్తుతం జూమ్ అందుబాటులో లేదు</string>
+    <string name="search_menu_title">శోధించు</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

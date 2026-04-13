@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
+    <string name="abc_action_bar_home_description_format">„%1$s“ – %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">„%1$s“, „%2$s“ – %3$s</string>
+    <string name="abc_action_bar_up_description">Придвижване нагоре</string>
+    <string name="abc_action_menu_overflow_description">Още опции</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Вижте всички</string>
+    <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
+    <string name="abc_capital_off">ИЗКЛ.</string>
+    <string name="abc_capital_on">ВКЛ.</string>
+    <string name="abc_search_hint">Търсете…</string>
+    <string name="abc_searchview_description_clear">Изчистване на заявката</string>
+    <string name="abc_searchview_description_query">Заявка за търсене</string>
+    <string name="abc_searchview_description_search">Търсене</string>
+    <string name="abc_searchview_description_submit">Изпращане на заявката</string>
+    <string name="abc_searchview_description_voice">Гласово търсене</string>
+    <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
+    <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
+    <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="cam_strings_application_name_panorama_txt">Панорама</string>
+    <string name="cam_strings_description_panorama_txt">Направете панорамна снимка, като плавно придвижите устройството си</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Назад</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">За да записвате местоположения, трябва да разрешите GPS и/или мобилни мрежи. Ще разрешите ли сега?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Запис на местоположение</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Звук</string>
+    <string name="cam_strings_panorama_cancel_txt">Отказ</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">Поставена е SD карта. Да се промени ли мястото за съхранение на данни по подразбиране на SD карта?</string>
+    <string name="cam_strings_panorama_change_txt">Промяна</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Забележка</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Грешна посока</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Не показвай повече</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Камерата може да се използва от друго приложение. Затворете другото приложение и опитайте отново.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Неизвестна грешка.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Температурата в устройството се повишава. Ако това продължи, приложението ще се изключи автоматично.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Камерата ще се изключи временно, за да се охлади.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Извършва се запис в друго приложение. Записът е неуспешен.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Паметта е пълна. Изтрийте няколко файла от SD картата.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Паметта е пълна. Изтрийте файлове от паметта или променете мястото за съхранение на данни по подразбиране.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Паметта не е налична</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Грешка на паметта</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">Няма налична SD карта</string>
+    <string name="cam_strings_panorama_error_title_txt">Грешка</string>
+    <string name="cam_strings_panorama_geotagging_txt">Запис на местоположение</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Движете устройството бавно по посока на стрелките</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Движете устройството по-бавно</string>
+    <string name="cam_strings_panorama_no_txt">Не</string>
+    <string name="cam_strings_panorama_ok_txt">ОК</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Разрешаване на приложението да контролира системата с цел стабилно заснемане в зависимост от температурата в устройството.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">контролира системата</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Ще запишете ли местоположението?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Поставяйте етикети на вашите снимки и видео с местоположенията, на които са заснети. Можете да промените тази настройка по-късно от \"Запис на местоположение\" в настройките на камерата.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">ИНФО. ПРИЛОЖ.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s изисква разрешенията по-долу</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">Разрешение за %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Приложението изисква посочените по-долу разрешения за извършване на това действие.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">За да дадете разрешения, отидете на \"Информация за приложението\" > \"Разрешения\".</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Не може да се продължи</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Заснемане на снимки и видеоклипове</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Извличане на местоположение</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Записване на снимки и видеоклипове</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Вътрешна памет</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD карта</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Хранилище за данни</string>
+    <string name="cam_strings_panorama_save_destination_txt">Хранилище за данни</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Екранът е закачен</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Записано във вътрешната памет</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">ПРЕМИНИ</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">За да разрешите на камерата да използва SD карта, преминете към следващия екран и задайте разрешенията.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Открита е нова SD карта, изискваща разрешения.
+
+За да използвате SD картата за съхранение на данни, изберете SD картата или DCIM директория на следващия екран."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"Не е избрана SD картата или DCIM директорията. SD картата не може да се използва.
+
+За да дадете разрешения, започнете с промяна на местоположението на записване на SD картата или изберете подходяща директория на следващия екран."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Открита е нова SD карта, която изисква разрешения.
+Поради това вътрешната памет на устройството ще се използва като памет за данни по подразбиране.
+
+За да използвате SD картата като памет за данни, отидете на настройките на камерата и променете опцията за памет на SD карта."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Неуспешно записване</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Софтуерни лицензи</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Ограничено използване на камерата от съображения за сигурност</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Затвор на камерата</string>
+    <string name="cam_strings_panorama_volumekey_txt">Използвай клав. за звук за</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Сила на звука</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Мащабиране</string>
+    <string name="cam_strings_panorama_yes_txt">Да</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Мащабирането в момента е недостъпно</string>
+    <string name="search_menu_title">Търсене</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

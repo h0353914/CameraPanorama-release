@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/rotatable_toast_container" android:layout_width="@dimen/rotatable_toast_container_portrait_width" android:layout_height="@dimen/rotatable_toast_container_height_portrait" android:translationX="@dimen/rotatable_toast_container_transX">
+        <TextView android:gravity="center" android:id="@id/text_view_rotatable_toast" android:background="@drawable/cam_toast_background_icn" android:layout_width="@dimen/rotatable_toast_text_max_width_portrait" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:maxLines="5" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

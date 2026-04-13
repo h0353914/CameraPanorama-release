@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cam_strings_description_panorama_txt">Take a panoramic photo by swivelling your device</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">To retrieve locations</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Software Licences</string>
+</resources>

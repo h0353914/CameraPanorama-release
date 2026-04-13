@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/setting_dialog_sub_list_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/list_row_text_portrait" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_sub_list_height" android:paddingStart="@dimen/setting_dialog_sub_list_text_left_margin" android:paddingEnd="@dimen/setting_dialog_sub_list_text_left_margin" style="@style/ListSubItemStyle" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+</LinearLayout>
