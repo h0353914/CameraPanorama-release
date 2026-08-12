@@ -22,13 +22,13 @@ import java.util.Locale;
 class InternalSettings {
     private static final String CAMERA2_PARAM_FILE = "camera2.ini";
     private static final int[][] DEFAULT_CAPTURE_RESOLUTION;
-    public static final int DEFAULT_SETTING_ANTI_BANDING = 0x1;
+    public static final int DEFAULT_SETTING_ANTI_BANDING = 1;
     public static final double DEFAULT_SETTING_AOV_GAIN = 1.0;
     public static final boolean DEFAULT_SETTING_AUTO_AE_LOCK = true;
     public static final boolean DEFAULT_SETTING_AUTO_WB_LOCK = true;
-    public static final int DEFAULT_SETTING_CAMERA_ID = 0x0;
-    public static final int DEFAULT_SETTING_CAPTURE_MODE = 0x0;
-    public static final int DEFAULT_SETTING_CAPTURE_SIZE_INDEX = 0x0;
+    public static final int DEFAULT_SETTING_CAMERA_ID = 0;
+    public static final int DEFAULT_SETTING_CAPTURE_MODE = 0;
+    public static final int DEFAULT_SETTING_CAPTURE_SIZE_INDEX = 0;
     public static final String DEFAULT_SETTING_COLOR_CORRECTION_MODE = "-1";
     public static final boolean DEFAULT_SETTING_DEFORM = false;
     public static final double DEFAULT_SETTING_DISTORTION_K1 = 0.0;
@@ -37,17 +37,17 @@ class InternalSettings {
     public static final double DEFAULT_SETTING_DISTORTION_K4 = 0.0;
     public static final double DEFAULT_SETTING_DRAW_THRESHOLD = 0.5;
     public static final String DEFAULT_SETTING_EDGE_MODE = "-1";
-    public static final int DEFAULT_SETTING_FOCUS_MODE = 0x0;
+    public static final int DEFAULT_SETTING_FOCUS_MODE = 0;
     public static final double DEFAULT_SETTING_INPUT_MOVIE_FPS = 15.0;
     public static final boolean DEFAULT_SETTING_LUMINANCE_CORRECTION = false;
-    private static final int DEFAULT_SETTING_MOTION_DETECTION_MODE = 0x0;
+    private static final int DEFAULT_SETTING_MOTION_DETECTION_MODE = 0;
     public static final String DEFAULT_SETTING_NOISE_REDUCTION_MODE = "-1";
     private static final boolean DEFAULT_SETTING_NR_AUTO = true;
-    private static final int DEFAULT_SETTING_PROJECTION_MODE = 0x1;
+    private static final int DEFAULT_SETTING_PROJECTION_MODE = 1;
     public static final double DEFAULT_SETTING_ROTATION_RATIO = 0.96;
-    public static final int DEFAULT_SETTING_SAVE_INPUT_IMAGES = 0x0;
+    public static final int DEFAULT_SETTING_SAVE_INPUT_IMAGES = 0;
     public static final double DEFAULT_SETTING_SEAMSEARCH_RATIO = 1.0;
-    public static final int DEFAULT_SETTING_SENSOR_MODE = 0x1;
+    public static final int DEFAULT_SETTING_SENSOR_MODE = 1;
     public static final String DEFAULT_SETTING_SHADING_MODE = "-1";
     public static final String DEFAULT_SETTING_TONEMAP_MODE = "-1";
     public static final boolean DEFAULT_SETTING_USE_CAMERA2 = true;
@@ -57,13 +57,13 @@ class InternalSettings {
     private static final SimpleArrayMap<String, Integer> DEFAULT_UI_CONTROL_MODES;
     private static final String LOG_TAG = "Camera2App";
     private static final boolean OPERATING_MODE_DEBUG = false;
-    public static final int SETTING_ANTI_BANDING_50HZ = 0x2;
-    public static final int SETTING_ANTI_BANDING_60HZ = 0x3;
-    public static final int SETTING_ANTI_BANDING_AUTO = 0x1;
-    public static final int SETTING_ANTI_BANDING_OFF = 0x0;
+    public static final int SETTING_ANTI_BANDING_50HZ = 2;
+    public static final int SETTING_ANTI_BANDING_60HZ = 3;
+    public static final int SETTING_ANTI_BANDING_AUTO = 1;
+    public static final int SETTING_ANTI_BANDING_OFF = 0;
     public static final String SETTING_FILE_NAME = "setting.txt";
-    public static final int SETTING_FOCUS_MODE_AUTO = 0x0;
-    public static final int SETTING_FOCUS_MODE_INFINITY = 0x1;
+    public static final int SETTING_FOCUS_MODE_AUTO = 0;
+    public static final int SETTING_FOCUS_MODE_INFINITY = 1;
     public static final String SETTING_KEY_ANGLE = "angle";
     public static final String SETTING_KEY_ANTI_BANDING = "anti_banding(0,OFF 1,AUTO 2,50Hz 3,60Hz)";
     public static final String SETTING_KEY_ATTACH_NUM_DIRECTION_UNDECIDED = "attached num during direction-undecided";
@@ -92,19 +92,19 @@ class InternalSettings {
     public static final String SETTING_KEY_USE_CAMERA2 = "use_camera2";
     public static final String SETTING_KEY_USE_GRAVITY_SENSOR = "use_gravity_sensor";
     public static final String SETTING_KEY_WIDTH = "width";
-    private static final int SETTING_MOTION_DETECTION_MODE_FAST = 0x0;
-    private static final int SETTING_MOTION_DETECTION_MODE_HQ = 0x1;
-    private static final int SETTING_PROJECTION_MODE_CENTRAL_CYLINDRICAL = 0x1;
-    private static final int SETTING_PROJECTION_MODE_CENTRAL_CYLINDRICAL2 = 0x2;
-    private static final int SETTING_PROJECTION_MODE_EQUIRECTANGULAR = 0x0;
-    public static final int SETTING_SAVE_INPUT_IMAGES_MOVIE = 0x1;
-    public static final int SETTING_SAVE_INPUT_IMAGES_OFF = 0x0;
-    public static final int SETTING_SAVE_INPUT_IMAGES_RAW = 0x2;
-    public static final int SETTING_SENSOR_MODE_OFF = -0x1;
+    private static final int SETTING_MOTION_DETECTION_MODE_FAST = 0;
+    private static final int SETTING_MOTION_DETECTION_MODE_HQ = 1;
+    private static final int SETTING_PROJECTION_MODE_CENTRAL_CYLINDRICAL = 1;
+    private static final int SETTING_PROJECTION_MODE_CENTRAL_CYLINDRICAL2 = 2;
+    private static final int SETTING_PROJECTION_MODE_EQUIRECTANGULAR = 0;
+    public static final int SETTING_SAVE_INPUT_IMAGES_MOVIE = 1;
+    public static final int SETTING_SAVE_INPUT_IMAGES_OFF = 0;
+    public static final int SETTING_SAVE_INPUT_IMAGES_RAW = 2;
+    public static final int SETTING_SENSOR_MODE_OFF = -1;
     public static final String SETTING_SEPARATOR = ":";
-    public static final int UI_CONTROL_MODE1 = 0x0;
-    public static final int UI_CONTROL_MODE2 = 0x1;
-    public static final int UI_CONTROL_MODE3 = 0x2;
+    public static final int UI_CONTROL_MODE1 = 0;
+    public static final int UI_CONTROL_MODE2 = 1;
+    public static final int UI_CONTROL_MODE3 = 2;
     private static final Object mRecorderLock;
 
     public int anti_banding;
@@ -181,7 +181,6 @@ class InternalSettings {
     public InternalSettings(FragmentActivity activity) {
         mMorphoCamera = null;
         isValidCameraParamFrame = false;
-
         mRawRenderListener = new VideoRecorderRaw.RawRenderListener() {
             @Override
             public int onDraw(ByteBuffer buffer, Image image) {
@@ -191,9 +190,7 @@ class InternalSettings {
                 return 0;
             }
         };
-
         mActivity = activity;
-
         capture_size_index = 0;
         use_gps = false;
         save_input_images = 0;
@@ -248,9 +245,8 @@ class InternalSettings {
         Size[] sizes = app.getSupportedPictureSizes();
         for (int i = 0; i < sizes.length; i++) {
             Size size = sizes[i];
-            int[][] resolutions = DEFAULT_CAPTURE_RESOLUTION;
-            for (int j = 0; j < resolutions.length; j++) {
-                int[] resolution = resolutions[j];
+            for (int j = 0; j < DEFAULT_CAPTURE_RESOLUTION.length; j++) {
+                int[] resolution = DEFAULT_CAPTURE_RESOLUTION[j];
                 if (size.getWidth() == resolution[0] && size.getHeight() == resolution[1]) {
                     return i;
                 }
@@ -271,7 +267,7 @@ class InternalSettings {
         if (!isValidCameraParamFrame) {
             return false;
         }
-        return mActivity.findViewById(R.id.camera_param_frame).getVisibility() == 0;
+        return mActivity.findViewById(R.id.camera_param_frame).getVisibility() == View.VISIBLE;
     }
 
     private void print(MorphoPanoramaGP2Application app) {
@@ -294,6 +290,8 @@ class InternalSettings {
         switch (anti_banding) {
             case 0:
                 return 0;
+            case 1:
+                return 3;
             case 2:
                 return 1;
             case 3:
@@ -313,20 +311,40 @@ class InternalSettings {
     public void getSettingValue(MorphoPanoramaGP2Application app) {
         capture_size_index = getIndexOfDefaultCaptureSize(app);
         Size[] sizes = app.getSupportedPictureSizes();
-        String message = String.format(Locale.US, "capture_size : %d x %d",
-                Integer.valueOf(sizes[capture_size_index].getWidth()),
-                Integer.valueOf(sizes[capture_size_index].getHeight()));
-        LogFilter.i(LOG_TAG, message);
+        Size size = sizes[capture_size_index];
+        LogFilter.i(LOG_TAG, String.format(Locale.US, "capture_size : %d x %d",
+                Integer.valueOf(size.getWidth()), Integer.valueOf(size.getHeight())));
     }
 
-    public void initViews(MorphoCameraBase morphoCamera, Handler handler, boolean debug) {
+    public void initViews(MorphoCameraBase camera, Handler handler, boolean unused) {
         Camera2ParamsFragment fragment = getCamera2ParamsFragment();
         if (use_camera2) {
-            ((MorphoCamera) morphoCamera).setCamera2Params(fragment);
+            ((MorphoCamera) camera).setCamera2Params(fragment);
+        }
+        if (OPERATING_MODE_DEBUG) {
+            fragment.setEventHandler(new Camera2ParamsFragment.ICamera2ParamsFragmentEvent() {
+                @Override
+                public void onParamChanged() {
+                    if (isValidCameraParamFrame) {
+                        if (getCamera2ParamsFragment().tv()) {
+                            getTvView().setVisibility(View.VISIBLE);
+                        } else {
+                            getTvView().setVisibility(View.GONE);
+                        }
+                    }
+                    mMorphoCamera.cameraState().onRequestParamChange();
+                }
+            });
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    revertCamera2ParamsFragmentMode();
+                }
+            }, 0);
         }
     }
 
-    public void initializeEncoder(String format, int width, int height) {
+    public void initializeEncoder(String param, int width, int height) {
     }
 
     public void initializeUI(CameraInfo cameraInfo) {
@@ -361,13 +379,13 @@ class InternalSettings {
             return false;
         }
         if (isVisibleCameraParamFrame()) {
-            setVisibilityCameraParamFrame(4);
+            setVisibilityCameraParamFrame(View.GONE);
             return true;
         }
         return false;
     }
 
-    public void putParamFile(String path, CameraInfo cameraInfo, String name) {
+    public void putParamFile(String fileName, CameraInfo cameraInfo, String param) {
     }
 
     public void removePreviewSize(Context context) {
@@ -396,7 +414,8 @@ class InternalSettings {
         mCamera2ParamsFragmentSelectedMode = -1;
     }
 
-    public void saveSettings(String key, String value, CameraInfo cameraInfo, int a, int b, int c, int d, int e, long f) {
+    public void saveSettings(String fileName, String param, CameraInfo cameraInfo, int i1, int i2,
+                              int i3, int i4, int i5, long l1) {
     }
 
     public void saveValues() {
@@ -414,8 +433,8 @@ class InternalSettings {
         capture_mode = mode;
     }
 
-    public void startSettingActivity(Context context, double[] values, String name,
-                                      Camera2ImageQualitySettings[] settings, String[] names) {
+    public void startSettingActivity(Context context, double[] values, String param,
+                                      Camera2ImageQualitySettings[] settings, String[] strings) {
     }
 
     public void toggleVisibilityCameraParamFrame() {
@@ -423,17 +442,14 @@ class InternalSettings {
             return;
         }
         if (isVisibleCameraParamFrame()) {
-            setVisibilityCameraParamFrame(4);
+            setVisibilityCameraParamFrame(View.GONE);
         } else {
-            setVisibilityCameraParamFrame(0);
+            setVisibilityCameraParamFrame(View.VISIBLE);
         }
     }
 
     public boolean tv() {
-        if (isValidCameraParamFrame) {
-            return getCamera2ParamsFragment().tv();
-        }
-        return false;
+        return isValidCameraParamFrame && getCamera2ParamsFragment().tv();
     }
 
     public void updateCamera2ImageQualitySettings(Context context, Camera2ImageQualitySettings[] settings) {
@@ -454,7 +470,7 @@ class InternalSettings {
         }
     }
 
-    public void updateCameraInfoView(long exposureTime, int iso) {
+    public void updateCameraInfoView(long exposureTimeNs, int iso) {
         if (!isValidCameraParamFrame) {
             return;
         }
@@ -463,7 +479,7 @@ class InternalSettings {
         if (fragment != null) {
             StringBuilder sb = new StringBuilder();
             sb.append(String.format(Locale.US, "ISO:%n %d%nExposureTime:%n ", Integer.valueOf(iso)));
-            sb.append(NumberFormat.getNumberInstance().format(exposureTime));
+            sb.append(NumberFormat.getNumberInstance().format(exposureTimeNs));
             sb.append("nsec");
             fragment.update(sb.toString());
         }
@@ -489,7 +505,7 @@ class InternalSettings {
         CameraInfoViewFragment fragment = (CameraInfoViewFragment) mActivity.getSupportFragmentManager()
                 .findFragmentById(R.id.camera_info_view);
         if (fragment != null && fragment.getView() != null) {
-            fragment.getView().setVisibility(0);
+            fragment.getView().setVisibility(View.VISIBLE);
         }
     }
 
@@ -497,37 +513,11 @@ class InternalSettings {
         if (!isValidCameraParamFrame) {
             return;
         }
-        mActivity.findViewById(R.id.camera_param_frame).setVisibility(4);
+        mActivity.findViewById(R.id.camera_param_frame).setVisibility(View.GONE);
         if (getCamera2ParamsFragment().tv()
                 && ((Switch) mActivity.findViewById(R.id.tv_auto_lock)).isChecked()) {
             mIsTvLock = ((Switch) mActivity.findViewById(R.id.tv_lock)).isChecked();
             ((Switch) mActivity.findViewById(R.id.tv_lock)).setChecked(true);
-        }
-    }
-
-    // 以下兩個內部類別對應反編譯後仍存在的 InternalSettings$2、InternalSettings$3，
-    // 但在 InternalSettings.smali 全文中找不到任何 new-instance 呼叫（initViews 內原本建立
-    // 並註冊它們的程式碼已被移除/最佳化掉），因此依原始位元碼行為不在任何地方實例化，
-    // 僅保留類別定義以符合結構。
-
-    private class Camera2ParamsFragmentEventListener implements Camera2ParamsFragment.ICamera2ParamsFragmentEvent {
-        @Override
-        public void onParamChanged() {
-            if (isValidCameraParamFrame) {
-                if (getCamera2ParamsFragment().tv()) {
-                    getTvView().setVisibility(0);
-                } else {
-                    getTvView().setVisibility(4);
-                }
-            }
-            mMorphoCamera.cameraState().onRequestParamChange();
-        }
-    }
-
-    private class RevertCamera2ParamsFragmentModeRunnable implements Runnable {
-        @Override
-        public void run() {
-            revertCamera2ParamsFragmentMode();
         }
     }
 }
