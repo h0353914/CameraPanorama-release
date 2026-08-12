@@ -1010,8 +1010,8 @@ public class MorphoCamera extends MorphoCameraBase {
             mCameraInfo.setEnabledZsl(hasPrivateReprocessing && hasYuvReprocessing);
 
             LogFilter.v(LOG_TAG, "TARGET_FPS_RANGES");
-            for (Object rangeObject : mCameraInfo.getTargetFpsRanges()) {
-                LogFilter.v(LOG_TAG, ((Range<?>) rangeObject).toString());
+            for (Range<Integer> range : mCameraInfo.getTargetFpsRanges()) {
+                LogFilter.v(LOG_TAG, range.toString());
             }
             LogFilter.v(LOG_TAG, String.format(Locale.US, "AE Step=%f (%d/%d), Range(%d, %d)",
                     mCameraInfo.getAeCompensationStep(),
