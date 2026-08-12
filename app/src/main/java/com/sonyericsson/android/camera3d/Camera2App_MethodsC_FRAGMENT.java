@@ -963,7 +963,7 @@ private void unregisterGravitySensorListener() {
     }
 }
 
-private void updateSaveDestination(boolean internal) throws IOException {
+private void updateSaveDestination(boolean internal) {
     if (!internal) {
         Uri uri = mSettings.getSdCardGrantedUri();
         if (!isSdCardGranted(uri)) {
