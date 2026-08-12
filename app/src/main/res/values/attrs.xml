@@ -357,4 +357,9 @@
     <attr name="windowMinWidthMajor" format="dimension|fraction" />
     <attr name="windowMinWidthMinor" format="dimension|fraction" />
     <attr name="windowNoTitle" format="boolean" />
+    <declare-styleable name="DoublePreference">
+        <attr name="def_value" />
+        <attr name="max_value" />
+        <attr name="min_value" />
+    </declare-styleable>
 </resources>

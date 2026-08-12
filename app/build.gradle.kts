@@ -61,11 +61,11 @@ android {
     }
 }
 
-// 使用 JDK 17 編譯 Java
+// 使用 JDK 8 編譯 Java（匹配原始 APK 的位元組碼版本，比照 SemcCameraUI-xxhdpi 慣例）
 tasks.withType(JavaCompile::class.java) {
     options.isFork = true
     options.forkOptions.javaHome =
-        file("/home/h/lineageos/prebuilts/jdk/jdk17/linux-x86")
+        file("/home/h/lineageos/prebuilts/jdk/jdk8/linux-x86")
 }
 
 dependencies {
