@@ -12,6 +12,7 @@
  *   android.media.ExifInterface
  *   android.provider.MediaStore
  *   android.support.v4.provider.DocumentFile
+ *   android.text.format.DateFormat
  *   android.util.DisplayMetrics
  *   android.view.ViewStub
  *   android.widget.LinearLayout
@@ -21,6 +22,9 @@
  *   java.io.FileOutputStream
  *   java.io.IOException
  *   java.util.Locale
+ *   com.sonyericsson.android.camera3d.camera_states.AutoFocusState
+ *   com.sonyericsson.android.camera3d.camera_states.Camera1AutoFocusState
+ *   com.sonyericsson.android.camera3d.camera_states.CameraState
  *   com.sonyericsson.android.camera3d.utils.LogFilter
  *   com.sonyericsson.android.camera3d.utils.io.StorageMonitor
  *
@@ -332,7 +336,7 @@ private void configureTransform() {
 private ContentInfo createContentinfo(Cursor cursor) {
     long id = cursor.getLong(cursor.getColumnIndex("_id"));
     String location = cursor.getString(cursor.getColumnIndex("_data"));
-    ContentInfo info = new ContentInfo(null);
+    ContentInfo info = new ContentInfo();
     info.mId = id;
     info.mImageFileLocation = location;
     return info;
