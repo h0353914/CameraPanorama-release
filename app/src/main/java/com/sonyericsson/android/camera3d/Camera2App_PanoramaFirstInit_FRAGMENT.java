@@ -184,7 +184,10 @@ private final class PanoramaInit extends PanoramaState {
                 mPanoramaState = new PanoramaFirst();
                 mPanoramaState.setPanoramaStateEventListener(listener);
                 clearListener();
-                return mPanoramaState.onSaveImage(image);
+                // 注意：原始 smali 呼叫委派後的 onSaveImage 但捨棄其回傳值，
+                // 這裡固定回傳 true，忠實保留此行為。
+                mPanoramaState.onSaveImage(image);
+                return true;
             }
             case RESULT_ALREADY_CREATED:
                 mPanoramaState = new PanoramaPreview();

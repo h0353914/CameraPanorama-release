@@ -11,6 +11,7 @@ import android.view.Surface;
 
 import com.sonyericsson.android.camera3d.Camera2ParamsFragment;
 import com.sonyericsson.android.camera3d.CameraInfo;
+import com.sonyericsson.android.camera3d.base.PanoramaState;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -124,7 +125,7 @@ public class MorphoPanoramaGP2CameraState extends CameraState {
             }
 
             @Override
-            public void onTakePictureStart(com.sonyericsson.android.camera3d.base.PanoramaState.IPanoramaStateEventListener listener) {
+            public void onTakePictureStart(PanoramaState.IPanoramaStateEventListener listener) {
             }
 
             @Override

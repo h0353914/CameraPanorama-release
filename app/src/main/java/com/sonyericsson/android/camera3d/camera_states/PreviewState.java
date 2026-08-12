@@ -17,6 +17,10 @@ import com.sonyericsson.android.camera3d.MorphoPanoramaGP2;
 import com.sonyericsson.android.camera3d.utils.LogFilter;
 
 public class PreviewState extends MorphoPanoramaGP2CameraState {
+    public interface ICaptureCompletedWrapper {
+        void captureCompleted(CaptureRequest request, TotalCaptureResult result);
+    }
+
     private static final ICaptureCompletedWrapper mNullCaptureCompletedWrapper;
 
     static {
@@ -58,7 +62,7 @@ public class PreviewState extends MorphoPanoramaGP2CameraState {
                 Camera2ParamsFragment params = camera2Params();
                 double ev;
                 if (params.evSteps() == 0) {
-                    ev = CameraInfo.PREVIEW_GAIN_RANGE.clamp(Double.valueOf(gain));
+                    ev = (Double) CameraInfo.PREVIEW_GAIN_RANGE.clamp(Double.valueOf(gain));
                 } else {
                     ev = (Double) CameraInfo.PREVIEW_GAIN_RANGE.clamp(
                             Double.valueOf(Math.exp(Math.log(2.0) * params.evValue()) * gain));
@@ -68,8 +72,8 @@ public class PreviewState extends MorphoPanoramaGP2CameraState {
                 ev = MorphoPanoramaGP2CameraState.getSmoothenedEv(ev);
 
                 long shutterSpeedNs = params.shutterSpeedInNanoSeconds();
-                int newSensitivity = getCameraStartupInfo().cameraInfo.clampSensitivityRange((int) (ev / shutterSpeedNs));
-                long newExposureTime = getCameraStartupInfo().cameraInfo.clampExposureTime((long) (ev / newSensitivity)).longValue();
+                int newSensitivity = info.cameraInfo.clampSensitivityRange((int) (ev / shutterSpeedNs));
+                long newExposureTime = info.cameraInfo.clampExposureTime((long) (ev / newSensitivity)).longValue();
                 newExposureTime = Math.min(newExposureTime, 0xfe502aL);
 
                 if (newSensitivity == params.sensorSensitivity()
@@ -476,9 +480,5 @@ public class PreviewState extends MorphoPanoramaGP2CameraState {
         TakePictureState state = new TakePictureState();
         info.gp2Callback.updateCameraState(state);
         state.onStart();
-    }
-
-    public interface ICaptureCompletedWrapper {
-        void captureCompleted(CaptureRequest request, TotalCaptureResult result);
     }
 }
