@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/footer_icon_container_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/image_button_modeselector" android:background="@drawable/mode_selector_button_custom" android:layout_width="@dimen/modeselector_icon_width" android:layout_height="@dimen/modeselector_icon_width" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageButton android:layout_gravity="center" android:id="@id/capture_stop_button" android:background="@drawable/capture_stop_button_custom" android:visibility="invisible" android:layout_width="@dimen/capture_button_width" android:layout_height="@dimen/capture_button_width" />
+        <ImageButton android:layout_gravity="center" android:id="@id/capture_button" android:background="@drawable/capture_button_custom" android:visibility="visible" android:layout_width="@dimen/capture_button_width" android:layout_height="@dimen/capture_button_width" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageButton android:layout_gravity="center" android:id="@id/thumbnail_button" android:background="@android:color/transparent" android:layout_width="@dimen/thumbnail_icon_width" android:layout_height="@dimen/thumbnail_icon_width" android:scaleType="centerCrop" />
+        <ImageButton android:layout_gravity="center" android:id="@id/thumbnail_button_pressed" android:background="@drawable/thumbnail_button_custom" android:layout_width="@dimen/thumbnail_icon_pressed_width" android:layout_height="@dimen/thumbnail_icon_pressed_width" android:scaleType="fitXY" android:onClick="onClickThumbnail" />
+        <ImageView android:layout_gravity="center" android:id="@id/thumbnail_video" android:background="@drawable/cam_addon_panorama_thumbnail_video_icn" android:layout_width="@dimen/thumbnail_icon_pressed_width" android:layout_height="@dimen/thumbnail_icon_pressed_width" android:scaleType="fitXY" />
+    </FrameLayout>
+</LinearLayout>

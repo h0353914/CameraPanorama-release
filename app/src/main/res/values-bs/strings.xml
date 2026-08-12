@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Vrati se na početnu stranicu</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigiraj prema gore</string>
+    <string name="abc_action_menu_overflow_description">Više opcija</string>
+    <string name="abc_action_mode_done">Gotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Vidi sve</string>
+    <string name="abc_activitychooserview_choose_application">Odaberite aplikaciju</string>
+    <string name="abc_capital_off">ISKLJUČI</string>
+    <string name="abc_capital_on">UKLJUČI</string>
+    <string name="abc_search_hint">Pretraži...</string>
+    <string name="abc_searchview_description_clear">Obriši upit</string>
+    <string name="abc_searchview_description_query">Pretraži upit</string>
+    <string name="abc_searchview_description_search">Traži</string>
+    <string name="abc_searchview_description_submit">Pošalji upit</string>
+    <string name="abc_searchview_description_voice">Pretraživanje glasom</string>
+    <string name="abc_shareactionprovider_share_with">Podijeli sa</string>
+    <string name="abc_shareactionprovider_share_with_application">Podijeli sa %s</string>
+    <string name="abc_toolbar_collapse_description">Skupi</string>
+    <string name="cam_strings_application_name_panorama_txt">Panorama</string>
+    <string name="cam_strings_description_panorama_txt">Napravite panoramsku fotografiju prelaskom uređajem preko prizora</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Natrag</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Da biste sačuvali lokacije, morate omogućiti GPS i/ili bežične mreže. Omogućiti sada?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Sačuvaj lokaciju</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Zvuk</string>
+    <string name="cam_strings_panorama_cancel_txt">Otkaži</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD kartica je umetnuta. Želite promijeniti zadano pohranjivanje podataka na opciju SD kartica?</string>
+    <string name="cam_strings_panorama_change_txt">Promijeni</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Napomena</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Pogrešan smjer</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Ne prikazivati opet</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Moguće je da kameru koristi neka druga aplikacija. Zatvorite tu drugu aplikaciju i pokušajte ponovo.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Nepoznata greška.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Temperatura uređaja raste. Ako nastavi rasti, aplikacija će se automatski zatvoriti.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Kamera će se privremeno isključiti kako bi se ohladila.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">U toku je snimanje u drugoj aplikaciji. Nije bilo moguće snimati.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Memorija je puna. Obrišite neke datoteke sa SD kartice.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Memorija je puna. Obrišite neke datoteke iz memorije ili promijenite zadano pohranjivanje podataka.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Memorija nije dostupna</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Greška u memoriji</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD kartica nije dostupna</string>
+    <string name="cam_strings_panorama_error_title_txt">Greška</string>
+    <string name="cam_strings_panorama_geotagging_txt">Sačuvaj lokaciju</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Polako pomjerajte uređaj u smjeru strelica</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Pomjerajte uređaj sporije</string>
+    <string name="cam_strings_panorama_no_txt">Ne</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Dopustite aplikaciji da upravlja sistemom radi stabilnog snimanja, ovisno o temperaturi u uređaju.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">upravljanje sistemom</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Sačuvati lokaciju?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Označite fotografije i video zapise lokacijama na kojim su snimljeni. Ovu postavku možete promijeniti kasnije u opciji Sačuvaj lokaciju u postavkama Kamere.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">INFO. O APLIKAC.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s zahtijeva sljedeću dozvolu ili dozvole</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">Dozvola za %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Aplikacija zahtijeva sljedeću dozvolu ili dozvole kako bi izvršila tu radnju.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Da biste dodijelili dozvole, idite na Informacije o aplikaciji > Dozvole.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Nije bilo moguće nastaviti</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Snimanje fotografija i video zapisa</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Preuzimanje lokacije</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Čuvanje fotografija i video zapisa</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Interna pohrana</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD kartica</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Pohranjivanje podataka</string>
+    <string name="cam_strings_panorama_save_destination_txt">Pohranjivanje podataka</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Ekran je zakačen</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Sačuvano na internu pohranu</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">DALJE</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Da biste dozvolili kameri da koristi SD karticu, pređite na sljedeći ekran i dodijelite dozvole.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Otkrivena je nova SD kartica koja zahtijeva dozvole.
+
+Da biste koristili SD karticu kao pohranu podataka, odaberite SD karticu ili direktorij DCIM na narednom ekranu."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"Nije odabrana SD kartica ili direktorij DCIM. SD kartica se ne može koristiti.
+
+Da biste dodijelili dozvole, započnite mijenjanjem lokacije čuvanja na SD karticu ili odaberite odgovarajući direktorij na narednom ekranu."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Pronađena je nova SD kartica koja zahtijeva dozvole.
+Zbog toga će se koristiti interna pohrana uređaja kao zadana pohrana za podatke.
+
+Da biste koristili SD karticu kao pohranu za podatke, u postavkama kamere promijenite opciju pohrane na SD karticu."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Nije bilo moguće sačuvati</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Licence za softver</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Korištenje kamere je ograničeno iz sigurnosnih razloga</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Okidač</string>
+    <string name="cam_strings_panorama_volumekey_txt">Koristi Tipku za jač. zvuka kao</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Jačina zvuka</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Zum</string>
+    <string name="cam_strings_panorama_yes_txt">Da</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Zumiranje trenutno nije dostupno</string>
+    <string name="search_menu_title">Pretraži</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+</resources>

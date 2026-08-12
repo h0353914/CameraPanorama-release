@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Негізгі бетте қозғалу</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Жоғары қозғалу</string>
+    <string name="abc_action_menu_overflow_description">Басқа опциялар</string>
+    <string name="abc_action_mode_done">Дайын</string>
+    <string name="abc_activity_chooser_view_see_all">Барлығын көру</string>
+    <string name="abc_activitychooserview_choose_application">Қолданбаны таңдау</string>
+    <string name="abc_capital_off">ӨШІРУЛІ</string>
+    <string name="abc_capital_on">ҚОСУЛЫ</string>
+    <string name="abc_search_hint">Іздеу…</string>
+    <string name="abc_searchview_description_clear">Сұрақты жою</string>
+    <string name="abc_searchview_description_query">Сұрақты іздеу</string>
+    <string name="abc_searchview_description_search">Іздеу</string>
+    <string name="abc_searchview_description_submit">Сұрақты жіберу</string>
+    <string name="abc_searchview_description_voice">Дауыс арқылы іздеу</string>
+    <string name="abc_shareactionprovider_share_with">Бөлісу</string>
+    <string name="abc_shareactionprovider_share_with_application">%s бөлісу</string>
+    <string name="abc_toolbar_collapse_description">Тасалау</string>
+    <string name="cam_strings_application_name_panorama_txt">Панорама</string>
+    <string name="cam_strings_description_panorama_txt">Құрылғыңызды айналдыру арқылы панорамалық фотосурет түсіріңіз</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Артқа</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Орындарды сақтау үшін GPS функциясын және/немесе сымсыз желілерді қосу керек. Қазір қосу керек пе?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Орынды сақтау</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Дыбыс</string>
+    <string name="cam_strings_panorama_cancel_txt">Бас тарту</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD картасы салынды. Әдепкі деректер қоймасын SD картасына өзгерту керек пе?</string>
+    <string name="cam_strings_panorama_change_txt">Өзгерту</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Ескерту</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Дұрыс емес бағыт</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Қайтадан көрсетпеу</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Камераны басқа қолданба пайдаланып жатқан болуы мүмкін. Басқа қолданбаны жауып, әрекетті қайталаңыз.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Белгісіз қате.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Құрылғы температурасы көтерілуде. Егер ол көтерілуін жалғастырса, қолданба автоматты түрде жабылады.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Салқындау үшін камера қазір өшеді.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Жазу басқа қолданбада орындалуда. Жазу мүмкін болмады.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Жад толған. SD картасынан кейбір файлдарды жойыңыз.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Жад толы. Жадтан кейбір файлдарды жойыңыз немесе әдепкі деректер қоймасын өзгертіңіз.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Жад қол жетімді емес.</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Жад қатесі</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD картасы қол жетімді емес</string>
+    <string name="cam_strings_panorama_error_title_txt">Қате</string>
+    <string name="cam_strings_panorama_geotagging_txt">Орынды сақтау</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Құрылғыны көрсеткілерге қарай баяу жылжытыңыз</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Осы құрылғыны баяуырақ жылжытыңыз</string>
+    <string name="cam_strings_panorama_no_txt">Жоқ</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Қолданбаға құрылғыдағы температураға байланысты тұрақты түсіру үшін жүйені басқаруға рұқсат ету.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">жүйені басқару</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Орынды сақтау керек пе?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Фотосуреттерді және бейнелерді түсірілген орындармен тегтеңіз. Бұл параметрлерді кейінірек «Камера параметрлері» ішінде «Орынды сақтау» тармағында өзгертуге болады.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">ҚОЛ. АҚПАРАТЫ</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s келесі рұқсатт(ард)ы қажет етеді</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s рұқсаты</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Қолданба осы әрекетті орындау үшін келесі рұқсатт(ард)ы қажет етеді.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Рұқсаттарды беру үшін «Қолданба туралы ақпарат» > «Рұқсаттар» тармағына өтіңіз.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Жалғастыру мүмкін болмады</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Фотосуреттер және бейнелер түсіру үшін</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Орынды шығарып алу үшін</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Фотосуреттер мен бейнелерді сақтау үшін</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Ішкі жад</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD картасы</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Деректер сақтау</string>
+    <string name="cam_strings_panorama_save_destination_txt">Деректер жады</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Экран бекітілген</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Ішкі жадқа сақталды</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">ЖЫЛЖЫТУ</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Камераға SD картасын пайдалануға, келесі экранға жылжуға және рұқсаттарды беруге рұқсат ету.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Рұқсаттар қажет жаңа SD картасы анықталды.
+
+SD картасын деректер жады ретінде пайдалану үшін, келесі экранда SD картасын не DCIM каталогын таңдаңыз."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD картасы не DCIM каталогы таңдалмаған. SD картасын пайдалану мүмкін емес.
+
+Рұқсаттар беру үшін, сақтау орнын SD картасына өзгерту арқылы бастаңыз немесе келесі экранда тиісті каталогты таңдаңыз."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Рұқсаттарды қажет ететін жаңа SD картасы табылды.
+Сондықтан әдепкі деректер қоймасы ретінде ішкі қойма пайдаланылады.
+
+Деректер қоймасы ретінде SD картасын пайдалану үшін фотокамера параметрлеріне өтіп, қойма параметрін SD картасына өзгертіңіз."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Сақтау мүмкін болмады</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Бағдар-лық құрал лиценз-ры</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Камераны пайдалану қауіпсіздік себептерімен шектелді</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Ысырма</string>
+    <string name="cam_strings_panorama_volumekey_txt">Дыб. дең. пер-н басқ. пай.</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Дыбыс деңгейі</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Масштабтау</string>
+    <string name="cam_strings_panorama_yes_txt">Иә</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Қазіргі уақытта масштабтау қол жетімді емес</string>
+    <string name="search_menu_title">Іздеу</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

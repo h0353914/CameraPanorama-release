@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/panoramagp2_preview_frame" android:background="@drawable/cam_addon_panorama_shooting_progress_background_frame_h_icn" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

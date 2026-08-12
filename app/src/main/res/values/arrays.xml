@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="panoramagp2_ANTI_BANDING">
+        <item>Off</item>
+        <item>Auto</item>
+        <item>50Hz</item>
+        <item>60Hz</item>
+    </string-array>
+    <string-array name="panoramagp2_ANTI_BANDING_Value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="panoramagp2_CAPTURE_MODE">
+        <item>PREVIEW</item>
+        <item>STILL</item>
+        <item>ZERO_SHUTTER_LAG</item>
+        <item>BURST</item>
+        <item>REPEATING_BURST</item>
+    </string-array>
+    <string-array name="panoramagp2_CAPTURE_MODE_Value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="panoramagp2_FOCUS_MODE">
+        <item>Auto</item>
+        <item>Infinity</item>
+    </string-array>
+    <string-array name="panoramagp2_FOCUS_MODE_Value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="panoramagp2_MOTION_DETECTION_MODE">
+        <item>Fast</item>
+        <item>HighQuality</item>
+    </string-array>
+    <string-array name="panoramagp2_MOTION_DETECTION_MODE_Value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="panoramagp2_SAVE_INPUT_IMAGES">
+        <item>Off</item>
+        <item>Movie</item>
+        <item>Raw</item>
+    </string-array>
+    <string-array name="panoramagp2_SAVE_INPUT_IMAGES_Value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="panoramagp2_SENSOR_MODE">
+        <item>Off</item>
+        <item>Gyroscope</item>
+        <item>Rotation vector</item>
+    </string-array>
+    <string-array name="panoramagp2_SENSOR_MODE_Value">
+        <item>-1</item>
+        <item>1</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="panoramagp2_UI_CONTROL_MODE">
+        <item>Mode1</item>
+        <item>Mode2</item>
+        <item>Mode3</item>
+    </string-array>
+    <string-array name="panoramagp2_UI_CONTROL_MODE_Values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="panoramagp3_PROJECTION_MODE">
+        <item>Equirectangular</item>
+        <item>CentralCylindrical</item>
+        <item>CentralCylindrical2</item>
+    </string-array>
+    <string-array name="panoramagp3_PROJECTION_MODE_Value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

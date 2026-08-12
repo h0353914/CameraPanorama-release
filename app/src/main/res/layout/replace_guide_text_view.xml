@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0dip" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:id="@id/warning" android:visibility="invisible" android:layout_width="@dimen/panorama_guide_text_width" android:layout_height="wrap_content" android:text="@string/cam_strings_panorama_guide_direction_txt" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="4.0" android:fontFamily="sans-serif-medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

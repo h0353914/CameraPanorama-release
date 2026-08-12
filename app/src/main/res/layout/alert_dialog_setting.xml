@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/alert_dialog_title_txt" android:paddingTop="@dimen/alert_dialog_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_padding_start" android:paddingEnd="@dimen/alert_dialog_padding_start" style="@style/AlertTitleStyle" />
+    <ScrollView android:id="@id/alert_dialog_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/alert_dialog_header_txt" android:paddingTop="@dimen/alert_dialog_padding_top" android:paddingBottom="@dimen/alert_dialog_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_padding_start" android:paddingEnd="@dimen/alert_dialog_padding_start" style="@style/AlertHeaderStyle" />
+            <TextView android:id="@id/alert_dialog_body_caption_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_padding_start" android:paddingEnd="@dimen/alert_dialog_padding_start" style="@style/AlertBodyCaptionStyle" />
+            <TextView android:id="@id/alert_dialog_body_text_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_padding_start" android:paddingEnd="@dimen/alert_dialog_padding_start" style="@style/AlertBodyTextStyle" />
+            <TextView android:id="@id/alert_dialog_body_caption_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_padding_start" android:paddingEnd="@dimen/alert_dialog_padding_start" style="@style/AlertBodyCaptionStyle" />
+            <TextView android:id="@id/alert_dialog_body_text_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_padding_start" android:paddingEnd="@dimen/alert_dialog_padding_start" style="@style/AlertBodyTextStyle" />
+            <TextView android:id="@id/alert_dialog_footer_txt" android:paddingTop="@dimen/alert_dialog_padding_top" android:paddingBottom="@dimen/alert_dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/alert_dialog_padding_start" android:paddingEnd="@dimen/alert_dialog_padding_start" style="@style/AlertHeaderStyle" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

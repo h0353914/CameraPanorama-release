@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecione um app</string>
+    <string name="abc_capital_off">DESATIVAR</string>
+    <string name="abc_capital_on">ATIVAR</string>
+    <string name="abc_search_hint">Pesquisar...</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="cam_strings_application_name_panorama_txt">Panorâmicas</string>
+    <string name="cam_strings_description_panorama_txt">Tire fotos panorâmicas descrevendo um arco com seu dispositivo</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Voltar</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Para salvar localizações, você precisar ativar o GPS e/ou redes sem fio. Ativar agora?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Salvar localização</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Som</string>
+    <string name="cam_strings_panorama_cancel_txt">Cancelar</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">Cartão SD inserido. Alterar armazenamento de dados padrão para o cartão SD?</string>
+    <string name="cam_strings_panorama_change_txt">Alterar</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Observação</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Direção errada</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Não exibir novamente</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">A câmera pode estar em uso por outro aplicativo. Feche o outro aplicativo e tente novamente.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Erro desconhecido.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">A temperatura do dispositivo está subindo. Se continuar a subir, o aplicativo será encerrado automaticamente.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">A câmera vai se desativar temporariamente para esfriar.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Gravação em andamento em outro aplicativo. Não foi possível gravar.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Memória cheia. Apague arquivos do cartão de memória.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Memória cheia. Apague alguns arquivos da memória ou altere o local de armazenamento de dados.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Memória indisponível</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Erro de memória</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">Cartão de memória indisponível</string>
+    <string name="cam_strings_panorama_error_title_txt">Erro</string>
+    <string name="cam_strings_panorama_geotagging_txt">Salvar localização</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Mova o dispositivo lentamente na direção das setas</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Mova o dispositivo mais devagar</string>
+    <string name="cam_strings_panorama_no_txt">Não</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Permite que o aplicativo controle o sistema para captura estável, dependendo da temperatura do dispositivo.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">controlar o sistema</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Salvar localização?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Marque suas fotos e vídeos com a localização onde foram tirados. Você pode alterar essa configuração mais tarde em Salvar localizações nas Configurações da câmera.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">INFO. DO APLIC.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s requer a(s) seguinte(s) permissão(ões)</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">permissão para %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Este aplicativo requer a(s) seguinte(s) permissão(ões) para realizar esta ação.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Para conceder permissões, vá para Informações aplicativo > Permissões.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Não foi possível continuar</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Para tirar fotos e criar vídeos</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Para recuperar localização</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Para salvar fotos e vídeos</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Armazenamento interno</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">Cartão SD</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Armazenamento de dados</string>
+    <string name="cam_strings_panorama_save_destination_txt">Armazenamento de dados</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">A tela está fixada</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Salvo no armazenamento interno</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">SEGUINTE</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Para permitir que a câmera use um cartão SD, vá para a próxima tela e conceda permissões.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Um novo cartão SD que requer permissões foi detectado.
+
+Para usar o cartão SD como armazenamento de dados, selecione o cartão SD ou diretório DCIM na próxima tela."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"O cartão SD ou diretório DCIM não foi selecionado. O cartão SD não pode ser usado.
+
+Para conceder permissões, comece alterando o local de salvamento para o cartão SD ou selecione o diretório adequado na próxima tela."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Foi detectado um novo cartão SD que requer permissões.
+Portanto, o armazenamento interno será usado como local padrão para o armazenamento de dados.
+
+Para usar o cartão SD para armazenamento de dados, vá para as configurações da câmera e altere a opção de armazenamento para cartão SD."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Não foi possível salvar</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Licenças de software</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Uso da câmera restrito por motivos de segurança</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Obturador</string>
+    <string name="cam_strings_panorama_volumekey_txt">Usar tecla de volume como</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Volume</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Zoom</string>
+    <string name="cam_strings_panorama_yes_txt">Sim</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Zoom não está disponível no momento</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

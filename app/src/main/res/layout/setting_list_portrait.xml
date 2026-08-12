@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/setting_dialog_width" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_dialog_app_title_portrait" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_app_title_height_with_separator">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_app_title_height">
+                <TextView android:gravity="start|center" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/setting_dialog_text_vertical_margin" android:layout_marginBottom="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_application_name_panorama_txt" android:layout_marginStart="@dimen/setting_dialog_text_left_margin" style="@style/SettingTileStyle" />
+            </FrameLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_separator_height" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_dialog_save_location_portrait" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_item_height_with_separator">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_item_height">
+                <TextView android:gravity="start|center" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/setting_dialog_text_vertical_margin" android:layout_marginBottom="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_geotagging_txt" android:layout_marginStart="@dimen/setting_dialog_text_left_margin" style="@style/ListItemStyle" />
+                <FrameLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_marginStart="@dimen/setting_dialog_text_right_margin_portrait" android:layout_marginEnd="@dimen/setting_dialog_text_right_margin_portrait">
+                    <ImageView android:layout_gravity="center" android:id="@id/setting_switch_bg_save_location_portrait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_setting_switch_off_bg_icn" />
+                    <ImageView android:layout_gravity="start|center" android:id="@id/setting_switch_icon_save_location_portrait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_setting_switch_off_icn" />
+                </FrameLayout>
+            </FrameLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_separator_height" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_dialog_use_volume_key_portrait" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_item_height_with_separator">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_item_height">
+                <TextView android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="@dimen/setting_dialog_text_vertical_margin" android:layout_marginBottom="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_volumekey_txt" android:layout_weight="1.0" android:layout_marginStart="@dimen/setting_dialog_text_left_margin" style="@style/ListItemStyle" />
+                <TextView android:gravity="start|center" android:id="@id/setting_dialog_use_volume_key_summary_portrait" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="@dimen/setting_dialog_text_vertical_margin" android:layout_marginBottom="@dimen/setting_dialog_text_vertical_margin" android:layout_weight="1.0" android:layout_marginStart="@dimen/setting_dialog_text_left_margin" style="@style/ListSubItemStyle" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_separator_height" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_dialog_camera_sound_portrait" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_item_height_with_separator">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_item_height">
+                <TextView android:gravity="start|center" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/setting_dialog_text_vertical_margin" android:layout_marginBottom="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_camera_sound_txt" android:layout_marginStart="@dimen/setting_dialog_text_left_margin" style="@style/ListItemStyle" />
+                <FrameLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:layout_marginStart="@dimen/setting_dialog_text_right_margin_portrait" android:layout_marginEnd="@dimen/setting_dialog_text_right_margin_portrait">
+                    <ImageView android:layout_gravity="center" android:id="@id/setting_switch_bg_camera_sound_portrait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_setting_switch_off_bg_icn" />
+                    <ImageView android:layout_gravity="start|center" android:id="@id/setting_switch_icon_camera_sound_portrait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_setting_switch_off_icn" />
+                </FrameLayout>
+            </FrameLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_separator_height" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_dialog_save_destination_portrait" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_item_height_with_separator">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_item_height">
+                <TextView android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="@dimen/setting_dialog_text_vertical_margin" android:layout_marginBottom="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_save_destination_txt" android:layout_weight="1.0" android:layout_marginStart="@dimen/setting_dialog_text_left_margin" style="@style/ListItemStyle" />
+                <TextView android:gravity="start|center" android:id="@id/setting_dialog_save_destination_summary_portrait" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="@dimen/setting_dialog_text_vertical_margin" android:layout_marginBottom="@dimen/setting_dialog_text_vertical_margin" android:layout_weight="1.0" android:layout_marginStart="@dimen/setting_dialog_text_left_margin" style="@style/ListSubItemStyle" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_separator_height" android:src="@drawable/cam_dialog_separator_icn" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_dialog_licence_portrait" android:layout_width="fill_parent" android:layout_height="@dimen/setting_dialog_item_height">
+            <TextView android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="@dimen/setting_dialog_text_vertical_margin" android:layout_marginBottom="@dimen/setting_dialog_text_vertical_margin" android:text="@string/cam_strings_panorama_sw_licence_title_txt" android:layout_weight="1.0" android:layout_marginStart="@dimen/setting_dialog_text_left_margin" style="@style/ListItemStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

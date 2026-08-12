@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ana ekrana git</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Yukarı git</string>
+    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
+    <string name="abc_action_mode_done">Bitti</string>
+    <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
+    <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
+    <string name="abc_capital_off">KAPAT</string>
+    <string name="abc_capital_on">AÇ</string>
+    <string name="abc_search_hint">Ara…</string>
+    <string name="abc_searchview_description_clear">Sorguyu temizle</string>
+    <string name="abc_searchview_description_query">Arama sorgusu</string>
+    <string name="abc_searchview_description_search">Ara</string>
+    <string name="abc_searchview_description_submit">Sorguyu gönder</string>
+    <string name="abc_searchview_description_voice">Sesli arama</string>
+    <string name="abc_shareactionprovider_share_with">Şununla paylaş</string>
+    <string name="abc_shareactionprovider_share_with_application">%s ile paylaş</string>
+    <string name="abc_toolbar_collapse_description">Daralt</string>
+    <string name="cam_strings_application_name_panorama_txt">Panorama</string>
+    <string name="cam_strings_description_panorama_txt">Cihazınızı kaydırarak panoramik fotoğraf çekin</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Geri</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">"Konumları kaydetmek için GPS'i ve/veya kablosuz ağları etkinleştirmeniz gerekir. Şimdi etkinleştirilsin mi?"</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Konumu kaydet</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Ses</string>
+    <string name="cam_strings_panorama_cancel_txt">İptal</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD kart yerleştirildi. Varsayılan veri depolama birimi SD kart olarak değiştirilsin mi?</string>
+    <string name="cam_strings_panorama_change_txt">Değiştir</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Dikkat</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Yanlış yön</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Bir daha gösterme</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Kamera başka bir uygulama tarafından kullanılıyor olabilir. Lütfen diğer uygulamayı kapatıp tekrar deneyin.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Bilinmeyen hata.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Cihaz sıcaklığı yükseliyor. Yükselmeye devam ederse uygulama, otomatik olarak kapanır.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Soğuyabilmesi için kamera şimdi geçici olarak kapanacaktır.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Kayıt işlemi başka bir uygulamada devam ediyor. Kaydedilemedi.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Bellek dolu. SD karttan bazı dosyaları silin.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Bellek dolu. Bellekteki bazı dosyaları silin ya da varsayılan veri depolama birimini değiştirin.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Bellek kullanılamıyor</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Bellek hatası</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD kart kullanılamıyor</string>
+    <string name="cam_strings_panorama_error_title_txt">Hata</string>
+    <string name="cam_strings_panorama_geotagging_txt">Konumu kaydet</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Cihazı okların yönünde yavaşça hareket ettirin</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Bu cihazı daha yavaş hareket ettirin</string>
+    <string name="cam_strings_panorama_no_txt">Hayır</string>
+    <string name="cam_strings_panorama_ok_txt">Tamam</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Cihazdaki sıcaklığa bağlı olarak, uygulamanın sabit yakalama için sistemi kontrol etmesine izin verin.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">sistemi kontrol et</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Konum kaydedilsin mi?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Fotoğraf ve videolarınızı çekildikleri yerlerle etiketleyin. Daha sonra bu ayarı Kamera ayarlarındaki Konumu kaydet bölümünde değiştirebilirsiniz.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">UYG BİLGİLERİ</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s şu izinleri gerektirir</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s izin</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Uygulama, bu işlemi gerçekleştirmek için şu izinlere ihtiyaç duyuyor.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">"İzinleri vermek için Uygulama bilgileri > İzinler'e gidin."</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Devam edilemedi</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Fotoğraf ve video çekmek için</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Konum almak için</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Fotoğraf ve videoları kaydetmek için</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Dahili depolama</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD kart</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Veri depolama</string>
+    <string name="cam_strings_panorama_save_destination_txt">Veri depolama birimi</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Ekran sabitlendi</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Dahili depolama birimine kaydedildi</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">TAŞI</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Kameranın SD kart kullanmasına, bir sonraki ekrana gitmesine ve izinleri atamasına izin vermek için.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"İzinler gerektiren yeni bir SD kart algılandı.
+
+Veri depolaması olarak SD kartı kullanmak üzere bir sonraki ekranda lütfen SD kart veya DCIM dizinini seçin."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD kart veya DCIM dizini seçilmedi. SD kart kullanılamıyor.
+
+İzinleri vermek için önce kaydetme yerini SD kart olarak değiştirin veya bir sonraki ekranda uygun dizini seçin."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"İzinler gerektiren yeni SD kart bulundu.
+Bu nedenle, dahili depolama varsayılan veri depolaması olarak kullanılacak.
+
+Veri depolaması olarak SD kartı kullanıyorsanız lütfen kamera ayarlarına gidin ve depolama seçeneğini SD kart olarak değiştirin."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Kaydedilemedi</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Yazılım Lisansları</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Kameranın kullanımı güvenlik nedeniyle kısıtlandı</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Deklanşör</string>
+    <string name="cam_strings_panorama_volumekey_txt">Ses seviye tuşunu şöyle kullan</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Ses seviyesi</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Yaklaştırma</string>
+    <string name="cam_strings_panorama_yes_txt">Evet</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Şu anda yakınlaştırılamıyor</string>
+    <string name="search_menu_title">Ara</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>
