@@ -68,7 +68,7 @@ public class RotatableToast extends RelativeLayout {
         mRotatableToastContainerForPortrait.setRotation((float) orientation);
         mRotatableToastContainerForPortrait.setVisibility(VISIBLE);
         mFinishAfterToast = finishAfterToast;
-        new ShowToastTask(this, duration).execute(new Integer[1]);
+        new ShowToastTask(duration).execute(new Integer[1]);
     }
 
     public void toggleRotatableToastVisibility(int angle) {
@@ -81,12 +81,10 @@ public class RotatableToast extends RelativeLayout {
         }
     }
 
-    private static class ShowToastTask extends AsyncTask<Integer, Integer, Integer> {
+    private class ShowToastTask extends AsyncTask<Integer, Integer, Integer> {
         private final int mDuration;
-        private final RotatableToast this$0;
 
-        public ShowToastTask(RotatableToast rotatableToast, int duration) {
-            this$0 = rotatableToast;
+        public ShowToastTask(int duration) {
             mDuration = duration;
         }
 
@@ -107,16 +105,16 @@ public class RotatableToast extends RelativeLayout {
         @Override
         protected void onPostExecute(Integer result) {
             LogFilter.d(TAG, "UpdatePreviewTask onPostExecute()");
-            this$0.invisibleRotatableToast();
-            if (this$0.mFinishAfterToast) {
-                ((Activity) this$0.mContext).finish();
+            invisibleRotatableToast();
+            if (mFinishAfterToast) {
+                ((Activity) mContext).finish();
             }
         }
 
         @Override
         protected void onPreExecute() {
             LogFilter.d(TAG, "ShowToastTask onPreExecute()");
-            this$0.setVisibility(VISIBLE);
+            RotatableToast.this.setVisibility(VISIBLE);
         }
     }
 }
