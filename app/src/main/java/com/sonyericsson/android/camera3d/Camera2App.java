@@ -1498,7 +1498,7 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                         flag2 = (rot == 90 || rot == 270);
                     } else {
                         int rot = (mInitParam.output_rotation + mCameraOrientation) % 360;
-                        flag2 = (rot == 270);
+                        flag2 = (rot == 90);
                     }
 
                     if (direction == 2 || direction == 3) {
