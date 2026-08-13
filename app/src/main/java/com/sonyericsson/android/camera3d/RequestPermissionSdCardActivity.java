@@ -39,18 +39,18 @@ public class RequestPermissionSdCardActivity extends Activity {
         }
 
         String receiveUriString = mReceiveUri.toString();
-        if (!TextUtils.isEmpty(receiveUriString) && !receiveUriString.equals(uri.toString())) {
-            LogFilter.d(TAG, "deletePermissions :" + receiveUriString);
-            try {
-                getContentResolver().releasePersistableUriPermission(mReceiveUri, FLAG_SD_PERMISSION);
-                return true;
-            } catch (Exception e) {
-                LogFilter.d(TAG, "releasePersistableUriPermission Exception Occurred:" + e.toString());
-                return false;
-            }
+        if (TextUtils.isEmpty(receiveUriString) || receiveUriString.equals(uri.toString())) {
+            return false;
         }
 
-        return true;
+        LogFilter.d(TAG, "deletePermissions :" + receiveUriString);
+        try {
+            getContentResolver().releasePersistableUriPermission(mReceiveUri, FLAG_SD_PERMISSION);
+            return true;
+        } catch (Exception e) {
+            LogFilter.d(TAG, "releasePersistableUriPermission Exception Occurred:" + e.toString());
+            return false;
+        }
     }
 
     private void finish(int resultCode) {

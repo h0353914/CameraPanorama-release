@@ -111,12 +111,12 @@ public class AutoFocusState extends MorphoPanoramaGP2CameraState {
             builder.set(CaptureRequest.CONTROL_AF_TRIGGER, 2);
             PreviewState.setupPreviewRequest(this, builder, false, info);
             if (CameraConstants.AutoFocusType == 0) {
-                info.cameraInfo.getCaptureSession().setRepeatingRequest(builder.build(), info.captureCallback, backgroundHandler());
+                info.cameraInfo.getCaptureSession().setRepeatingRequest(builder.build(), null, backgroundHandler());
             } else if (CameraConstants.AutoFocusType == 1) {
                 builder.set(CaptureRequest.CONTROL_AF_MODE, 1);
-                info.cameraInfo.getCaptureSession().setRepeatingRequest(builder.build(), info.captureCallback, backgroundHandler());
+                info.cameraInfo.getCaptureSession().setRepeatingRequest(builder.build(), null, backgroundHandler());
             } else if (CameraConstants.AutoFocusType == 2) {
-                info.cameraInfo.getCaptureSession().capture(builder.build(), info.captureCallback, backgroundHandler());
+                info.cameraInfo.getCaptureSession().capture(builder.build(), null, backgroundHandler());
             }
         } catch (CameraAccessException e) {
             e.printStackTrace();
@@ -189,7 +189,7 @@ public class AutoFocusState extends MorphoPanoramaGP2CameraState {
                         autoFocusEnd(false);
                         return;
                     }
-                    mSameAFStateCount = 0;
+                    mSubState = SUB_STATE_WAITING_LENS_STATIONARY;
                 }
                 return;
             }

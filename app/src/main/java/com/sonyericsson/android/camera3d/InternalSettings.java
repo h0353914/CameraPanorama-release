@@ -329,7 +329,7 @@ class InternalSettings {
                         if (getCamera2ParamsFragment().tv()) {
                             getTvView().setVisibility(View.VISIBLE);
                         } else {
-                            getTvView().setVisibility(View.GONE);
+                            getTvView().setVisibility(View.INVISIBLE);
                         }
                     }
                     mMorphoCamera.cameraState().onRequestParamChange();
@@ -379,7 +379,7 @@ class InternalSettings {
             return false;
         }
         if (isVisibleCameraParamFrame()) {
-            setVisibilityCameraParamFrame(View.GONE);
+            setVisibilityCameraParamFrame(View.INVISIBLE);
             return true;
         }
         return false;
@@ -442,7 +442,7 @@ class InternalSettings {
             return;
         }
         if (isVisibleCameraParamFrame()) {
-            setVisibilityCameraParamFrame(View.GONE);
+            setVisibilityCameraParamFrame(View.INVISIBLE);
         } else {
             setVisibilityCameraParamFrame(View.VISIBLE);
         }
@@ -513,7 +513,7 @@ class InternalSettings {
         if (!isValidCameraParamFrame) {
             return;
         }
-        mActivity.findViewById(R.id.camera_param_frame).setVisibility(View.GONE);
+        mActivity.findViewById(R.id.camera_param_frame).setVisibility(View.INVISIBLE);
         if (getCamera2ParamsFragment().tv()
                 && ((Switch) mActivity.findViewById(R.id.tv_auto_lock)).isChecked()) {
             mIsTvLock = ((Switch) mActivity.findViewById(R.id.tv_lock)).isChecked();

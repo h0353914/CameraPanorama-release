@@ -109,9 +109,9 @@ public class DirectionFunction {
         int w = (maxWidth + scale - 1) / scale;
         int h;
         if (getAngle() == 90 || getAngle() == 270) {
-            h = (inputHeight + scale - 1) / scale;
-        } else {
             h = (inputWidth + scale - 1) / scale;
+        } else {
+            h = (inputHeight + scale - 1) / scale;
         }
         w &= ~1;
         h &= ~1;
@@ -144,9 +144,9 @@ public class DirectionFunction {
         int h = (maxHeight + scale - 1) / scale;
         int w;
         if (getAngle() == 90 || getAngle() == 270) {
-            w = (inputWidth + scale - 1) / scale;
-        } else {
             w = (inputHeight + scale - 1) / scale;
+        } else {
+            w = (inputWidth + scale - 1) / scale;
         }
         w &= ~1;
         h &= ~1;

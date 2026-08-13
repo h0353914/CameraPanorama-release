@@ -248,7 +248,7 @@ class SensorFusion implements SensorEventListener {
 
         ret |= mMorphoSensorFusion.outputRotationMatrix3x3(SENSOR_TYPE_ACCELEROMETER, mSensorMatrix[SENSOR_TYPE_ACCELEROMETER]);
         ret |= mMorphoSensorFusion.outputRotationMatrix3x3(SENSOR_TYPE_GYROSCOPE, mSensorMatrix[SENSOR_TYPE_GYROSCOPE]);
-        ret |= mMorphoSensorFusion.outputRotationMatrix3x3(SENSOR_TYPE_MAGNETIC_FIELD, mSensorMatrix[SENSOR_TYPE_MAGNETIC_FIELD]);
+        ret |= mMorphoSensorFusion.outputRotationMatrix3x3(SENSOR_TYPE_ROTATION_VECTOR, mSensorMatrix[SENSOR_TYPE_ROTATION_VECTOR]);
 
         return ret;
     }

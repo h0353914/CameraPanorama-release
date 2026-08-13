@@ -283,6 +283,9 @@ public class MorphoPanoramaGP2 {
         float ave = (float) (mAttachLastNanoTime - mAttachFirstNanoTime);
         ave = ave / (float) mAttachCount;
         ave = ave / 1000000.0f;
+        if (ave == 0f) {
+            return 0f;
+        }
         return ave;
     }
 
