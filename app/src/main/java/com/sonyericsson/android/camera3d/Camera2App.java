@@ -4932,7 +4932,7 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
             List<Sensor> sensors = mSensorManager.getSensorList(Sensor.TYPE_GRAVITY);
             if (sensors.size() > 0) {
                 Sensor sensor = (Sensor) sensors.get(0);
-                mSensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_GAME);
+                mSensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_UI);
             }
         }
     }
@@ -7232,7 +7232,7 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
             mSensorManager.registerListener(mSensorFusion, mAccelerometer, SensorManager.SENSOR_DELAY_FASTEST);
         }
 
-        if (mRotationVector != null && mInternalSettings.sensor_mode == 1) {
+        if (mRotationVector != null && mInternalSettings.sensor_mode == 4) {
             mSensorManager.registerListener(mSensorFusion, mRotationVector, SensorManager.SENSOR_DELAY_FASTEST);
         }
 
