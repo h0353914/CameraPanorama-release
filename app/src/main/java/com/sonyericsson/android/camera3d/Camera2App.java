@@ -1542,8 +1542,10 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                                     margin = 0;
                                 }
                             }
+                            // 註: 原始 smali 此處只把 margin 寫入 centering_margin_left,
+                            // centering_margin_top 則無條件清零(非鏡射寫入),已逐位元核對確認。
                             centering_margin_left = margin;
-                            centering_margin_top = margin;
+                            centering_margin_top = 0;
                         }
 
                         // 註: 此旋轉分支(rotation 0/180)的原始 smali 在收尾時將
@@ -1595,8 +1597,10 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                                     margin = 0;
                                 }
                             }
+                            // 註: 原始 smali 此處只把 margin 寫入 centering_margin_top,
+                            // centering_margin_left 則無條件清零(非鏡射寫入),已逐位元核對確認。
                             centering_margin_top = margin;
-                            centering_margin_left = margin;
+                            centering_margin_left = 0;
                         }
 
                         mapX = hFlavor;
@@ -1654,8 +1658,10 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                                     margin = 0;
                                 }
                             }
+                            // 註: 原始 smali 此處只把 margin 寫入 centering_margin_top,
+                            // centering_margin_left 則無條件清零(非鏡射寫入),已逐位元核對確認。
                             centering_margin_top = margin;
-                            centering_margin_left = margin;
+                            centering_margin_left = 0;
                         }
                     } else {
                         // ---- X, direction 0/1 ----
@@ -1696,8 +1702,10 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                                     margin = 0;
                                 }
                             }
+                            // 註: 原始 smali 此處只把 margin 寫入 centering_margin_left,
+                            // centering_margin_top 則無條件清零(非鏡射寫入),已逐位元核對確認。
                             centering_margin_left = margin;
-                            centering_margin_top = margin;
+                            centering_margin_top = 0;
                         }
                     }
                 }
