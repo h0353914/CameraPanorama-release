@@ -2033,8 +2033,8 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                             }
                             setImage(image);
                             boolean decided = false;
+                            int direction;
                             synchronized (CameraConstants.CameraSynchronizedObject) {
-                                int direction;
                                 synchronized (CameraConstants.EngineSynchronizedObject) {
                                     if (!isEngineRunning() || mEngineEnding) {
                                         LogFilter.i("Camera2App", "attach thread exit. (engine is stop.)");
@@ -2070,16 +2070,23 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                                         mMaxHeight = outputImageSize[1];
                                     }
                                 }
+                                // 註: 原始 smali 在此處(建立方向後)就釋放了 CameraSynchronizedObject，
+                                // enabled() 判定與 Thread.sleep() 是在「兩個鎖都已釋放」的狀態下執行的
+                                // (逐行核對 monitor-exit 位置確認)；先前版本誤把整個 if 區塊(含 sleep)
+                                // 都包在 CameraSynchronizedObject 內，等同在持鎖狀態下 sleep，可能造成
+                                // 其他需要此鎖的執行緒(如取消/切換狀態)被長時間卡住,是本次修正的重點。
                                 if (direction != mInitParam.direction) {
                                     createDirection(direction);
-                                    if (mDirectionFunction.enabled()) {
-                                        decided = true;
-                                    } else {
-                                        try {
-                                            Thread.sleep(SLEEP_MILLISEC, SLEEP_NANOSEC);
-                                        } catch (InterruptedException ignored) {
-                                            // 原始 smali 對此處的 InterruptedException 直接吞掉並重試迴圈，忠實保留。
-                                        }
+                                }
+                            }
+                            if (direction != mInitParam.direction) {
+                                if (mDirectionFunction.enabled()) {
+                                    decided = true;
+                                } else {
+                                    try {
+                                        Thread.sleep(SLEEP_MILLISEC, SLEEP_NANOSEC);
+                                    } catch (InterruptedException ignored) {
+                                        // 原始 smali 對此處的 InterruptedException 直接吞掉並重試迴圈，忠實保留。
                                     }
                                 }
                             }
@@ -2103,6 +2110,11 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                             }
                             setImage(image);
                             boolean decided = false;
+                            // 註: 依 smali 的 monitor-exit 位置核對，enabled() 判定是在
+                            // mSyncCancelSave 已釋放之後才執行(與第一個 attach 迴圈同一種寫法),
+                            // 故用 directionChanged 記錄「本輪是否呼叫過 createDirection()」，
+                            // 待離開 synchronized 區塊後再檢查。
+                            boolean directionChanged = false;
                             synchronized (mSyncCancelSave) {
                                 if (mIsPanoramaCancel) {
                                     if (pendingCancelSave) {
@@ -2138,6 +2150,10 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                                                         Camera2App.this.startRotatableToast(Camera2App.this.getResources().getString(
                                                                 R.string.cam_strings_panorama_sd_permission_data_storage_info_txt), 3500, false);
                                                     }
+                                                    // 註: 原始 smali 在此處呼叫 setViewsVisibility(VISIBLE)，將頁首/頁尾按鈕
+                                                    // (含快門鍵)重新顯示；先前版本漏掉此呼叫，取消全景拍攝後頁尾按鈕可能
+                                                    // 停留在隱藏/停用狀態，造成「卡快門」的外顯症狀，此為本次修正重點之一。
+                                                    Camera2App.this.setViewsVisibility(View.VISIBLE);
                                                     Camera2App.this.mMorphoCamera.finishState();
                                                 }
                                                 Camera2App.this.mIsNotifySave2Internal = false;
@@ -2199,10 +2215,13 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                                     }
                                     if (direction != mInitParam.direction) {
                                         createDirection(direction);
-                                        if (mDirectionFunction.enabled()) {
-                                            decided = true;
-                                        }
+                                        directionChanged = true;
                                     }
+                                }
+                            }
+                            if (directionChanged) {
+                                if (mDirectionFunction.enabled()) {
+                                    decided = true;
                                 }
                             }
                             if (decided) {
