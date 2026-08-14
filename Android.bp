@@ -1,0 +1,143 @@
+// Prebuilt JNI shared libraries for CameraPanorama
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_jpeg_io_camerapanorama",
+    stem: "libmorpho_jpeg_io",
+    target: {
+        android_arm: {
+            srcs: ["app/src/main/jniLibs/armeabi-v7a/libmorpho_jpeg_io.so"],
+        },
+        android_arm64: {
+            srcs: ["app/src/main/jniLibs/arm64-v8a/libmorpho_jpeg_io.so"],
+        },
+    },
+    compile_multilib: "both",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_memory_allocator_camerapanorama",
+    stem: "libmorpho_memory_allocator",
+    target: {
+        android_arm: {
+            srcs: ["app/src/main/jniLibs/armeabi-v7a/libmorpho_memory_allocator.so"],
+        },
+        android_arm64: {
+            srcs: ["app/src/main/jniLibs/arm64-v8a/libmorpho_memory_allocator.so"],
+        },
+    },
+    compile_multilib: "both",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_panorama_gp2_camerapanorama",
+    stem: "libmorpho_panorama_gp2",
+    target: {
+        android_arm: {
+            srcs: ["app/src/main/jniLibs/armeabi-v7a/libmorpho_panorama_gp2.so"],
+        },
+        android_arm64: {
+            srcs: ["app/src/main/jniLibs/arm64-v8a/libmorpho_panorama_gp2.so"],
+        },
+    },
+    compile_multilib: "both",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmorpho_sensor_fusion_camerapanorama",
+    stem: "libmorpho_sensor_fusion",
+    target: {
+        android_arm: {
+            srcs: ["app/src/main/jniLibs/armeabi-v7a/libmorpho_sensor_fusion.so"],
+        },
+        android_arm64: {
+            srcs: ["app/src/main/jniLibs/arm64-v8a/libmorpho_sensor_fusion.so"],
+        },
+    },
+    compile_multilib: "both",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    prefer: true,
+}
+
+// Compile-only stub JARs (compileOnly in Gradle)
+
+java_import {
+    name: "CameraPanorama-api-stubs",
+    jars: ["app/libs/api-stubs.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "CameraPanorama-extra-stubs",
+    jars: ["app/libs/extra-stubs.jar"],
+    sdk_version: "current",
+}
+
+// Support Library 28 bytecode only (no resources) — see app/build.gradle.kts
+// for why: pulling in the real AARs renumbers resources the original
+// resources.arsc-derived app/src/main/res still refers to by hardcoded hex
+// constant, causing runtime NPEs.
+java_import {
+    name: "CameraPanorama-support-lib-classes",
+    jars: ["app/libs/support-lib-classes.jar"],
+    sdk_version: "current",
+}
+
+// Main CameraPanorama application
+
+android_app {
+    name: "CameraPanorama-release",
+
+    srcs: ["app/src/main/java/**/*.java"],
+
+    resource_dirs: ["app/src/main/res"],
+    manifest: "app/src/main/AndroidManifest.xml",
+
+    libs: [
+        "CameraPanorama-api-stubs",
+        "CameraPanorama-extra-stubs",
+    ],
+
+    static_libs: [
+        "CameraPanorama-support-lib-classes",
+        "android-arch-lifecycle-runtime",
+        "android-arch-lifecycle-viewmodel",
+        "android-arch-lifecycle-livedata-core",
+    ],
+
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+
+    jni_libs: [
+        "libmorpho_jpeg_io_camerapanorama",
+        "libmorpho_memory_allocator_camerapanorama",
+        "libmorpho_panorama_gp2_camerapanorama",
+        "libmorpho_sensor_fusion_camerapanorama",
+    ],
+
+    optimize: {
+        enabled: false,
+    },
+
+    // Disable <uses-library> enforcement - com.sonymobile.camera.addon.api is
+    // not available in the AOSP tree
+    enforce_uses_libs: false,
+}
