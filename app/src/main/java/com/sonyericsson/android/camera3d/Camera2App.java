@@ -4495,7 +4495,9 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
         IntentFilter filter = new IntentFilter();
         filter.addAction("com.sonyericsson.psm.action.CAMERA_HEATED_OVER_CRITICAL");
         filter.addAction("com.sonyericsson.psm.action.CAMERA_HEATED_CLOSE_TO_SHUTDOWN");
-        registerReceiver(mThermalAlertReceiver, filter);
+        // PSM (thermal service) is a separate system process, not this app --
+        // must be EXPORTED or its broadcasts can never reach this receiver.
+        registerReceiver(mThermalAlertReceiver, filter, Context.RECEIVER_EXPORTED);
     }
 
     private boolean isActiveGpsSearchTimer() {
@@ -7279,7 +7281,9 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
         intentFilter.addAction(Intent.ACTION_MEDIA_MOUNTED);
         intentFilter.addAction(Intent.ACTION_MEDIA_UNMOUNTED);
         intentFilter.addDataScheme("file");
-        registerReceiver(mBroadcastReceiver, intentFilter);
+        // Sent by the system storage service, not this app -- must be
+        // EXPORTED or mount/unmount events can never reach this receiver.
+        registerReceiver(mBroadcastReceiver, intentFilter, Context.RECEIVER_EXPORTED);
 
         mThermalAlertReceiver.bindThermalService();
 
