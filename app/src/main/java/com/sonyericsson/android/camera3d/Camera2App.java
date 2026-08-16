@@ -6419,7 +6419,9 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
     @Override
     public void onCaptureCompleted(CaptureRequest request, TotalCaptureResult result) {
         int hardwareLevel = mMorphoCamera.cameraInfo().getHardwareLevel();
-        if (hardwareLevel == 2 || hardwareLevel == 0) {
+        // 原始 smali 是 if-eq/if-eqz 跳到更新區塊「之後」的 :cond_0，亦即 LEGACY(2)
+        // 與 LIMITED(0) 要「跳過」更新，只有其餘等級(本機為 FULL=1)才更新。
+        if (hardwareLevel != 2 && hardwareLevel != 0) {
             mUpdateCameraInfoViewRunnable.setTotalCaptureResult(result);
             mUpdateCameraInfoViewRunnable.run();
         }
