@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">נווט לדף הבית</string>
+    <string name="abc_action_bar_up_description">נווט למעלה</string>
+    <string name="abc_action_menu_overflow_description">עוד אפשרויות</string>
+    <string name="abc_action_mode_done">בוצע</string>
+    <string name="abc_activity_chooser_view_see_all">ראה הכל</string>
+    <string name="abc_activitychooserview_choose_application">בחר אפליקציה</string>
+    <string name="abc_capital_off">כבוי</string>
+    <string name="abc_capital_on">פועל</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+‎</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">מקש רווח</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">תפריט+</string>
+    <string name="abc_search_hint">חיפוש…</string>
+    <string name="abc_searchview_description_clear">מחק שאילתה</string>
+    <string name="abc_searchview_description_query">שאילתת חיפוש</string>
+    <string name="abc_searchview_description_search">חיפוש</string>
+    <string name="abc_searchview_description_submit">שלח שאילתה</string>
+    <string name="abc_searchview_description_voice">חיפוש קולי</string>
+    <string name="abc_shareactionprovider_share_with">שתף עם</string>
+    <string name="abc_shareactionprovider_share_with_application">שתף עם %s</string>
+    <string name="abc_toolbar_collapse_description">כווץ</string>
+    <string name="cam_strings_application_name_panorama_txt">פנורמה</string>
+    <string name="cam_strings_description_panorama_txt">צלם תמונה פנורמית על-ידי סריקת ההתקן שלך</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">אחורה</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">כדי לשמור מיקומים, עליך לאפשר GPS ו/או רשתות אלחוטיות. לאפשר עכשיו?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">שמור מיקום</string>
+    <string name="cam_strings_panorama_camera_sound_txt">צליל</string>
+    <string name="cam_strings_panorama_cancel_txt">ביטול</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">כרטיס SD הוכנס. לשנות את ברירת המחדל לאחסון נתונים לכרטיס SD?</string>
+    <string name="cam_strings_panorama_change_txt">שנה</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">הערה</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">כיוון שגוי</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">אל תציג שוב</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">ייתכן שהמצלמה בשימוש על ידי יישום אחר. סגור את היישום האחר ונסה שוב.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">שגיאה לא ידועה</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">טמפרטורת ההתקן עולה. אם היא תמשיך לעלות, היישום ייסגר באופן אוטומטי.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">המצלמה תכבה כעת באופן זמני כדי להתקרר.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">הקלטה מתבצעת ביישום אחר. לא ניתן להקליט.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">הזיכרון מלא. מחק קבצים אחדים מכרטיס ה-SD.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">הזיכרון מלא. מחק קבצים אחדים מהזיכרון או שנה את ברירת המחדל לאחסון נתונים.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">הזיכרון לא זמין</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">שגיאת זיכרון</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">כרטיס SD אינו זמין</string>
+    <string name="cam_strings_panorama_error_title_txt">שגיאה</string>
+    <string name="cam_strings_panorama_geotagging_txt">שמור מיקום</string>
+    <string name="cam_strings_panorama_guide_direction_txt">הזז התקן באיטיות בכיוון החצים</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">הזז התקן זה במהירות איטית יותר</string>
+    <string name="cam_strings_panorama_no_txt">לא</string>
+    <string name="cam_strings_panorama_ok_txt">אישור</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">אפשר ליישום לשלוט במערכת כדי להשיג צילום יציב, בהתאם לטמפרטורה בהתקן.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">שליטה במערכת</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">לשמור מיקום?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">תייג את התמונות והסרטונים שלך במיקומים שבהם צולמו. באפשרותך לשנות הגדרה זו מאוחר יותר ממיקום השמירה בהגדרות המצלמה.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">פרטי יישום</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s מחייב את ההרשאות הבאות</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">הרשאה ל%1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">לביצוע הפעולה, היישום מחייב את ההרשאות הבאות.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">"כדי להעניק הרשאות, עבור אל 'פרטי יישום' > 'הרשאות'."</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">לא ניתן להמשיך</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">כדי לצלם תמונות וסרטונים</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">כדי לאחזר מיקום</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_read_write_txt">לצורך קריאה ושמירה של תמונות וסרטונים</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">כדי לשמור תמונות וסרטונים</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">אחסון פנימי</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">כרטיס SD</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">אחסון נתונים</string>
+    <string name="cam_strings_panorama_save_destination_txt">אחסון נתונים</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">המסך מוצמד</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">נשמר באחסון הפנימי</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">עבור</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">כדי לאפשר למצלמה להשתמש בכרטיס SD, עבור למסך הבא והענק הרשאות.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"זוהה כרטיס SD חדש שדורש הרשאות.
+
+כדי להשתמש בכרטיס SD זה כאחסון נתונים, בחר בספרייה כרטיס SD או DCIM במסך הבא."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"לא זוהתה ספריית כרטיס SD או DCIM. לא ניתן להשתמש בכרטיס ה-SD.
+
+כדי לקבל הרשאות, שנה את המיקום לשמירה לכרטיס SD או בחר בספרייה המתאימה במסך הבא."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"אותר כרטיס SD חדש שדורש הרשאות.
+הזיכרון הפנימי ישמש לפיכך כברירת המחדל לאחסון נתונים.
+
+כדי להשתמש בכרטיס ה-SD לאחסון נתונים, עבור להגדרות המצלמה ושנה את אפשרות אחסון הנתונים לכרטיס SD."</string>
+    <string name="cam_strings_panorama_store_fail_txt">לא ניתן לשמור</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">רישיונות תוכנה</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">השימוש במצלמה מוגבל משיקולי אבטחה</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">צמצם</string>
+    <string name="cam_strings_panorama_volumekey_txt">לחצן עוצמת הקול</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">עוצמת קול</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">זום</string>
+    <string name="cam_strings_panorama_yes_txt">כן</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">לא ניתן לבצע זום כעת</string>
+    <string name="search_menu_title">חיפוש</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

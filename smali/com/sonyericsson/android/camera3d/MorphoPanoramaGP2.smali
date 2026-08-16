@@ -1,0 +1,2326 @@
+.class public Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;
+.super Ljava/lang/Object;
+.source "MorphoPanoramaGP2.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;,
+        Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$InitParam;
+    }
+.end annotation
+
+
+# static fields
+.field public static final DIRECTION_AUTO:I = 0x0
+
+.field public static final DIRECTION_HORIZONTAL:I = 0x2
+
+.field public static final DIRECTION_HORIZONTAL_LEFT:I = 0x5
+
+.field public static final DIRECTION_HORIZONTAL_RIGHT:I = 0x6
+
+.field public static final DIRECTION_VERTICAL:I = 0x1
+
+.field public static final DIRECTION_VERTICAL_DOWN:I = 0x4
+
+.field public static final DIRECTION_VERTICAL_UP:I = 0x3
+
+.field public static final ERROR_INVALID_DIR:I = -0x3fffffff
+
+.field public static final MODE_PANORAMA:I = 0x0
+
+.field public static final MODE_SCANNER:I = 0x1
+
+.field private static final POINT_INFO_SIZE:I = 0x2
+
+.field private static final POINT_X_OFFSET:I = 0x0
+
+.field private static final POINT_Y_OFFSET:I = 0x1
+
+.field private static final RECT_BOTTOM_OFFSET:I = 0x3
+
+.field private static final RECT_INFO_SIZE:I = 0x4
+
+.field private static final RECT_LEFT_OFFSET:I = 0x0
+
+.field private static final RECT_RIGHT_OFFSET:I = 0x2
+
+.field private static final RECT_TOP_OFFSET:I = 0x1
+
+.field private static final USE_STANDARD_DEVIATION:Z = true
+
+
+# instance fields
+.field private mAttachCount:J
+
+.field private mAttachEnabled:Z
+
+.field private mAttachFirstNanoTime:J
+
+.field private mAttachLastNanoTime:J
+
+.field private mFolderPathInputImages:Ljava/lang/String;
+
+.field private final mGravity:Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;
+
+.field private mInputImageFormat:Ljava/lang/String;
+
+.field private mIntervalArray:Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/ArrayList<",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private mNative:J
+
+.field private mSaveInputImages:Z
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 26
+    :try_start_0
+    const-string v0, "morpho_panorama_gp2"
+
+    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+    :try_end_0
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    .line 29
+    invoke-virtual {v0}, Ljava/lang/UnsatisfiedLinkError;->getMessage()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "MorphoPanoramaGP2"
+
+    invoke-static {v1, v0}, Lcom/sonyericsson/android/camera3d/utils/LogFilter;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 30
+    const-string v0, "can\'t loadLibrary"
+
+    invoke-static {v1, v0}, Lcom/sonyericsson/android/camera3d/utils/LogFilter;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 4
+
+    .line 107
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-wide/16 v0, 0x0
+
+    .line 50
+    iput-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const/4 v2, 0x0
+
+    .line 51
+    iput-boolean v2, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mSaveInputImages:Z
+
+    const/4 v3, 0x0
+
+    .line 54
+    iput-object v3, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mIntervalArray:Ljava/util/ArrayList;
+
+    .line 55
+    iput-boolean v2, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachEnabled:Z
+
+    .line 57
+    new-instance v2, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;
+
+    invoke-direct {v2}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;-><init>()V
+
+    iput-object v2, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mGravity:Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;
+
+    .line 201
+    iput-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachFirstNanoTime:J
+
+    .line 202
+    iput-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachLastNanoTime:J
+
+    .line 109
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mIntervalArray:Ljava/util/ArrayList;
+
+    return-void
+.end method
+
+.method private native createNativeObject()J
+.end method
+
+.method private native deleteNativeObject(J)V
+.end method
+
+.method public static getGain(Landroid/media/Image;)D
+    .locals 15
+
+    .line 465
+    invoke-static {p0}, Lcom/sonyericsson/android/camera3d/PanoramaGP2ImageFormat;->getImageFormat(Landroid/media/Image;)Ljava/lang/String;
+
+    move-result-object v9
+
+    const/4 v0, 0x1
+
+    .line 466
+    new-array v13, v0, [D
+
+    .line 467
+    invoke-virtual {p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v1
+
+    const/4 v14, 0x0
+
+    aget-object v1, v1, v14
+
+    invoke-virtual {v1}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v2
+
+    aget-object v2, v2, v0
+
+    invoke-virtual {v2}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
+
+    move-result-object v2
+
+    invoke-virtual {p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v3
+
+    const/4 v4, 0x2
+
+    aget-object v3, v3, v4
+
+    invoke-virtual {v3}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
+
+    move-result-object v3
+
+    .line 468
+    invoke-virtual {p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v5
+
+    aget-object v5, v5, v14
+
+    invoke-virtual {v5}, Landroid/media/Image$Plane;->getRowStride()I
+
+    move-result v5
+
+    invoke-virtual {p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v6
+
+    aget-object v6, v6, v0
+
+    invoke-virtual {v6}, Landroid/media/Image$Plane;->getRowStride()I
+
+    move-result v6
+
+    invoke-virtual {p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v7
+
+    aget-object v7, v7, v4
+
+    invoke-virtual {v7}, Landroid/media/Image$Plane;->getRowStride()I
+
+    move-result v7
+
+    .line 469
+    invoke-virtual {p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v8
+
+    aget-object v8, v8, v14
+
+    invoke-virtual {v8}, Landroid/media/Image$Plane;->getPixelStride()I
+
+    move-result v8
+
+    invoke-virtual {p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v10
+
+    aget-object v0, v10, v0
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getPixelStride()I
+
+    move-result v10
+
+    invoke-virtual {p0}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v4
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getPixelStride()I
+
+    move-result v11
+
+    .line 470
+    invoke-virtual {p0}, Landroid/media/Image;->getWidth()I
+
+    move-result v12
+
+    invoke-virtual {p0}, Landroid/media/Image;->getHeight()I
+
+    move-result p0
+
+    move-object v0, v1
+
+    move-object v1, v2
+
+    move-object v2, v3
+
+    move v3, v5
+
+    move v4, v6
+
+    move v5, v7
+
+    move v6, v8
+
+    move v7, v10
+
+    move v8, v11
+
+    move v10, v12
+
+    move v11, p0
+
+    move-object v12, v13
+
+    .line 467
+    invoke-static/range {v0 .. v12}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeGetGain(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIIILjava/lang/String;II[D)I
+
+    move-result p0
+
+    if-eqz p0, :cond_0
+
+    .line 473
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "nativeGetGain error. ret="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v0, "Camera2App"
+
+    invoke-static {v0, p0}, Lcom/sonyericsson/android/camera3d/utils/LogFilter;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-wide/high16 v0, 0x3ff0000000000000L    # 1.0
+
+    return-wide v0
+
+    .line 476
+    :cond_0
+    aget-wide v0, v13, v14
+
+    return-wide v0
+.end method
+
+.method public static getVersion()Ljava/lang/String;
+    .locals 1
+
+    .line 119
+    invoke-static {}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeGetVersion()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method private native nativeAttach(J[B)I
+.end method
+
+.method private native nativeAttachYuv(JLjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIIILjava/lang/String;[D)I
+.end method
+
+.method private native nativeEnd(J)I
+.end method
+
+.method private native nativeFinish(J)I
+.end method
+
+.method private native nativeGetClippingRect(J[I)I
+.end method
+
+.method private native nativeGetDirection(J[I)I
+.end method
+
+.method private static native nativeGetGain(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIIILjava/lang/String;II[D)I
+.end method
+
+.method private native nativeGetImage(J[BIIII)I
+.end method
+
+.method private native nativeGetOutputImage(J[BIIII)I
+.end method
+
+.method private native nativeGetOutputSize(J[I)I
+.end method
+
+.method private native nativeGetRotatedSmallImage(J[BIIIIII)I
+.end method
+
+.method private static native nativeGetVersion()Ljava/lang/String;
+.end method
+
+.method private native nativeInitialize(JLcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$InitParam;)I
+.end method
+
+.method private static native nativeRenderByteBuffer(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIIILjava/lang/String;II)I
+.end method
+
+.method private native nativeSaveYuv(JLjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIIILjava/lang/String;)I
+.end method
+
+.method private native nativeSetAovGain(JD)I
+.end method
+
+.method private native nativeSetCalcseamPixnum(JI)I
+.end method
+
+.method private native nativeSetDistortionCorrectionParam(JDDDD)I
+.end method
+
+.method private native nativeSetDrawThreshold(JD)I
+.end method
+
+.method private native nativeSetGyroscopeData(J[Lcom/sonyericsson/android/camera3d/core/MorphoSensorFusion$SensorData;)I
+.end method
+
+.method private native nativeSetImageFormat(JLjava/lang/String;)I
+.end method
+
+.method private native nativeSetInitialRotationByGravity(JDDD)I
+.end method
+
+.method private native nativeSetMotionDetectionMode(JI)I
+.end method
+
+.method private native nativeSetNoiseReductionParam(JI)I
+.end method
+
+.method private native nativeSetPreviewImage(JII)I
+.end method
+
+.method private native nativeSetProjectionMode(JI)I
+.end method
+
+.method private native nativeSetRotationRatio(JD)I
+.end method
+
+.method private native nativeSetRotationVector(J[D)I
+.end method
+
+.method private native nativeSetSeamsearchRatio(JD)I
+.end method
+
+.method private native nativeSetShrinkRatio(JD)I
+.end method
+
+.method private native nativeSetUnsharpStrength(JI)I
+.end method
+
+.method private native nativeSetUseDeform(JI)I
+.end method
+
+.method private native nativeSetUseLuminanceCorrection(JI)I
+.end method
+
+.method private native nativeSetZrotationCoeff(JD)I
+.end method
+
+.method private native nativeStart(JII)I
+.end method
+
+.method private native nativeUpdatePreviewImage(JLandroid/graphics/Bitmap;)I
+.end method
+
+.method private static native nativeYuv2Bitmap8888([BIILandroid/graphics/Bitmap;II)I
+.end method
+
+.method public static renderByteBuffer(Ljava/nio/ByteBuffer;Landroid/media/Image;)I
+    .locals 16
+
+    .line 756
+    invoke-static/range {p1 .. p1}, Lcom/sonyericsson/android/camera3d/PanoramaGP2ImageFormat;->getImageFormat(Landroid/media/Image;)Ljava/lang/String;
+
+    move-result-object v10
+
+    .line 757
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    aget-object v0, v0, v1
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
+
+    move-result-object v2
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    const/4 v3, 0x1
+
+    aget-object v0, v0, v3
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
+
+    move-result-object v4
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    const/4 v5, 0x2
+
+    aget-object v0, v0, v5
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
+
+    move-result-object v6
+
+    .line 758
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v1
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getRowStride()I
+
+    move-result v7
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v3
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getRowStride()I
+
+    move-result v8
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v5
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getRowStride()I
+
+    move-result v9
+
+    .line 759
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v1
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getPixelStride()I
+
+    move-result v11
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v3
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getPixelStride()I
+
+    move-result v12
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v5
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getPixelStride()I
+
+    move-result v13
+
+    .line 760
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getWidth()I
+
+    move-result v14
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getHeight()I
+
+    move-result v15
+
+    move-object/from16 v0, p0
+
+    move-object v1, v2
+
+    move-object v2, v4
+
+    move-object v3, v6
+
+    move v4, v7
+
+    move v5, v8
+
+    move v6, v9
+
+    move v7, v11
+
+    move v8, v12
+
+    move v9, v13
+
+    move v11, v14
+
+    move v12, v15
+
+    .line 757
+    invoke-static/range {v0 .. v12}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeRenderByteBuffer(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIIILjava/lang/String;II)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static yuv2Bitmap8888([BIILandroid/graphics/Bitmap;I)I
+    .locals 6
+
+    const/4 v5, 0x1
+
+    move-object v0, p0
+
+    move v1, p1
+
+    move v2, p2
+
+    move-object v3, p3
+
+    move v4, p4
+
+    .line 764
+    invoke-static/range {v0 .. v5}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeYuv2Bitmap8888([BIILandroid/graphics/Bitmap;II)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static yvu2Bitmap8888([BIILandroid/graphics/Bitmap;I)I
+    .locals 6
+
+    const/4 v5, 0x0
+
+    move-object v0, p0
+
+    move v1, p1
+
+    move v2, p2
+
+    move-object v3, p3
+
+    move v4, p4
+
+    .line 768
+    invoke-static/range {v0 .. v5}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeYuv2Bitmap8888([BIILandroid/graphics/Bitmap;II)I
+
+    move-result p0
+
+    return p0
+.end method
+
+
+# virtual methods
+.method public attach(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIII[D)I
+    .locals 17
+
+    move-object/from16 v14, p0
+
+    .line 247
+    iget-wide v0, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v0, v0, v2
+
+    if-nez v0, :cond_0
+
+    const v0, -0x7ffffffe
+
+    return v0
+
+    .line 251
+    :cond_0
+    iget-wide v0, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    cmp-long v0, v0, v2
+
+    if-nez v0, :cond_1
+
+    .line 252
+    invoke-static {}, Ljava/lang/System;->nanoTime()J
+
+    move-result-wide v0
+
+    iput-wide v0, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachFirstNanoTime:J
+
+    .line 257
+    :cond_1
+    invoke-static {}, Ljava/lang/System;->nanoTime()J
+
+    move-result-wide v15
+
+    .line 260
+    iget-boolean v0, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mSaveInputImages:Z
+
+    if-eqz v0, :cond_2
+
+    .line 261
+    sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
+
+    iget-object v1, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mFolderPathInputImages:Ljava/lang/String;
+
+    iget-wide v2, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v2
+
+    filled-new-array {v1, v2}, [Ljava/lang/Object;
+
+    move-result-object v1
+
+    const-string v2, "%s/%06d.yuv"
+
+    invoke-static {v0, v2, v1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    :goto_0
+    move-object v12, v0
+
+    .line 263
+    iget-boolean v0, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachEnabled:Z
+
+    if-eqz v0, :cond_3
+
+    .line 264
+    iget-wide v1, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    move-object/from16 v0, p0
+
+    move-object/from16 v3, p1
+
+    move-object/from16 v4, p2
+
+    move-object/from16 v5, p3
+
+    move/from16 v6, p4
+
+    move/from16 v7, p5
+
+    move/from16 v8, p6
+
+    move/from16 v9, p7
+
+    move/from16 v10, p8
+
+    move/from16 v11, p9
+
+    move-object/from16 v13, p10
+
+    invoke-direct/range {v0 .. v13}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeAttachYuv(JLjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIIILjava/lang/String;[D)I
+
+    move-result v0
+
+    goto :goto_1
+
+    :cond_3
+    if-eqz v12, :cond_4
+
+    .line 269
+    iget-wide v1, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    move-object/from16 v0, p0
+
+    move-object/from16 v3, p1
+
+    move-object/from16 v4, p2
+
+    move-object/from16 v5, p3
+
+    move/from16 v6, p4
+
+    move/from16 v7, p5
+
+    move/from16 v8, p6
+
+    move/from16 v9, p7
+
+    move/from16 v10, p8
+
+    move/from16 v11, p9
+
+    invoke-direct/range {v0 .. v12}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSaveYuv(JLjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIIILjava/lang/String;)I
+
+    move-result v0
+
+    goto :goto_1
+
+    :cond_4
+    const/4 v0, 0x0
+
+    .line 274
+    :goto_1
+    invoke-static {}, Ljava/lang/System;->nanoTime()J
+
+    move-result-wide v1
+
+    .line 275
+    sget-object v3, Ljava/util/Locale;->US:Ljava/util/Locale;
+
+    sub-long v4, v1, v15
+
+    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v4
+
+    filled-new-array {v4}, [Ljava/lang/Object;
+
+    move-result-object v4
+
+    const-string v5, "Performance.JNI %1$,3d nsec"
+
+    invoke-static {v3, v5, v4}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v3
+
+    const-string v4, "Camera2App"
+
+    invoke-static {v4, v3}, Lcom/sonyericsson/android/camera3d/utils/LogFilter;->v(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 276
+    iget-wide v3, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    const-wide/16 v5, 0x1
+
+    add-long/2addr v3, v5
+
+    iput-wide v3, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    cmp-long v3, v3, v5
+
+    if-lez v3, :cond_5
+
+    .line 279
+    iget-object v3, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mIntervalArray:Ljava/util/ArrayList;
+
+    iget-wide v4, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachLastNanoTime:J
+
+    sub-long v4, v1, v4
+
+    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    .line 282
+    :cond_5
+    iput-wide v1, v14, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachLastNanoTime:J
+
+    return v0
+.end method
+
+.method public attach([B)I
+    .locals 5
+
+    .line 178
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_1
+
+    .line 180
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeAttach(J[B)I
+
+    move-result v0
+
+    .line 181
+    iget-boolean v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mSaveInputImages:Z
+
+    if-eqz v1, :cond_0
+
+    .line 182
+    sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
+
+    iget-wide v2, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Ljava/lang/Object;
+
+    move-result-object v2
+
+    const-string v3, "%06d"
+
+    invoke-static {v1, v3, v2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 183
+    iget-object v2, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mFolderPathInputImages:Ljava/lang/String;
+
+    invoke-static {p1, v2, v1}, Lcom/sonyericsson/android/camera3d/Camera2App;->d_save_raw([BLjava/lang/String;Ljava/lang/String;)V
+
+    .line 185
+    :cond_0
+    iget-wide v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    const-wide/16 v3, 0x1
+
+    add-long/2addr v1, v3
+
+    iput-wide v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    goto :goto_0
+
+    :cond_1
+    const v0, -0x7ffffffe
+
+    :goto_0
+    return v0
+.end method
+
+.method public disableSaveInputImages()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 433
+    iput-boolean v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mSaveInputImages:Z
+
+    return-void
+.end method
+
+.method public enableSaveInputImages(Ljava/lang/String;)V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    .line 428
+    iput-boolean v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mSaveInputImages:Z
+
+    .line 429
+    iput-object p1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mFolderPathInputImages:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public end()I
+    .locals 4
+
+    .line 496
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 497
+    invoke-direct {p0, v0, v1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeEnd(J)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    return p0
+.end method
+
+.method public finish()I
+    .locals 6
+
+    .line 143
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v4, v0, v2
+
+    if-eqz v4, :cond_0
+
+    .line 145
+    invoke-direct {p0, v0, v1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeFinish(J)I
+
+    move-result v0
+
+    .line 146
+    iget-wide v4, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    invoke-direct {p0, v4, v5}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->deleteNativeObject(J)V
+
+    .line 147
+    iput-wide v2, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    goto :goto_0
+
+    :cond_0
+    const v0, -0x7ffffffe
+
+    :goto_0
+    return v0
+.end method
+
+.method public getAttachAve()F
+    .locals 8
+
+    .line 205
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    const/4 v3, 0x0
+
+    if-nez v2, :cond_0
+
+    return v3
+
+    .line 208
+    :cond_0
+    iget-wide v4, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachLastNanoTime:J
+
+    iget-wide v6, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachFirstNanoTime:J
+
+    sub-long/2addr v4, v6
+
+    long-to-float p0, v4
+
+    long-to-float v0, v0
+
+    div-float/2addr p0, v0
+
+    const v0, 0x49742400    # 1000000.0f
+
+    div-float/2addr p0, v0
+
+    cmpl-float v0, p0, v3
+
+    if-nez v0, :cond_1
+
+    return v3
+
+    :cond_1
+    return p0
+.end method
+
+.method public getAttachCount()J
+    .locals 2
+
+    .line 424
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    return-wide v0
+.end method
+
+.method public getAttachFps()F
+    .locals 2
+
+    .line 235
+    invoke-virtual {p0}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->getAttachAve()F
+
+    move-result p0
+
+    const/4 v0, 0x0
+
+    cmpl-float v1, p0, v0
+
+    if-nez v1, :cond_0
+
+    return v0
+
+    :cond_0
+    const/high16 v0, 0x447a0000    # 1000.0f
+
+    div-float/2addr v0, p0
+
+    return v0
+.end method
+
+.method public getAttachStandardDeviation()F
+    .locals 9
+
+    .line 220
+    invoke-virtual {p0}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->getAttachAve()F
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    cmpl-float v2, v0, v1
+
+    if-nez v2, :cond_0
+
+    return v1
+
+    .line 225
+    :cond_0
+    iget-object v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mIntervalArray:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    const-wide/16 v2, 0x0
+
+    const/4 v4, 0x0
+
+    :goto_0
+    if-ge v4, v1, :cond_1
+
+    .line 227
+    iget-object v5, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mIntervalArray:Ljava/util/ArrayList;
+
+    invoke-virtual {v5, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Ljava/lang/Long;
+
+    invoke-virtual {v5}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v5
+
+    const-wide/32 v7, 0xf4240
+
+    div-long/2addr v5, v7
+
+    long-to-float v5, v5
+
+    sub-float/2addr v5, v0
+
+    mul-float/2addr v5, v5
+
+    float-to-double v5, v5
+
+    add-double/2addr v2, v5
+
+    add-int/lit8 v4, v4, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    int-to-double v0, v1
+
+    div-double/2addr v2, v0
+
+    .line 230
+    invoke-static {v2, v3}, Ljava/lang/Math;->sqrt(D)D
+
+    move-result-wide v0
+
+    double-to-float p0, v0
+
+    return p0
+.end method
+
+.method public getClippingRect(Landroid/graphics/Rect;)I
+    .locals 6
+
+    const/4 v0, 0x4
+
+    .line 340
+    new-array v0, v0, [I
+
+    .line 342
+    iget-wide v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v3, v1, v3
+
+    const/4 v4, 0x0
+
+    if-eqz v3, :cond_0
+
+    .line 344
+    invoke-direct {p0, v1, v2, v0}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeGetClippingRect(J[I)I
+
+    move-result p0
+
+    if-nez p0, :cond_1
+
+    .line 347
+    aget v1, v0, v4
+
+    const/4 v2, 0x1
+
+    aget v2, v0, v2
+
+    const/4 v3, 0x2
+
+    aget v3, v0, v3
+
+    const/4 v5, 0x3
+
+    aget v0, v0, v5
+
+    invoke-virtual {p1, v1, v2, v3, v0}, Landroid/graphics/Rect;->set(IIII)V
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :cond_1
+    :goto_0
+    if-eqz p0, :cond_2
+
+    .line 360
+    invoke-virtual {p1, v4, v4, v4, v4}, Landroid/graphics/Rect;->set(IIII)V
+
+    :cond_2
+    return p0
+.end method
+
+.method public getDirection()I
+    .locals 5
+
+    const/4 v0, -0x1
+
+    .line 482
+    filled-new-array {v0}, [I
+
+    move-result-object v0
+
+    .line 483
+    iget-wide v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v3, v1, v3
+
+    if-eqz v3, :cond_0
+
+    .line 484
+    invoke-direct {p0, v1, v2, v0}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeGetDirection(J[I)I
+
+    move-result p0
+
+    if-eqz p0, :cond_0
+
+    .line 486
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string v2, "MorphoPanoramaGP2.getDirection error. ret="
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "Camera2App"
+
+    invoke-static {v1, p0}, Lcom/sonyericsson/android/camera3d/utils/LogFilter;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 490
+    aget p0, v0, p0
+
+    return p0
+.end method
+
+.method public getImage([BLandroid/graphics/Rect;)I
+    .locals 8
+
+    .line 291
+    iget-wide v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v0, v1, v3
+
+    if-eqz v0, :cond_0
+
+    .line 293
+    iget v4, p2, Landroid/graphics/Rect;->left:I
+
+    iget v5, p2, Landroid/graphics/Rect;->top:I
+
+    iget v6, p2, Landroid/graphics/Rect;->right:I
+
+    iget v7, p2, Landroid/graphics/Rect;->bottom:I
+
+    move-object v0, p0
+
+    move-object v3, p1
+
+    invoke-direct/range {v0 .. v7}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeGetImage(J[BIIII)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public getInputFolderPath()Ljava/lang/String;
+    .locals 0
+
+    .line 437
+    iget-object p0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mFolderPathInputImages:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public getInputImageFormat()Ljava/lang/String;
+    .locals 0
+
+    .line 384
+    iget-object p0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mInputImageFormat:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public getLastGravity()Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;
+    .locals 0
+
+    .line 579
+    iget-object p0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mGravity:Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;
+
+    invoke-virtual {p0}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;->copyInstance()Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getOutputImage([BLandroid/graphics/Rect;)I
+    .locals 8
+
+    .line 518
+    iget-wide v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v0, v1, v3
+
+    if-eqz v0, :cond_0
+
+    .line 519
+    iget v4, p2, Landroid/graphics/Rect;->left:I
+
+    iget v5, p2, Landroid/graphics/Rect;->top:I
+
+    iget v6, p2, Landroid/graphics/Rect;->right:I
+
+    iget v7, p2, Landroid/graphics/Rect;->bottom:I
+
+    move-object v0, p0
+
+    move-object v3, p1
+
+    invoke-direct/range {v0 .. v7}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeGetOutputImage(J[BIIII)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public getOutputImageSize([I)I
+    .locals 4
+
+    .line 506
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 507
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeGetOutputSize(J[I)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public getRotatedSmallImage([BLandroid/graphics/Rect;II)I
+    .locals 10
+
+    .line 307
+    iget-wide v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v0, v1, v3
+
+    if-eqz v0, :cond_0
+
+    .line 309
+    iget v4, p2, Landroid/graphics/Rect;->left:I
+
+    iget v5, p2, Landroid/graphics/Rect;->top:I
+
+    iget v6, p2, Landroid/graphics/Rect;->right:I
+
+    iget v7, p2, Landroid/graphics/Rect;->bottom:I
+
+    move-object v0, p0
+
+    move-object v3, p1
+
+    move v8, p3
+
+    move v9, p4
+
+    invoke-direct/range {v0 .. v9}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeGetRotatedSmallImage(J[BIIIIII)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public initialize(Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$InitParam;)I
+    .locals 4
+
+    .line 126
+    invoke-direct {p0}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->createNativeObject()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 129
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeInitialize(JLcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$InitParam;)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffc
+
+    :goto_0
+    return p0
+.end method
+
+.method public inputSave(Landroid/media/Image;)I
+    .locals 19
+
+    move-object/from16 v13, p0
+
+    .line 441
+    iget-wide v0, v13, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v0, v0, v2
+
+    if-nez v0, :cond_0
+
+    const v0, -0x7ffffffe
+
+    return v0
+
+    .line 447
+    :cond_0
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v14
+
+    .line 450
+    iget-boolean v0, v13, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mSaveInputImages:Z
+
+    if-eqz v0, :cond_1
+
+    .line 451
+    sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
+
+    iget-object v1, v13, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mFolderPathInputImages:Ljava/lang/String;
+
+    iget-wide v2, v13, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v2
+
+    filled-new-array {v1, v2}, [Ljava/lang/Object;
+
+    move-result-object v1
+
+    const-string v2, "%s/%06d.yuv"
+
+    invoke-static {v0, v2, v1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    :goto_0
+    move-object v12, v0
+
+    .line 453
+    iget-wide v1, v13, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    const/4 v3, 0x0
+
+    aget-object v0, v0, v3
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
+
+    move-result-object v4
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    const/4 v5, 0x1
+
+    aget-object v0, v0, v5
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
+
+    move-result-object v6
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    const/4 v7, 0x2
+
+    aget-object v0, v0, v7
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getBuffer()Ljava/nio/ByteBuffer;
+
+    move-result-object v8
+
+    .line 454
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v3
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getRowStride()I
+
+    move-result v9
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v5
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getRowStride()I
+
+    move-result v10
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v7
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getRowStride()I
+
+    move-result v11
+
+    .line 455
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v3
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getPixelStride()I
+
+    move-result v16
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v5
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getPixelStride()I
+
+    move-result v17
+
+    invoke-virtual/range {p1 .. p1}, Landroid/media/Image;->getPlanes()[Landroid/media/Image$Plane;
+
+    move-result-object v0
+
+    aget-object v0, v0, v7
+
+    invoke-virtual {v0}, Landroid/media/Image$Plane;->getPixelStride()I
+
+    move-result v18
+
+    move-object/from16 v0, p0
+
+    move-object v3, v4
+
+    move-object v4, v6
+
+    move-object v5, v8
+
+    move v6, v9
+
+    move v7, v10
+
+    move v8, v11
+
+    move/from16 v9, v16
+
+    move/from16 v10, v17
+
+    move/from16 v11, v18
+
+    .line 453
+    invoke-direct/range {v0 .. v12}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSaveYuv(JLjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;IIIIIILjava/lang/String;)I
+
+    move-result v0
+
+    .line 456
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v1
+
+    .line 457
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "Performance.JNI "
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    sub-long/2addr v1, v14
+
+    invoke-virtual {v3, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v2, " msec"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "Camera2App"
+
+    invoke-static {v2, v1}, Lcom/sonyericsson/android/camera3d/utils/LogFilter;->v(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 458
+    iget-wide v1, v13, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    const-wide/16 v3, 0x1
+
+    add-long/2addr v1, v3
+
+    iput-wide v1, v13, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    return v0
+.end method
+
+.method public setAovGain(D)I
+    .locals 4
+
+    .line 710
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 712
+    invoke-direct {p0, v0, v1, p1, p2}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetAovGain(JD)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setAttachEnabled(Z)V
+    .locals 0
+
+    .line 114
+    iput-boolean p1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachEnabled:Z
+
+    return-void
+.end method
+
+.method public setCalcseamPixnum(I)I
+    .locals 4
+
+    .line 547
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 549
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetCalcseamPixnum(JI)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setDistortionCorrectionParam(DDDD)I
+    .locals 11
+
+    move-object v0, p0
+
+    .line 742
+    iget-wide v1, v0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v3, v1, v3
+
+    if-eqz v3, :cond_0
+
+    move-object v0, p0
+
+    move-wide v3, p1
+
+    move-wide v5, p3
+
+    move-wide/from16 v7, p5
+
+    move-wide/from16 v9, p7
+
+    .line 744
+    invoke-direct/range {v0 .. v10}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetDistortionCorrectionParam(JDDDD)I
+
+    move-result v0
+
+    goto :goto_0
+
+    :cond_0
+    const v0, -0x7ffffffe
+
+    :goto_0
+    return v0
+.end method
+
+.method public setDrawThreshold(D)I
+    .locals 4
+
+    .line 650
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 652
+    invoke-direct {p0, v0, v1, p1, p2}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetDrawThreshold(JD)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setGyroscopeData([Lcom/sonyericsson/android/camera3d/core/MorphoSensorFusion$SensorData;)I
+    .locals 4
+
+    .line 666
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 668
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetGyroscopeData(J[Lcom/sonyericsson/android/camera3d/core/MorphoSensorFusion$SensorData;)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setInitialRotationByGravity(DDD)I
+    .locals 9
+
+    .line 563
+    iget-wide v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v3, 0x0
+
+    cmp-long v0, v1, v3
+
+    if-eqz v0, :cond_0
+
+    move-object v0, p0
+
+    move-wide v3, p1
+
+    move-wide v5, p3
+
+    move-wide v7, p5
+
+    .line 565
+    invoke-direct/range {v0 .. v8}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetInitialRotationByGravity(JDDD)I
+
+    move-result v0
+
+    .line 566
+    iget-object v1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mGravity:Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;
+
+    iput-wide p1, v1, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;->x:D
+
+    .line 567
+    iget-object p1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mGravity:Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;
+
+    iput-wide p3, p1, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;->y:D
+
+    .line 568
+    iget-object p0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mGravity:Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;
+
+    iput-wide p5, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2$GravityParam;->z:D
+
+    goto :goto_0
+
+    :cond_0
+    const v0, -0x7ffffffe
+
+    :goto_0
+    return v0
+.end method
+
+.method public setInputImageFormat(Ljava/lang/String;)I
+    .locals 4
+
+    .line 407
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mInputImageFormat:Ljava/lang/String;
+
+    .line 408
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 410
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetImageFormat(JLjava/lang/String;)I
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    .line 412
+    iput-object p1, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mInputImageFormat:Ljava/lang/String;
+
+    goto :goto_0
+
+    :cond_0
+    const v0, -0x7ffffffe
+
+    :cond_1
+    :goto_0
+    return v0
+.end method
+
+.method public setMotionDetectionMode(I)I
+    .locals 4
+
+    .line 791
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 793
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetMotionDetectionMode(JI)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setNoiseReductionParam(I)I
+    .locals 4
+
+    .line 807
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 809
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetNoiseReductionParam(JI)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setPreviewImage(II)I
+    .locals 4
+
+    .line 330
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-nez v2, :cond_0
+
+    const p0, -0x7ffffffe
+
+    return p0
+
+    .line 334
+    :cond_0
+    invoke-direct {p0, v0, v1, p1, p2}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetPreviewImage(JII)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public setProjectionMode(I)I
+    .locals 4
+
+    .line 775
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 777
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetProjectionMode(JI)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setRotationRatio(D)I
+    .locals 4
+
+    .line 726
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 728
+    invoke-direct {p0, v0, v1, p1, p2}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetRotationRatio(JD)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setRotationVector([D)I
+    .locals 4
+
+    .line 682
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 684
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetRotationVector(J[D)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setSeamsearchRatio(D)I
+    .locals 4
+
+    .line 618
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 620
+    invoke-direct {p0, v0, v1, p1, p2}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetSeamsearchRatio(JD)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setShrinkRatio(D)I
+    .locals 4
+
+    .line 531
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 533
+    invoke-direct {p0, v0, v1, p1, p2}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetShrinkRatio(JD)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setUnsharpStrength(I)I
+    .locals 4
+
+    .line 697
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 698
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetUnsharpStrength(JI)I
+
+    move-result p0
+
+    return p0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    return p0
+.end method
+
+.method public setUseDeform(Z)I
+    .locals 4
+
+    .line 586
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 588
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetUseDeform(JI)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setUseLuminanceCorrection(Z)I
+    .locals 4
+
+    .line 602
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 604
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetUseLuminanceCorrection(JI)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public setZrotationCoeff(D)I
+    .locals 4
+
+    .line 634
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-eqz v2, :cond_0
+
+    .line 636
+    invoke-direct {p0, v0, v1, p1, p2}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeSetZrotationCoeff(JD)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const p0, -0x7ffffffe
+
+    :goto_0
+    return p0
+.end method
+
+.method public start(II)I
+    .locals 5
+
+    .line 161
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v4, v0, v2
+
+    if-eqz v4, :cond_0
+
+    .line 163
+    invoke-direct {p0, v0, v1, p1, p2}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeStart(JII)I
+
+    move-result p1
+
+    .line 164
+    iput-wide v2, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mAttachCount:J
+
+    goto :goto_0
+
+    :cond_0
+    const p1, -0x7ffffffe
+
+    :goto_0
+    return p1
+.end method
+
+.method public updatePreviewImage(Landroid/graphics/Bitmap;)I
+    .locals 4
+
+    .line 321
+    iget-wide v0, p0, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->mNative:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-nez v2, :cond_0
+
+    const p0, -0x7ffffffe
+
+    return p0
+
+    .line 325
+    :cond_0
+    invoke-direct {p0, v0, v1, p1}, Lcom/sonyericsson/android/camera3d/MorphoPanoramaGP2;->nativeUpdatePreviewImage(JLandroid/graphics/Bitmap;)I
+
+    move-result p0
+
+    return p0
+.end method

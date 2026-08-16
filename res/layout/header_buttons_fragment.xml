@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/header_icon_container_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/image_button_settings" android:background="@android:color/transparent" android:layout_width="@dimen/header_icon_width" android:layout_height="@dimen/header_icon_width" android:src="@drawable/cam_menu_icn" android:contentDescription="@string/cam_strings_accessibility_quick_setting_menu_txt" android:layout_marginEnd="@dimen/header_icon_margin_end" />
+</LinearLayout>

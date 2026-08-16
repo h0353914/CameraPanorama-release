@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modes>
+    <mode descriptionLabel="@string/cam_strings_description_panorama_txt" name="capturing_mode_sweep_panorama" selectorIcon="@drawable/cam_cap_mode_sweep_panorama_icn" selectorLabel="@string/cam_strings_application_name_panorama_txt" shortcutIcon="@drawable/cam_app_shortcut_sweep_panorama_icn" shortcutLabel="@string/cam_strings_application_name_panorama_txt" />
+</modes>

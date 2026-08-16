@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigasi ke beranda</string>
+    <string name="abc_action_bar_up_description">Navigasi naik</string>
+    <string name="abc_action_menu_overflow_description">Opsi lain</string>
+    <string name="abc_action_mode_done">Selesai</string>
+    <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
+    <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
+    <string name="abc_capital_off">NONAKTIF</string>
+    <string name="abc_capital_on">AKTIF</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">spasi</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Telusuri...</string>
+    <string name="abc_searchview_description_clear">Hapus kueri</string>
+    <string name="abc_searchview_description_query">Kueri penelusuran</string>
+    <string name="abc_searchview_description_search">Telusuri</string>
+    <string name="abc_searchview_description_submit">Kirim kueri</string>
+    <string name="abc_searchview_description_voice">Penelusuran suara</string>
+    <string name="abc_shareactionprovider_share_with">Bagikan dengan</string>
+    <string name="abc_shareactionprovider_share_with_application">Bagikan ke %s</string>
+    <string name="abc_toolbar_collapse_description">Ciutkan</string>
+    <string name="cam_strings_application_name_panorama_txt">Panorama</string>
+    <string name="cam_strings_description_panorama_txt">Ambil foto panorama dengan mengusap perangkat Anda</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Kembali</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Untuk menyimpan lokasi, Anda harus mengaktifkan GPS dan/atau jaringan nirkabel. Aktifkan sekarang?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Simpan lokasi</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Suara</string>
+    <string name="cam_strings_panorama_cancel_txt">Batal</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">Kartu SD dimasukkan. Ubah penyimpanan default ke kartu SD?</string>
+    <string name="cam_strings_panorama_change_txt">Ubah</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Catatan</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Salah arah</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Jangan tampilkan lagi</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Kamera mungkin sedang digunakan oleh aplikasi lain. Tutup aplikasi lain dan coba lagi.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Galat tidak dikenal.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Suhu perangkat meningkat. Jika terus meningkat, aplikasi akan ditutup secara otomatis.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Kamera akan dinonaktifkan sementara untuk mendinginkan.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Perekaman sedang berlangsung di aplikasi lain. Tidak bisa merekam.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Memori penuh. Hapus beberapa berkas dari kartu SD.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Memori penuh. Hapus beberapa berkas dari memori atau ubah penyimpanan data default.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Memori tidak tersedia</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Galat memori</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">Kartu SD tidak tersedia</string>
+    <string name="cam_strings_panorama_error_title_txt">Galat</string>
+    <string name="cam_strings_panorama_geotagging_txt">Simpan lokasi</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Gerakkan perangkat perlahan sesuai arah panah</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Gerakkan perangkat ini lebih lambat</string>
+    <string name="cam_strings_panorama_no_txt">Tidak</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Izinkan aplikasi untuk mengontrol sistem untuk tangkapan yang stabil, bergantung suhu pada perangkat.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">mengontrol sistem</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Simpan lokasi?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Tag foto dan video Anda dengan lokasi pengambilannya. Anda dapat mengubah setelan ini dari Simpan lokasi di setelan Kamera.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">INFO APLIKASI</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s memerlukan izin berikut ini</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">Izin %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Aplikasi ini memerlukan izin berikut untuk melakukan tindakan ini.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Untuk memberikan izin, buka Info aplikasi > Izin.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Tidak dapat melanjutkan</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Untuk mengambil foto dan video</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Untuk mengambil lokasi</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_read_write_txt">Untuk membaca dan menyimpan foto dan video</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Untuk menyimpan foto dan video</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Penyimpanan internal</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">Kartu SD</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Penyimpanan data</string>
+    <string name="cam_strings_panorama_save_destination_txt">Penyimpanan data</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Layar disematkan</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Simpan ke penyimpanan internal</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">PINDAHKAN</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Untuk mengizinkan kamera menggunakan kartu SD, pindah ke layar berikutnya dan berikan izin.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Kartu SD baru yang memerlukan izin telah terdeteksi.
+
+Untuk menggunakan kartu SD sebagai penyimpanan data, pilih kartu SD atau direktori DCIM pada layar berikutnya."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"Kartu SD atau direktori DCIM tidak dipilih. Kartu SD tidak dapat digunakan.
+
+Untuk memberikan izin, mulai dengan mengubah lokasi penyimpanan ke kartu SD, atau pilih direktori yang sesuai di layar berikutnya."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Kartu SD yang memerlukan izin telah terdeteksi.
+Penyimpanan internal akan selanjutnya digunakan sebagai penyimpanan data default.
+
+Untuk menggunakan kartu SD sebagai penyimpanan, buka setelan kamera lalu ubah opsi penyimpanan ke kartu SD."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Tidak dapat menyimpan</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Lisensi Perangkat Lunak</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Penggunaan kamera dibatasi karena alasan keamanan</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Rana</string>
+    <string name="cam_strings_panorama_volumekey_txt">Gunakan Tombol volume sbg</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Volume</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Zoom</string>
+    <string name="cam_strings_panorama_yes_txt">Ya</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Zum saat ini tidak tersedia</string>
+    <string name="search_menu_title">Telusuri</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>
