@@ -85,7 +85,10 @@ class PanoramaGP2LocationManager {
         }
         try {
             mLocationManager.requestLocationUpdates(providerName, 500L, 0.1f, mLocationListeners[0]);
-            if (!"network".equals(providerName)) {
+            // "network" provider doesn't exist on GMS-less builds (no
+            // NetworkLocationProvider registered) -- requestLocationUpdates()
+            // throws IllegalArgumentException instead of just being a no-op.
+            if (!"network".equals(providerName) && mLocationManager.isProviderEnabled("network")) {
                 mLocationManager.requestLocationUpdates("network", 1000L, 0.0f, mLocationListeners[1]);
             }
         } catch (SecurityException e) {
