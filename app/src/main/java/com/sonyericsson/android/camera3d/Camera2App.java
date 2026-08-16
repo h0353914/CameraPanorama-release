@@ -2136,6 +2136,7 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                                             Location location = mSettings.isSaveLocation() ? mLocationManager.getLocation() : null;
                                             playSound(mStopSoundId);
                                             boolean saved;
+                                            String[] actualPath = {path};
                                             if (Build.VERSION.SDK_INT >= 28 && isSaveDestinationExternal()) {
                                                 String albumDirName = String.format(Locale.US, "%d%s", mSaveDirId, "ANDRO");
                                                 saved = saveJpeg2Sd(getApplicationContext(), getContentResolver(),
@@ -2143,10 +2144,15 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                                                         mInitParam.input_format, location, exposureTimeSec, iso, mCurOrientation);
                                             } else {
                                                 saved = saveJpeg(getContentResolver(), path, width, height,
-                                                        mInitParam.input_format, location, exposureTimeSec, iso, mCurOrientation);
+                                                        mInitParam.input_format, location, exposureTimeSec, iso, mCurOrientation,
+                                                        actualPath);
                                             }
                                             mSaveResult = saved;
-                                            mSavePanoramaPath = path;
+                                            // On Q+, MediaStore may have deduped/renamed away from the
+                                            // requested `path` on insert (see saveJpeg()'s outActualPath
+                                            // doc) -- use the real saved path so the thumbnail lookup in
+                                            // getLatestImage() can actually find the row.
+                                            mSavePanoramaPath = actualPath[0];
                                         }
                                         Camera2App.this.runOnUiThread(new Runnable() {
                                             @Override
