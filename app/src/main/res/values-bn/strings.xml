@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">হোম এ নেভিগেট করুন</string>
+    <string name="abc_action_bar_up_description">উপরের দিকে নেভিগেট করুন</string>
+    <string name="abc_action_menu_overflow_description">আরও বিকল্প</string>
+    <string name="abc_action_mode_done">সম্পন্ন হয়েছে</string>
+    <string name="abc_activity_chooser_view_see_all">সবগুলো দেখুন</string>
+    <string name="abc_activitychooserview_choose_application">একটি অ্যাপ্লিকেশান বেছে নিন</string>
+    <string name="abc_capital_off">বন্ধ</string>
+    <string name="abc_capital_on">চালু</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">মুছুন</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">স্পেস</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">মেনু+</string>
+    <string name="abc_search_hint">অনুসন্ধান...</string>
+    <string name="abc_searchview_description_clear">ক্যোয়ারী সাফ করুন</string>
+    <string name="abc_searchview_description_query">ক্যোয়ারী খুঁজুন</string>
+    <string name="abc_searchview_description_search">খুঁজুন</string>
+    <string name="abc_searchview_description_submit">ক্যোয়ারী জমা দিন</string>
+    <string name="abc_searchview_description_voice">ভয়েস অনুসন্ধান</string>
+    <string name="abc_shareactionprovider_share_with">এর সাথে শেয়ার করুন</string>
+    <string name="abc_shareactionprovider_share_with_application">%s এর সাথে শেয়ার করুন</string>
+    <string name="abc_toolbar_collapse_description">সঙ্কুচিত করুন</string>
+    <string name="cam_strings_application_name_panorama_txt">প্যানোরামা</string>
+    <string name="cam_strings_description_panorama_txt">আপনার যন্ত্রটিকে ঘুরিয়ে ধরে একটি প্যানোরামিক ছবি তুলুন</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">পিছনে</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">অবস্থানগুলি সঞ্চয় করতে আপনাকে GPS এবং/অথবা ওয়্যারলেস নেটওয়ার্কগুলি সক্ষম করতে হবে। এখন সক্ষম করবেন?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">অবস্থান সঞ্চয় করুন</string>
+    <string name="cam_strings_panorama_camera_sound_txt">সাউন্ড</string>
+    <string name="cam_strings_panorama_cancel_txt">বাতিল</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD কার্ড ঢোকানো হয়েছে। ডিফল্ট ডেটা সঞ্চয়স্থানকে SD কার্ডে পরিবর্তন করবেন?</string>
+    <string name="cam_strings_panorama_change_txt">পরিবর্তন</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">নোট</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">ভুল দিক নির্দেশ</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">পুনরায় দেখাবেন না</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">ক্যামেরাটি সম্ভবত অন্য অ্যাপ্লিকেশন দ্বারা ব্যবহার করা হচ্ছে। দয়া করে অন্য অ্যাপ্লিকেশনটি বন্ধ করুন ও আবার চেষ্টা করুন।</string>
+    <string name="cam_strings_panorama_error_fatal_txt">অজ্ঞাত ত্রুটি।</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">যন্ত্রের তাপমাত্রা বাড়ছে। তাপমাত্রা যদি বাড়তে থাকে, তাহলে অ্যাপ্লিকেশন স্বয়ংক্রিয়ভাবে বন্ধ হবে।</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">ক্যামেরা এখন ঠান্ডা হওয়ার জন্য সাময়িকভাবে বন্ধ হবে।</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">অন্য অ্যাপে রেকর্ডিং প্রগতিতে আছে। রেকর্ড করা যায় নি।</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">মেমরি পূর্ণ৷ SD কার্ড থেকে কিছু ফাইল মুছুন৷</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">মেমরি পূর্ণ৷ মেমরি থেকে কিছু ফাইল মুছুন বা ডিফল্ট ডেটা সঞ্চয়স্থান পরিবর্তন করুন।</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">মেমরি অনুপলব্ধ</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">মেমরি ত্রুটি</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD কার্ড অনুপলব্ধ</string>
+    <string name="cam_strings_panorama_error_title_txt">ত্রুটি</string>
+    <string name="cam_strings_panorama_geotagging_txt">অবস্থান সঞ্চয় করুন</string>
+    <string name="cam_strings_panorama_guide_direction_txt">যন্ত্রটিকে ধীরে ধীরে তীরের অভিমুখে সরান</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">এই যন্ত্রটিকে আরও ধীরে ধীরে সরান</string>
+    <string name="cam_strings_panorama_no_txt">না</string>
+    <string name="cam_strings_panorama_ok_txt">ঠিক আছে</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">যন্ত্রের তাপমাত্রার উপরে ভিত্তি করে অ্যাপটিকে স্থিতিশীল ক্যাপচারিংয়ের জন্য সিস্টেম নিয়ন্ত্রণ করার অনুমোদন দিন।</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">সিস্টেম নিয়ন্ত্রণ করুন</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">অবস্থান সঞ্চয় করবেন?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">আপনার ছবি ও ভিডিওগুলিকে যেখানে তোলা হয়েছে সেই অবস্থান দিয়ে ট্যাগ করুন। আপনি এই সেটিংকে পরে ক্যামেরা সেটিংসে অবস্থান সঞ্চয় করুন থেকে পরিবর্তন করতে পারবেন।</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">অ্যাপ্লিকেশন তথ্য</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s এর নিম্নোক্ত অনুমতি(গুলি) প্রয়োজন</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s অনুমতি</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">এই ক্রিয়াটি সম্পন্ন করতে অ্যাপটির নিম্নোক্ত অনুমতির(গুলির) প্রয়োজন হয়।</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">অনুমতি প্রদান করতে, অ্যাপ তথ্য > অনুমতিতে যান।</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">অবিরত করা যায়নি</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">ছবি এবং ভিডিওগুলি তোলা</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">অবস্থান পুনরুদ্ধার করা</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_read_write_txt">ছবি এবং ভিডিওগুলি পড়তে এবং সংরক্ষণ করতে</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">ছবি এবং ভিডিওগুলি সংরক্ষণ করা</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">আভ্যন্তরীণ সঞ্চয়স্থান</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD কার্ড</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">ডেটা সঞ্চয়স্থান</string>
+    <string name="cam_strings_panorama_save_destination_txt">ডেটা সঞ্চয়স্থান</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">পর্দাটি পিন করা হয়েছে</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">আভ্যন্তরীণ সঞ্চয় স্থানে সঞ্চিত</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">সরান</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">ক্যামেরাকে একটি SD কার্ড ব্যবহার করার অনুমতি দিতে, পরবর্তী স্ক্রীনে যান এবং অনুমতি দিন।</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"একটি SD কার্ডের জন্য যে অনুমতির প্রয়োজন তা সনাক্ত করা হয়েছে
+
+SD কার্ডটি ডাটা সঞ্চয়স্থান হিসাবে ব্যবহার করতে, পরবর্তী স্ক্রীনে SD কার্ড বা DCIM ডিরেক্টরি নির্বাচন করুন।"</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD কার্ড বা DCIM ডিরেক্টরি নির্বাচন করা হয় নি। SD কার্ড ব্যবহার করা যাবে না।
+
+অনুমতি প্রদান করতে, SD কার্ডে সংরক্ষণের অবস্থান পরিবর্তন করা শুরু করুন, বা পরবর্তী পর্দায় যথাযথ ডিরেক্টরি নির্বাচন করুন।"</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"নতুন SD কার্ড যাতে অনুমতির প্রয়োজন বলে জানা গেছে। 
+ডিফল্ট ডেটা স্টোরেজের পরিবর্তে অভ্যন্তরীণ স্টোরেজ ব্যবহৃত হবে।
+
+আপনি যদি ডেটা স্টোরেজ হিসেবে SD কার্ড ব্যবহার করেন তাহলে দয়া করে ক্যামেরা সেটিংসে যান এবং SD কার্ডে স্টোরেজ বিকল্প পরিবর্তন করুন।"</string>
+    <string name="cam_strings_panorama_store_fail_txt">সঞ্চয় হয় নি</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">সফ্টওয়্যার লাইসেন্স</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">নিরাপত্তাগত কারণে ক্যামেরার ব্যবহার সীমাবদ্ধ</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">শাটার</string>
+    <string name="cam_strings_panorama_volumekey_txt">আও. বো.-কে ব্যব. করুন</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">ভলিউম</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">জুম</string>
+    <string name="cam_strings_panorama_yes_txt">হ্যাঁ</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">জুম বর্তমানে অনুপলভ্য</string>
+    <string name="search_menu_title">খুঁজুন</string>
+    <string name="status_bar_notification_info_overflow">৯৯৯+</string>
+</resources>

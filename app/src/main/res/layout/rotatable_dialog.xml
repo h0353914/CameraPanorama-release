@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/dialog_title" android:paddingTop="@dimen/alert_dialog_padding_top" android:paddingBottom="@dimen/alert_dialog_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_padding_start" android:paddingEnd="@dimen/alert_dialog_padding_start" style="@style/AlertTitleStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/dialog_message1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_padding_start" android:paddingEnd="@dimen/alert_dialog_padding_start" style="@style/AlertMessage1Style" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/dialog_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hapticFeedbackEnabled="false" android:layout_marginStart="@dimen/alert_dialog_padding_start" style="@style/AlertMessage2Style" />
+    </RelativeLayout>
+</LinearLayout>

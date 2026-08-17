@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setting_dialog_container_margin_portrait">12.0dip</dimen>
+    <dimen name="setting_dialog_text_right_margin_portrait">14.0dip</dimen>
+</resources>

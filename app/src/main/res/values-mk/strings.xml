@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Движи се кон дома</string>
+    <string name="abc_action_bar_up_description">Движи се нагоре</string>
+    <string name="abc_action_menu_overflow_description">Повеќе опции</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Види ги сите</string>
+    <string name="abc_activitychooserview_choose_application">Избери апликација</string>
+    <string name="abc_capital_off">ИСКЛУЧЕНО</string>
+    <string name="abc_capital_on">ВКЛУЧЕНО</string>
+    <string name="abc_menu_alt_shortcut_label">копче Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">копче Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">избриши</string>
+    <string name="abc_menu_enter_shortcut_label">копче enter</string>
+    <string name="abc_menu_function_shortcut_label">копче Function+</string>
+    <string name="abc_menu_meta_shortcut_label">копче Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">копче Shift+</string>
+    <string name="abc_menu_space_shortcut_label">вселена</string>
+    <string name="abc_menu_sym_shortcut_label">копче Sym+</string>
+    <string name="abc_prepend_shortcut_label">Мени+</string>
+    <string name="abc_search_hint">Пребарување…</string>
+    <string name="abc_searchview_description_clear">Исчисти барање</string>
+    <string name="abc_searchview_description_query">Пребарај барање</string>
+    <string name="abc_searchview_description_search">Пребарај</string>
+    <string name="abc_searchview_description_submit">Поднеси барање</string>
+    <string name="abc_searchview_description_voice">Гласовно пребарување</string>
+    <string name="abc_shareactionprovider_share_with">Сподели со</string>
+    <string name="abc_shareactionprovider_share_with_application">Сподели со %s</string>
+    <string name="abc_toolbar_collapse_description">Собери</string>
+    <string name="cam_strings_application_name_panorama_txt">Панорама</string>
+    <string name="cam_strings_description_panorama_txt">Направете панорамска фотографија со лизгање на уредот</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Назад</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">За да зачувувате локации, треба да вклучите GPS и/или безжични мрежи. Да се вклучи сега?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">Зачувување локација</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Звук</string>
+    <string name="cam_strings_panorama_cancel_txt">Откажи</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD-картичката е вметната. Да се замени стандардното зачувување податоци со SD-картичката?</string>
+    <string name="cam_strings_panorama_change_txt">Промени</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Забелешка</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Погрешен правец</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Не покажувај повторно</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Можно е друга апликација да ја користи камерата. Затворете ја другата апликација и обидете се повторно.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Непозната грешка.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Температурата на уредот се зголемува. Доколку продолжи да се зголемува, апликацијата автоматски ќе се затвори.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Камерата сега ќе се исклучи привремено за да се излади.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Снимањето е во тек во друга апликација. Не може да се снима.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Меморијата е полна. Избришете неколку датотеки од SD-картичката.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Меморијата е полна. Избришете неколку датотеки од меморијата или променете го стандардното зачувување податоци.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Меморијата е недостапна</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Грешка на мемор.</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD-картичката е недостапна</string>
+    <string name="cam_strings_panorama_error_title_txt">Грешка</string>
+    <string name="cam_strings_panorama_geotagging_txt">Зачувување локација</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Придвижете го уредот бавно во насоката на стрелките</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Движете го уредот побавно</string>
+    <string name="cam_strings_panorama_no_txt">Не</string>
+    <string name="cam_strings_panorama_ok_txt">ОК</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Дозволете апликацијата да го контролира системот за стабилно снимање, во зависност од температурата на уредот.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">контролирајте го системот</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">Да се зачува локацијата?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">Означете ги своите фотографии и видеа со локациите каде што се направени. Оваа поставка може да ја промените подоцна од Зачувување локација во поставките за камерата.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">ИНФ. ЗА АПЛИК.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s ги бара следниве дозволи</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">Дозволи за %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Апликацијата ги бара следниве дозволи за да го изврши ова дејство.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">За да дадете дозволи, појдете во Информации за апликацијата > Дозволи.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Не може да се продолжи</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">За фотографирање и снимање видеа</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">За вчитување на локацијата</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_read_write_txt">За да читате и зачувувате фотографии и видеа</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">За зачувување фотографии и видеа</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Внатрешна меморија</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD-картичка</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Зачувување податоци</string>
+    <string name="cam_strings_panorama_save_destination_txt">Зачувување податоци</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Прикачен е екран</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Зачувано на внатрешната меморија</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">ПОЈДИ</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">За да дозволите камерата да користи SD-картичка, појдете на следниот екран и дајте дозволи.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"Откриена е нова SD-картичка за којашто се потребни дозволи.
+
+За да ја користите SD-картичката како меморија за податоци, одберете ја SD-картичката или DCIM-директориумот на следниот екран."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"Не ја одбравте ниту SD-картичката, ниту DCIM-директориумот. SD-картичката не може да се користи.
+
+За да дадете дозволи, променете ја локацијата на зачувување на SD-картичка или одберете го соодветниот директориум на следниот екран."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Откриена е нова SD-картичка за којашто се потребни дозволи.
+Затоа, внатрешната меморија на уредот ќе се користи како стандардна меморија за податоци.
+
+За да ја користите SD-картичката како меморија за податоци, појдете во поставките за камерата и променете ја опцијата за меморирање во SD-картичка."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Не може да се зачува</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Лиценци за софтверот</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Користењето на камерата е ограничено од безбедносни причини</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Бленда</string>
+    <string name="cam_strings_panorama_volumekey_txt">Кор. коп. за јач. на зв. како</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Јачина на звук</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Зумирање</string>
+    <string name="cam_strings_panorama_yes_txt">Да</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Зумот не е достапен</string>
+    <string name="search_menu_title">Пребарај</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

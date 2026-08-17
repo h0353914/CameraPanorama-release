@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">முகப்பிற்கு வழிசெலுத்து</string>
+    <string name="abc_action_bar_up_description">மேலே செல்</string>
+    <string name="abc_action_menu_overflow_description">மேலும் விருப்பங்கள்</string>
+    <string name="abc_action_mode_done">முடிந்தது</string>
+    <string name="abc_activity_chooser_view_see_all">எல்லாம் காட்டு</string>
+    <string name="abc_activitychooserview_choose_application">பயன்பாட்டைத் தேர்வுசெய்க</string>
+    <string name="abc_capital_off">ஆஃப்</string>
+    <string name="abc_capital_on">ஆன்</string>
+    <string name="abc_menu_alt_shortcut_label">ஆல்ட் மற்றும்</string>
+    <string name="abc_menu_ctrl_shortcut_label">கண்ட்ரோல் மற்றும்</string>
+    <string name="abc_menu_delete_shortcut_label">டெலிட்</string>
+    <string name="abc_menu_enter_shortcut_label">எண்டர்</string>
+    <string name="abc_menu_function_shortcut_label">ஃபங்ஷன் மற்றும்</string>
+    <string name="abc_menu_meta_shortcut_label">மெட்டா மற்றும்</string>
+    <string name="abc_menu_shift_shortcut_label">ஷிஃப்ட் மற்றும்</string>
+    <string name="abc_menu_space_shortcut_label">ஸ்பேஸ்</string>
+    <string name="abc_menu_sym_shortcut_label">சிம்பல் மற்றும்</string>
+    <string name="abc_prepend_shortcut_label">மெனு மற்றும்</string>
+    <string name="abc_search_hint">தேடு...</string>
+    <string name="abc_searchview_description_clear">வினவலை அழி</string>
+    <string name="abc_searchview_description_query">தேடல் வினவல்</string>
+    <string name="abc_searchview_description_search">தேடு</string>
+    <string name="abc_searchview_description_submit">வினவலைச் சமர்ப்பி</string>
+    <string name="abc_searchview_description_voice">குரல் தேடல்</string>
+    <string name="abc_shareactionprovider_share_with">இதனுடன் பகிர்</string>
+    <string name="abc_shareactionprovider_share_with_application">%s மூலம் பகிர்</string>
+    <string name="abc_toolbar_collapse_description">சுருக்கு</string>
+    <string name="cam_strings_application_name_panorama_txt">பனோரமா</string>
+    <string name="cam_strings_description_panorama_txt">உங்கள் சாதன. நகர்த்துவதன் மூலம் ஒரு பனோரமா புகைப்படத்தை எடு.</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">பின்</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">இடங்களைச் சேமிக்க, நீங்கள் GPS மற்றும்/அல்லது வயர்லெஸ் பிணையங்களை செயல்பெறச் செய்ய வேண்டும். இப்போது செயல்பெறச் செய்யவா?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">இடத்தைச் சேமி</string>
+    <string name="cam_strings_panorama_camera_sound_txt">ஒலி</string>
+    <string name="cam_strings_panorama_cancel_txt">ரத்து</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">SD கார்டு செருகப்பட்டுள்ளது. இயல்புநிலை தரவு சேகரிப்பு SD கார்டுக்கு மாற்றவா?</string>
+    <string name="cam_strings_panorama_change_txt">மாற்று</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">குறிப்பு</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">தவறான திசை</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">மீண்டும் காண்பிக்காதே</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">கேமரா வேறொரு பயன்பாட்டினால் பயன்படுத்தப்பட்டுக் கொண்டிருக்கலாம். அந்தப் பயன்பாட்டை மூடி, மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">அறியப்படாத பிழை.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">சாதனத்தின் வெப்பநிலை அதிகரிக்கிறது. தொடர்ந்து அதிகரித்துக் கொண்டிருந்தால், பயன்பாடு தானாகவே மூடும்.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">குளிர்ச்சியடைவதற்கு கேமரா தற்போது தற்காலிகமாக அணைக்கப்படும்.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">மற்றொரு பயன்பாட்டில் பதிவுசெய்வது செயல்பாட்டில் உள்ளது. பதிவுசெய்ய முடியவில்லை.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">நினைவகம் நிரம்பியது. SD கார்டிலிருந்து சில கோப்புகளை நீக்கவும்.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">நினைவகம் நிரம்பியது. நினைவகத்திலிருந்து சில கோப்புகளை நீக்கவும் அல்லது இயல்புநிலை தரவு சேமிப்பகத்தை மாற்றவும்.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">நினைவகம் கிடைக்கவில்லை</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">நினைவக பிழை</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">SD கார்டு கிடைக்கவில்லை</string>
+    <string name="cam_strings_panorama_error_title_txt">பிழை</string>
+    <string name="cam_strings_panorama_geotagging_txt">இடத்தைச் சேமி</string>
+    <string name="cam_strings_panorama_guide_direction_txt">அம்புக்குறிகளின் திசையில் சாதனத்தை மெது. நகர்த்தவு.</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">இந்தச் சாதனத்தை இன்னும் மெதுவாக நகர்த்தவும்</string>
+    <string name="cam_strings_panorama_no_txt">இல்லை</string>
+    <string name="cam_strings_panorama_ok_txt">சரி</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">சாதனத்தின் வெப்பநிலையைப் பொறுத்து, நிலையான படப்பிடிப்புக்காக முறைமையைக் கட்டுப்படுத்த பயன்பாட்டை அனுமதிக்கவும்.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">முறைமையைக் கட்டுப்படுத்த</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">இடத்தைச் சேமிக்கவா?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">உங்களது புகைப்படங்கள் மற்றும் வீடியோக்களில் அவை எடுக்கப்பட்ட இடங்களை இணையுங்கள். நீங்கள் இந்த அமைப்பை பின்னர் கேமரா அமைப்புகளில் இடத்தைச் சேமி என்பதில் மாற்றலாம்.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">பயன்பா. தகவ.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s பின்வரும் அனுமதியை(களை) கோருகிறது</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">%1$s -இன் அனுமதி</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">இந்தச் செயலைச் செய்வதற்கு பின்வரும் அனுமதியை(களை) பயன்பாடு கோருகிறது.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">அனுமதிகளை வழங்க, பயன்பாட்டுத் தகவல் > அனுமதிகள் என்பதற்குச் செல்லவும்.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">தொடர முடியவில்லை</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">புகைப்படங்கள் மற்றும் வீடியோக்களை எடுக்க</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">இடத்தை மீட்டெடுக்க</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_read_write_txt">புகைப்படங்கள் மற்றும் வீடியோக்களைப் படிக்க மற்றும் சேமிக்க</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">புகைப்படங்கள் மற்றும் வீடியோக்களைச் சேமிக்க</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">உள்ளக சேமிப்பகம்</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD கார்டு</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">தரவு சேகரிப்பு</string>
+    <string name="cam_strings_panorama_save_destination_txt">தரவு சேகரிப்பு</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">திரை பொருத்தப்பட்டது</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">உள்ளக சேமிப்பக்கத்தில் சேமி</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">அடுத்து</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">SD கார்டை கேமரா பயன்படுத்துவதற்கு அனுமதிக்க, அடுத்த திரைக்குச் சென்று, அனுமதிகளை வழங்கவும்.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"அனுமதிகளைக் கோரும் புதிய SD கார்டு ஒன்று கண்டறியப்பட்டுள்ளது.
+
+தரவு சேமிப்பகமாக SD கார்டைப் பயன்படுத்த, அடுத்த திரையில் SD கார்டு அல்லது DCIM கோப்பகத்தைத் தேர்ந்தெடுக்கவும்."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"SD கார்டு அல்லது DCIM கோப்பகம் தேர்ந்தெடுக்கப்படவில்லை. SD கார்டைப் பயன்படுத்த முடியாது.
+
+அனுமதிகளை வழங்க, அடுத்த திரையில் சேமிக்கும் இடமாக SD கார்டு அல்லது பொருத்தமான கோப்பகத்தைத் தேர்ந்தெடுக்கவும்."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"அனுமதிகள் தேவைப்படும் புதிய SD கார்டு கண்டறியப்பட்டுள்ளது.
+இனி இயல்புநிலை தரவுச் சேமிப்பகமாக உள்ளகச் சாதனச் சேமிப்பகம் பயன்படுத்தப்படும்.
+
+SD கார்டை தரவுச் சேமிப்பகமாகப் பயன்படுத்த, கேமரா அமைப்புகளுக்குச் சென்று, சேமிப்பக விருப்பத்தை SD கார்டுக்கு மாற்றவும்."</string>
+    <string name="cam_strings_panorama_store_fail_txt">சேமிக்க முடியவில்லை</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">மென்பொருள் உரிமங்கள்</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">பாதுகாப்பு காரணங்களுக்காக கேமரா பயன்படுத்துவது தடைசெய்யப்பட்டுள்ளது</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">ஷட்டர்</string>
+    <string name="cam_strings_panorama_volumekey_txt">ஒலி. பொ. இ. பயன்.</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">ஒலியளவு</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">பெரிதாக்கு</string>
+    <string name="cam_strings_panorama_yes_txt">ஆம்</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">பெரிதாக்குநிலை தற்போது கிடைக்கவில்லை</string>
+    <string name="search_menu_title">தேடு</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

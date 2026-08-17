@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">پیمایش به صفحه اصلی</string>
+    <string name="abc_action_bar_up_description">پیمایش به بالا</string>
+    <string name="abc_action_menu_overflow_description">گزینه‌های بیشتر</string>
+    <string name="abc_action_mode_done">تمام</string>
+    <string name="abc_activity_chooser_view_see_all">مشاهده همه</string>
+    <string name="abc_activitychooserview_choose_application">انتخاب برنامه</string>
+    <string name="abc_capital_off">خاموش</string>
+    <string name="abc_capital_on">روشن</string>
+    <string name="abc_menu_alt_shortcut_label">‎Alt+‎</string>
+    <string name="abc_menu_ctrl_shortcut_label">‎Ctrl+‎</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">‎Function+‎</string>
+    <string name="abc_menu_meta_shortcut_label">‎Meta+‎</string>
+    <string name="abc_menu_shift_shortcut_label">‎Shift+‎</string>
+    <string name="abc_menu_space_shortcut_label">کلید فاصله</string>
+    <string name="abc_menu_sym_shortcut_label">‎Sym+‎</string>
+    <string name="abc_prepend_shortcut_label">منو+</string>
+    <string name="abc_search_hint">جستجو…</string>
+    <string name="abc_searchview_description_clear">پاک کردن عبارت جستجو</string>
+    <string name="abc_searchview_description_query">عبارت جستجو</string>
+    <string name="abc_searchview_description_search">جستجو</string>
+    <string name="abc_searchview_description_submit">ارسال عبارت جستجو</string>
+    <string name="abc_searchview_description_voice">جستجوی گفتاری</string>
+    <string name="abc_shareactionprovider_share_with">اشتراک‌گذاری با</string>
+    <string name="abc_shareactionprovider_share_with_application">اشتراک‌گذاری با %s</string>
+    <string name="abc_toolbar_collapse_description">کوچک کردن</string>
+    <string name="cam_strings_application_name_panorama_txt">پانوراما</string>
+    <string name="cam_strings_description_panorama_txt">با حرکن دادن تلفنتان یک عکس پانوراما بگیرید</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">بازگشت</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">برای ذخیره مکان‌ها، باید GPS و/یا شبکه‌های بی‌سیم را فعال کنید. اکنون فعال کنید؟</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">ذخیره مکان</string>
+    <string name="cam_strings_panorama_camera_sound_txt">صدا</string>
+    <string name="cam_strings_panorama_cancel_txt">لغو</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">کارت SD وارد شد. محل ذخیره‌سازی داده پیش‌فرض به کارت SD تغییر کند؟</string>
+    <string name="cam_strings_panorama_change_txt">تغییر</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">توجه</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">جهت اشتباه</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">دوباره نمایش داده نشود</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">ممکن است برنامه دیگری در حال استفاده از دوربین باشد. لطفاً آن برنامه را ببندید و دوباره امتحان کنید.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">خطای نامعلوم.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">دمای دستگاه در حال افزایش است. اگر افزایش ادامه یابد، برنامه به طور خودکار بسته می‌شود.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">دوربین موقتاً خاموش می‌شود تا خنک شود.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">ضبط در یک برنامه دیگر در حال انجام است. ضبط نشد.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">حافظه پر است. برخی فایل ها را از کارت SD حذف کنید.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">حافظه پر است. برخی از فایل‌ها را از حافظه حذف کرده یا محل ذخیره پیش‌فرض را تغییر دهید.</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">حافظه در دسترس نیست</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">خطای حافظه</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">کارت SD در دسترس نیست</string>
+    <string name="cam_strings_panorama_error_title_txt">خطا</string>
+    <string name="cam_strings_panorama_geotagging_txt">ذخیره مکان</string>
+    <string name="cam_strings_panorama_guide_direction_txt">دستگاه را به‌آرامی در جهت پیکان‌ها حرکت دهید</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">این دستگاه را آرام‌تر حرکت دهید</string>
+    <string name="cam_strings_panorama_no_txt">خیر</string>
+    <string name="cam_strings_panorama_ok_txt">تأیید</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">به برنامه اجازه می‌دهد تا سیستم را برای ضبط ثابت، بسته به دمای موجود در دستگاه کنترل کند.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">کنترل سیستم</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">ذخیره مکان؟</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">برچسب مکان گرفتن شدن عکس یا ویدیوهایتان را به آن‌ها اضافه کنید. می‌توانید این تنظیم را بعداً در «ذخیره» مکان در تنظیمات «دوربین» تغییر دهید.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">اطلاعات برنامه</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">%1$s به مجوز(های) زیر نیاز دارد</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">مجوز %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">برنامه برای انجام این فعالیت، به مجوز(های) زیر نیاز دارد.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">برای اعطای مجوزها، به اطلاعات برنامه‌ها > مجوزها بروید.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">ادامه امکان‌پذیر نیست</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">برای عکس‌برداری و فیلم‌برداری</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">برای بازیابی مکان</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_read_write_txt">برای بازخوانی و ذخیره عکس‌ها و ویدیوها</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">برای ذخیره عکس و ویدیو</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">حافظه داخلی</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">کارت SD</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">ذخیره داده ها</string>
+    <string name="cam_strings_panorama_save_destination_txt">حافظه ذخیره داده</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">صفحه وصل است</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">ذخیره شده در حافظه داخلی</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">رفتن</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">برای دادن مجوز استفاده از کارت SD به دوربین، به صفحه بعدی بروید و مجوز را ارائه دهید.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"کارت SD جدیدی شناسایی شده است که به مجوز نیاز دارد.
+
+برای استفاده از این کارت SD به‌عنوان محل ذخیره‌سازی اطلاعات، لطفاً این کارت SD یا دایرکتوری DCIM را در صفحه بعدی انتخاب کنید."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"کارت SD یا دایرکتوری DCIM انتخاب نشد. کارت SD قابل استفاده نیست.
+
+برای اعطای مجوز، ابتدا محل ذخیره‌سازی را به کارت SD تغییر دهید یا دایرکتوری مناسب را در صفحه بعدی انتخاب کنید."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"کارت SD جدیدی یافت شد که نیازمند مجوز است.
+در نتیجه، از حافظه داخلی به‌عنوان فضای ذخیره‌سازی داده‌های پیش‌فرض استفاده می‌شود
+
+برای استفاده از کارت SD به‌عنوان فضای ذخیره‌سازی داده‌ها، لطفاً به تنظیمات دوربین بروید و فضای ذخیره‌سازی داده‌ها را به کارت SD تغییر دهید."</string>
+    <string name="cam_strings_panorama_store_fail_txt">ذخیره نمی شود</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">مجوزهای نرم‌افزار</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">کار کردن با دوربین به دلایل امنیتی ممنوع است</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">شاتر</string>
+    <string name="cam_strings_panorama_volumekey_txt">استفاده از دکمه میزان صدا به‌عنوان</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">تنظیم میزان صدا</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">بزرگنمایی</string>
+    <string name="cam_strings_panorama_yes_txt">بله</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">در این حالت بزرگنمایی انجام نمی شود</string>
+    <string name="search_menu_title">جستجو</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

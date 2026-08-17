@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Mag-navigate patungo sa home</string>
+    <string name="abc_action_bar_up_description">Mag-navigate pataas</string>
+    <string name="abc_action_menu_overflow_description">Higit pang mga opsyon</string>
+    <string name="abc_action_mode_done">Tapos na</string>
+    <string name="abc_activity_chooser_view_see_all">Tingnan lahat</string>
+    <string name="abc_activitychooserview_choose_application">Pumili ng isang app</string>
+    <string name="abc_capital_off">I-OFF</string>
+    <string name="abc_capital_on">I-ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Maghanap…</string>
+    <string name="abc_searchview_description_clear">I-clear ang query</string>
+    <string name="abc_searchview_description_query">Query sa paghahanap</string>
+    <string name="abc_searchview_description_search">Maghanap</string>
+    <string name="abc_searchview_description_submit">Isumite ang query</string>
+    <string name="abc_searchview_description_voice">Paghahanap gamit ang boses</string>
+    <string name="abc_shareactionprovider_share_with">Ibahagi sa/kay</string>
+    <string name="abc_shareactionprovider_share_with_application">Ibahagi gamit ang %s</string>
+    <string name="abc_toolbar_collapse_description">I-collapse</string>
+    <string name="cam_strings_application_name_panorama_txt">Panorama</string>
+    <string name="cam_strings_description_panorama_txt">Kumuha ng panoramic na larawan kapag nag-sweep sa device</string>
+    <string name="cam_strings_panorama_accessibility_back_main_txt">Bumalik</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_both_off_txt">Upang mag-save ng mga lokasyon, kailangan mong i-enable ang GPS at/o mga wireless network. I-enable na?</string>
+    <string name="cam_strings_panorama_advanced_setting_geo_tag_title_txt">I-save ang lokasyon</string>
+    <string name="cam_strings_panorama_camera_sound_txt">Tunog</string>
+    <string name="cam_strings_panorama_cancel_txt">Kanselahin</string>
+    <string name="cam_strings_panorama_change_storage_to_sd_txt">Ipinasok ang SD card. Gawing SD card ang default na storage ng data?</string>
+    <string name="cam_strings_panorama_change_txt">Baguhin</string>
+    <string name="cam_strings_panorama_dialog_high_temp_title_txt">Tandaan</string>
+    <string name="cam_strings_panorama_direction_invalid_txt">Maling direksyon</string>
+    <string name="cam_strings_panorama_do_not_show_again_txt">Huwag ipakitang muli</string>
+    <string name="cam_strings_panorama_error_device_not_available_txt">Maaaring ginagamit ng isa pang app ang camera. Pakisara iyon at subukang muli.</string>
+    <string name="cam_strings_panorama_error_fatal_txt">Hindi alam na error.</string>
+    <string name="cam_strings_panorama_error_high_temp_info_txt">Tumataas ang temperatura ng device. Kung magpatuloy ito sa pagtaas, awtomatikong magsasara ang app.</string>
+    <string name="cam_strings_panorama_error_high_temp_shutting_down_txt">Pansamantalang i-o-off ang camera para lumamig.</string>
+    <string name="cam_strings_panorama_error_launch_app_txt">Kasalukuyang nagre-record sa isa pang app. Hindi nakapag-record.</string>
+    <string name="cam_strings_panorama_error_memory_full_txt">Puno na ang memorya. Magtanggal ng ilang file sa SD card.</string>
+    <string name="cam_strings_panorama_error_memory_ims_full_txt">Puno na ang memory. Tanggalin ang ilang file sa memory o baguhin ang default na storage ng data .</string>
+    <string name="cam_strings_panorama_error_memory_ims_unavailable_txt">Hindi available ang memorya</string>
+    <string name="cam_strings_panorama_error_memory_title_txt">Error sa memorya</string>
+    <string name="cam_strings_panorama_error_memory_unavailable_txt">Hindi available ang SD card</string>
+    <string name="cam_strings_panorama_error_title_txt">Error</string>
+    <string name="cam_strings_panorama_geotagging_txt">I-save ang lokasyon</string>
+    <string name="cam_strings_panorama_guide_direction_txt">Dahan-dahang ilipat ang device sa direksyon ng mga arrow</string>
+    <string name="cam_strings_panorama_guide_too_fast_txt">Ilipat ang device na ito nang mas dahan-dahan</string>
+    <string name="cam_strings_panorama_no_txt">Hindi</string>
+    <string name="cam_strings_panorama_ok_txt">OK</string>
+    <string name="cam_strings_panorama_permgroupdesc_thermalmitigation_message_txt">Payagan ang app na kontrolin ang system para sa maayos na pagkuha, depende sa temperatura ng device.</string>
+    <string name="cam_strings_panorama_permgrouplab_thermalmitigation_txt">kontrolin ang system</string>
+    <string name="cam_strings_panorama_remember_geotag_title_txt">I-save ang lokasyon?</string>
+    <string name="cam_strings_panorama_remember_geotag_txt">I-tag ang iyong mga larawan at video gamit ang mga lokasyon kung saan kinunan ang mga iyon. Maaari mong baguhin ang setting na ito sa ibang pagkakataon sa Lokasyon ng pag-save sa mga setting ng Camera.</string>
+    <string name="cam_strings_panorama_runtime_permission_continue_button_txt">INFO NG APP</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_message_txt">Kailangan ng %1$s ang (mga) sumusunod na pahintulot</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog1_title_txt">Pahintulot sa %1$s</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message1_txt">Kailangan ng app ang (mga) sumusunod na pahintulot para magawa ito.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_message2_txt">Upang magbigay ng mga pahintulot, pumunta sa Impormasyon ng app > Mga Pahintulot.</string>
+    <string name="cam_strings_panorama_runtime_permission_dialog2_title_txt">Hindi makapagpatuloy</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_camera_txt">Para kumuha ng mga larawan at video</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_location_txt">Para kunin ang lokasyon</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_read_write_txt">Para magbasa at mag-save ng mga larawan at video</string>
+    <string name="cam_strings_panorama_runtime_permission_rationale_storage_txt">Para mag-save ng mga larawan at video</string>
+    <string name="cam_strings_panorama_save_destination_ims_txt">Panloob na storage</string>
+    <string name="cam_strings_panorama_save_destination_sd_txt">SD card</string>
+    <string name="cam_strings_panorama_save_destination_title_txt">Storage ng data</string>
+    <string name="cam_strings_panorama_save_destination_txt">Storage ng data</string>
+    <string name="cam_strings_panorama_screen_pinned_txt">Naka-pin ang screen</string>
+    <string name="cam_strings_panorama_sd_permission_data_storage_info_txt">Naka-save sa panloob na storage</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_continue_button_txt">LUMIPAT</string>
+    <string name="cam_strings_panorama_sd_permission_dialog_message2_txt">Para payagan ang camera na gumamit ng SD card, lumipat sa susunod na screen at magbigay ng mga pahintulot.</string>
+    <string name="cam_strings_panorama_sd_permission_info_2_txt">"May na-detect na bagong SD card na nangangailangan ng mga pahintulot.
+
+Para magamit ang SD card bilang data storage, pakipili ang SD card o DCIM directory sa susunod na screen."</string>
+    <string name="cam_strings_panorama_sd_permission_info_3_txt">"Hindi napili ang SD card o DCIM directory. Hindi magagamit ang SD card.
+
+Para magbigay ng mga pahintulot, magsimula sa pamamagitan ng pagbabago sa lokasyon ng pag-save sa SD card, o piliin ang angkop na directory sa susunod na screen."</string>
+    <string name="cam_strings_panorama_sd_permission_info_txt">"Naka-detect ng bagong SD card na nangangailangan ng mga pahintulot.
+Dahil dito, ang internal na storage ng device ang gagamitin bilang default na storage ng data.
+
+Para magamit ang SD card bilang storage ng data, pumunta sa mga setting ng camera at gawing SD card ang opsyon sa storage."</string>
+    <string name="cam_strings_panorama_store_fail_txt">Hindi ma-save</string>
+    <string name="cam_strings_panorama_sw_licence_title_txt">Mga Lisensya ng Software</string>
+    <string name="cam_strings_panorama_use_of_camera_not_authorized_txt">Pinaghihigpitan ang paggamit ng camera dahil sa seguridad</string>
+    <string name="cam_strings_panorama_volumekey_shutter_txt">Shutter</string>
+    <string name="cam_strings_panorama_volumekey_txt">Gamitin Volume button bilang</string>
+    <string name="cam_strings_panorama_volumekey_volume_txt">Volume</string>
+    <string name="cam_strings_panorama_volumekey_zoom_txt">Zoom</string>
+    <string name="cam_strings_panorama_yes_txt">Oo</string>
+    <string name="cam_strings_panorama_zoom_not_suported_txt">Kasalukuyang hindi available ang pag-zoom</string>
+    <string name="search_menu_title">Maghanap</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

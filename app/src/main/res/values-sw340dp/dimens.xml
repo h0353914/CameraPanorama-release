@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="panorama_guide_text_width">280.0dip</dimen>
+    <dimen name="setting_dialog_container_margin_portrait">10.0dip</dimen>
+</resources>
