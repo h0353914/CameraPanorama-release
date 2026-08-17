@@ -3136,7 +3136,11 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                 int i8 = this.preview_rect.top;
                 if (Camera2App.this.mInitParam.output_rotation == 0 || Camera2App.this.mInitParam.output_rotation == 180) {
                     i8 = i8;
-                    boolean z = !Camera2App.this.mIsFrontCamera ? (Camera2App.this.mInitParam.output_rotation + Camera2App.this.mCameraOrientation) % 360 != 90 : !((i3 = (Camera2App.this.mInitParam.output_rotation + Camera2App.this.mCameraOrientation) % 360) == 90 || i3 == 270);
+                    // 對照 smali（PositionDetector.updateFrame() 的 :cond_18/:goto_c 區塊，
+                    // :cond_1b→`if-ne v2, v3(=90), :cond_19`）：條件「不等於 90」才跳到
+                    // :cond_19 把旗標設成 0，也就是「等於 90」時旗標為 1。jadx 把整個
+                    // 判斷式的正負號反了，前置鏡頭那條也一樣多了一個 `!`。
+                    boolean z = !Camera2App.this.mIsFrontCamera ? (Camera2App.this.mInitParam.output_rotation + Camera2App.this.mCameraOrientation) % 360 == 90 : ((i3 = (Camera2App.this.mInitParam.output_rotation + Camera2App.this.mCameraOrientation) % 360) == 90 || i3 == 270);
                     int i9 = this.direction;
                     if (i9 != 2 && i9 != 3) {
                         if (z) {
@@ -3251,7 +3255,9 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
                         f6 = f28;
                     }
                 } else {
-                    boolean z2 = !Camera2App.this.mIsFrontCamera ? (Camera2App.this.mInitParam.output_rotation + Camera2App.this.mCameraOrientation) % 360 != 180 : !((i6 = (Camera2App.this.mInitParam.output_rotation + Camera2App.this.mCameraOrientation) % 360) == 180 || i6 == 0);
+                    // 同上，對照 smali 的 :cond_3 區塊（:cond_6→`if-ne v5, v13(=180), :cond_4`）：
+                    // 「等於 180」時旗標才為 1，jadx 同樣把正負號反了。
+                    boolean z2 = !Camera2App.this.mIsFrontCamera ? (Camera2App.this.mInitParam.output_rotation + Camera2App.this.mCameraOrientation) % 360 == 180 : ((i6 = (Camera2App.this.mInitParam.output_rotation + Camera2App.this.mCameraOrientation) % 360) == 180 || i6 == 0);
                     int i12 = this.direction;
                     if (i12 != 2 && i12 != 3) {
                         if (z2) {
