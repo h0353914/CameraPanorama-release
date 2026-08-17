@@ -409,4 +409,13 @@
     <attr name="windowMinWidthMajor" format="dimension|fraction" />
     <attr name="windowMinWidthMinor" format="dimension|fraction" />
     <attr name="windowNoTitle" format="boolean" />
+
+    <!-- apktool 反編譯 resources.arsc 不會重建 declare-styleable 分組
+         （這是編譯期概念，二進位資源裡沒有對應資料），手動補回讓 aapt2
+         產生 R.styleable.DoublePreference。個別 attr 定義本身已存在於上面。 -->
+    <declare-styleable name="DoublePreference">
+        <attr name="def_value" />
+        <attr name="max_value" />
+        <attr name="min_value" />
+    </declare-styleable>
 </resources>
