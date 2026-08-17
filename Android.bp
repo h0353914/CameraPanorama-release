@@ -97,6 +97,10 @@ android_app {
     platform_apis: true,
     certificate: "platform",
     privileged: true,
+    // 對應 build.gradle.kts 的 minSdkVersion(35)；use_embedded_native_libs
+    // 的判斷需要 min_sdk_version >= 23 才會生效（否則 Soong 仍會計算成
+    // extractNativeLibs="true" 跟 manifest 既有屬性衝突）。
+    min_sdk_version: "35",
 
     jni_libs: [
         "libmorpho_memory_allocator_camerapanorama",
@@ -104,6 +108,11 @@ android_app {
         "libmorpho_panorama_gp2_camerapanorama",
         "libmorpho_sensor_fusion_camerapanorama",
     ],
+
+    // AndroidManifest.xml 明確宣告 extractNativeLibs="false"（現代 AGP 預設，
+    // .so 未壓縮直接嵌入 APK），這裡要對應宣告，否則 Soong manifest_fixer
+    // 會強制改成 extractNativeLibs="true" 跟既有 manifest 屬性衝突報錯。
+    use_embedded_native_libs: true,
 
     optimize: {
         enabled: false,
