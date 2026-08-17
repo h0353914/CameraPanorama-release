@@ -6541,7 +6541,7 @@ public class Camera2App extends FragmentActivity implements SensorEventListener,
             return zIsEngineRunning;
         }
         CameraState cameraState = morphoCameraBase.cameraState();
-        return !this.mUseCamera1 ? cameraState == null || !((cameraState instanceof AutoFocusState) || (cameraState instanceof UnlockFocusState) || (cameraState instanceof TakePictureState)) : cameraState == null || (cameraState instanceof Camera1PreviewState);
+        return !this.mUseCamera1 ? cameraState != null && ((cameraState instanceof AutoFocusState) || (cameraState instanceof UnlockFocusState) || (cameraState instanceof TakePictureState)) : cameraState != null && !(cameraState instanceof Camera1PreviewState);
     }
 
     public void shutdownViews() {
