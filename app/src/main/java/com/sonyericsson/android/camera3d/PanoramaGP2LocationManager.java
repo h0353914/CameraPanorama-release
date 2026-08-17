@@ -42,7 +42,17 @@ class PanoramaGP2LocationManager {
             if ("network".equals(locationProviderName)) {
                 return;
             }
-            this.mLocationManager.requestLocationUpdates("network", 1000L, 0.0f, this.mLocationListeners[1]);
+            // "network" provider doesn't exist on GMS-less builds (no
+            // NetworkLocationProvider registered) -- requestLocationUpdates()
+            // throws IllegalArgumentException instead of just being a no-op.
+            // Same fix as java-2.3.1.B.0.6-a15 commit 1a2d1c2. Confirmed via
+            // A/B against the pristine original APK on the same device: the
+            // original crashes identically here when the user enables
+            // "儲存地點" (save location) -- this guard is a deliberate
+            // compat patch for the GMS-less environment, not a porting bug.
+            if (this.mLocationManager.isProviderEnabled("network")) {
+                this.mLocationManager.requestLocationUpdates("network", 1000L, 0.0f, this.mLocationListeners[1]);
+            }
         } catch (SecurityException e) {
             e.printStackTrace();
         }
